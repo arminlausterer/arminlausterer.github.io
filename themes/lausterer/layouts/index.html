@@ -1,0 +1,85 @@
+{{ define "main" }}
+{{$p:=.}}
+<div id="home">
+  <div id="slidercontainer">
+    <ul id="slider">
+      {{ range $x,$img := .Params.slider }}
+      <li>
+        <div class="slideritem"
+          style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat;">
+          <div class="ptxt ui container">
+            <a class="titles {{if eq $img.image_slide true}}full{{end}}"
+              href="{{with $img.titel_und_link.link}}{{relref $p . }}{{end}}">
+              <h4>{{$img.text|safeHTML}}</h4>
+            </a>
+            {{with $img.buttonlink}}
+            <a class="morebutton_slider" href="{{relref $p . }}">
+              <div class="txt">{{$img.buttonbeschriftung}}</div>
+            </a>
+            {{end}}
+          </div>
+        </div>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+  {{with .Params.willkommen}}
+  <div id="intro">
+    <div class="ui container">
+      <h2>{{.subheadline}}</h2>
+      <h1>{{.headline}}</h1>
+      <div class="cont">
+        {{.text}}
+      </div>
+      <a class="rsebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.leistungen}}
+  <div id="leist"
+    style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_100" )}}) center center no-repeat;">
+    <div class="ui container">
+      <h2>{{.headline}}</h2>
+      <div class="ui three column stackable grid">
+        {{range .leistung}}
+          <div class="ui column">
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" alt={{.titel}}/>
+            <h3>{{.titel}}</h3>
+            <div class="txt">
+              {{.text}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+  <div id="gal">
+    <h2>{{.Params.titel_bildergalerie}}</h2>
+    <div class="galw">
+      <div class="ui equal width grid imggal doubling stackable">
+        {{ range $x,$img := .Params.bildergalerie }}
+        <div class="column imggalcol">
+          <img data-modal="imgg_home" data-idx="{{$x}}" class="simg"
+            src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}" />
+            <div class="label">{{$img.text}}</div>
+        </div>
+        {{end}}
+      </div>
+      <div class="ui modal small" id="modal_imgg_home">
+        <div class="content">
+          <ul id="gal_imgg_home" class="imggalslider">
+            {{ range $x,$img := .Params.bildergalerie }}
+            <li>
+              <img
+                src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+                
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

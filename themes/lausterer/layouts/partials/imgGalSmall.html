@@ -1,0 +1,22 @@
+<div class="galw">
+  <div class="ui container grid imggal doubling">
+    {{ range $x,$img := . }} 
+    <div class="eight wide column imggalcol">
+      <img data-modal="imgg_small" data-idx="{{$x}}" class="simg"
+        src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}" />
+    </div>
+    {{end}}
+  </div>
+  <div class="ui modal small" id="modal_imgg_small">
+    <div class="content">
+      <ul id="gal_imgg_small" class="imggalslider">
+        {{ range $x,$img := . }}
+        <li>
+          <img
+            src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+        </li>
+        {{end}}
+      </ul>
+    </div>
+  </div>
+</div>

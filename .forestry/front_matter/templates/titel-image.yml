@@ -1,0 +1,18 @@
+---
+label: Titel Image
+hide_body: true
+fields:
+- name: titel
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Titel
+- name: titel_bild
+  type: file
+  config:
+    maxSize: 250
+  label: Titel Bild

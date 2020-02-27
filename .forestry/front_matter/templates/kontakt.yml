@@ -1,0 +1,90 @@
+---
+label: Kontakt
+hide_body: true
+fields:
+- name: titelheader
+  type: include
+  config: {}
+  template: titel-image
+  label: Titelheader
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Titel
+  - name: adresselinks
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Adresselinks
+  - name: adresserechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Adresserechts
+  label: Content
+- name: anfrage
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Titel
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  label: Anfrage
+- name: karte
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Karte
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/Kontakt.md

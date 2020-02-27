@@ -1,0 +1,32 @@
+---
+label: Footer
+hide_body: true
+fields:
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
+- name: abschnitte
+  type: field_group_list
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: logos
+    type: image_gallery
+    config: {}
+    label: Logos
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Abschnitte
+pages:
+- content/global/footer.md

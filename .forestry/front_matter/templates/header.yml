@@ -1,0 +1,38 @@
+---
+label: Header
+hide_body: true
+fields:
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: logo
+- name: adresserechts
+  type: field_group
+  config: {}
+  fields:
+  - name: adresse
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: icon
+    - name: label
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: label
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: adresse
+  label: adresserechts
+pages:
+- content/global/header.md

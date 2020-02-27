@@ -1,0 +1,148 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: slider
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: slider
+- name: willkommen
+  type: field_group
+  config: {}
+  fields:
+  - name: subheadline
+    type: text
+    config:
+      required: false
+    label: subheadline
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  label: Willkommen
+- name: leistungen
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: backgroundpicture
+    type: file
+    config:
+      maxSize: 250
+    label: backgroundpicture
+  - name: leistung
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    - name: iconlink
+      type: text
+      config:
+        required: false
+      label: IconLink
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Leistung
+  label: Leistungen
+- name: titel_bildergalerie
+  type: text
+  config:
+    required: false
+  label: Titel Bildergalerie
+- name: bildergalerie
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: bild
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: bildergalerie
+pages:
+- content/_index.md
