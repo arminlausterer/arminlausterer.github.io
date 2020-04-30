@@ -1,4 +1,42 @@
 ---
 label: Testimonials
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: Header
+- name: header-bild
+  type: file
+  config:
+    maxSize: 64
+  label: Header-bild
+- name: kundenstimmen
+  type: field_group_list
+  fields:
+  - name: bild-links
+    type: file
+    config:
+      maxSize: 64
+    label: Bild-links
+  - name: header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: button
+    type: text
+    config:
+      required: false
+    label: Button
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kundenstimmen
