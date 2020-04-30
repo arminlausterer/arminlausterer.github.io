@@ -1,5 +1,4 @@
 +++
-draft = true
 headerpic = "/uploads/2020/04/30/outsourcing.jpg"
 headertitel = "Outsourcing"
 [[content]]
