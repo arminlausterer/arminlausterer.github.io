@@ -1,4 +1,46 @@
 ---
 label: Projekte
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: Header
+- name: kunden
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: Bild
+  - name: kunde
+    type: text
+    config:
+      required: false
+    label: Kunde
+  - name: beschreibung
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Beschreibung
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kunden
