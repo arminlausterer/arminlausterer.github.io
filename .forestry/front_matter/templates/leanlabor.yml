@@ -26,15 +26,6 @@ fields:
     schema:
       format: markdown
   label: einführungstext
-- name: aufzaehlung
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Aufzaehlung
 - name: lean-labor
   type: field_group_list
   fields:
@@ -57,7 +48,7 @@ fields:
     default: ''
     config:
       required: false
-      wysiwyg: false
+      wysiwyg: true
       schema:
         format: markdown
     label: content
