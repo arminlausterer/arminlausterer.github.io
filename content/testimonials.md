@@ -9,7 +9,7 @@ header = "BISCHOF+KLEIN, Werk Konzell"
 text = "… Vor allem durch die Themen Rüstzeitreduzierung und Shopfloormanagement wurden signifikante Erfolge erzielt.  Mit Hoshin Kanri gelang eine konsequente Fokussierung aller Mitarbeiter auf die Werksziele.  (…) Er zeichnet sich durch sehr viel Erfahrung, kreative Ideen und den Blick für das “Machbare” aus. …"
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/autec.jpg"
-button = ""
+button = "AUTEC_Referenz_160425.pdf"
 buttonbeschriftung = "weiterlesen"
 header = "AUTEC Sondermaschinenbau, Amberg"
 text = "Herr Lausterer unterstützte uns bei der Weiterentwicklung unseres bestehenden Projektmanagements unter Einbeziehung der Beteiligten, sowohl auf Geschäftsleitungsebene also auch auf Mitarbeiterebene.  (…) Dank der praxisorientierten Arbeitsweise von Herrn Lausterer, konnte nicht nur konzipiert, sondern auch umgesetzt werden."
