@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = "/uploads/2020/04/30/lean.jpg"
+buttonbeschriftung = "Download"
+buttonlink = ""
+content = "**Lean Management Teil 4 – Hand out**\n\nHier exklusiv für Sie zum Downloaden…"
+youtube-code = ""
+[[lean-labor]]
 bild_ = ""
 buttonbeschriftung = "Download"
 buttonlink = "https://youtu.be/ped9vV9BE3k"
