@@ -34,3 +34,5 @@ fields:
     max: 
     labelField: 
   label: content
+pages:
+- content/coaching.md
