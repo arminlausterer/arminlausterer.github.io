@@ -2,6 +2,12 @@
 header = "Testimonials"
 header-bild = "/uploads/2020/04/30/header_pic.jpg"
 [[kundenstimmen]]
+bild-links = "/uploads/2020/04/30/polytec.jpg"
+button = ""
+buttonbeschriftung = "weiterlesen"
+header = "Polytec Group, Weiden"
+text = "Herr Lausterer war im Werk Weiden bei der Einführung von KVP und Lean Management als externer Unternehmensberater tätig. Ferner übernahm er als Interimsmanager die Position des stellvertretenden Werkleiters für 9 Monate.  (…) Als Coach unterstütze er tatkräftig die Umsetzungsteams. Vor allem in den Bereichen Steigerung der Anlagenverfügbarkeit und Rüstzeitoptimierung war dies sehr erfolgreich."
+[[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/fivontec..jpg"
 button = ""
 buttonbeschriftung = "weiterlesen"
@@ -14,7 +20,7 @@ buttonbeschriftung = "weiterlesen"
 header = "BISCHOF+KLEIN, Werk Konzell"
 text = "… Vor allem durch die Themen Rüstzeitreduzierung und Shopfloormanagement wurden signifikante Erfolge erzielt.  Mit Hoshin Kanri gelang eine konsequente Fokussierung aller Mitarbeiter auf die Werksziele.  (…) Er zeichnet sich durch sehr viel Erfahrung, kreative Ideen und den Blick für das “Machbare” aus. …"
 [[kundenstimmen]]
-bild-links = ""
+bild-links = "/uploads/2020/04/30/opto.jpg"
 button = ""
 buttonbeschriftung = "weiterlesen"
 header = "Opto System, Kyoto, Japan"
