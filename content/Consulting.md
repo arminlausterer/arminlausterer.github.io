@@ -3,6 +3,9 @@ draft = true
 headerpic = "/uploads/2020/04/30/consulting.jpg"
 headertitel = "Consulting"
 [[content]]
+aufzaehlung = "* Interviews\n* Umfeldanalyse\n* Prozess- und Produktaudits (z.B. nach VDA 6.3)\n* Wertstromanalyse (Prozessablauf, Kosten, Qualität)\n* Produktkostenanalyse, Wirtschaftlichkeitsrechnung\n* SWOT – Analyse\n* Szenario Planung\n* Entscheidungsanalyse"
+subheadline = " Methoden und Werkzeuge"
+[[content]]
 aufzaehlung = "* 20 Jahre direkte persönliche Verantwortung in der kontinuierlichen Verbesserung komplexer Produktionsstätten. In einem stark wachsenden technologie – und preisgetriebenen Marktumfeld.\n* Qualitätsmanagement auf Unternehmensebene\n* Interkulturelle Erfahrung mit Lieferanten und Kunden aus Asien"
 subheadline = "Unsere Erfahrung"
 [[content]]
