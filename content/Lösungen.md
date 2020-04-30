@@ -1,4 +1,7 @@
 +++
-draft = true
+headerpicture = ""
+kachel = []
+titel = ""
+ziele = ""
 
 +++
