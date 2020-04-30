@@ -2,11 +2,11 @@
 label: Kontakt
 hide_body: true
 fields:
-- name: titelheader
-  type: include
-  config: {}
-  template: titel-image
-  label: Titelheader
+- name: headertitel
+  type: text
+  config:
+    required: false
+  label: Headertitel
 - name: karte
   type: textarea
   default: ''
