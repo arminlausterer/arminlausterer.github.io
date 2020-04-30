@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = ""
+buttonbeschriftung = "Download"
+buttonlink = "https://youtu.be/LG4rl7OWKOg"
+content = "**Lean Management Teil 4: Strukturiert Verbessern**\n\nDurch strukturiertes Verbessern durchbrechen Sie den Teufelskreis ungelöster Probleme in Ihrem Unternehmen.  \nIch zeige Ihnen eine einfache und bewährte Methode, wie Sie Ihr Team schnell und sicher durch Verbesserungsprozesse führen. Damit erzielen Sie exzellente Ergebnisse, die Ihr Unternehmen wettbewerbsfähiger machen. Abschließend verrate ich Ihnen, wie Sie das größte Risiko bei Verbesserungsprozessen vermeiden."
+youtube-code = "<p>&lt;iframe width=\"282\" height=\"150\" src=\"<a href=\"https://www.youtube.com/embed/LG4rl7OWKOg\" title=\"https://www.youtube.com/embed/LG4rl7OWKOg\">https://www.youtube.com/embed/LG4rl7OWKOg</a>\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen&gt;&lt;/iframe&gt;</p>"
+[[lean-labor]]
 bild_ = "/uploads/2020/04/30/lean.jpg"
 buttonbeschriftung = "Download"
 buttonlink = ""
