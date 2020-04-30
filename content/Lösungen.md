@@ -12,7 +12,7 @@ bild = "/uploads/2020/04/30/ideen"
 text = "* Ausbau von Methoden zur Prozessstabilisierung (SPC, 6 Sigma), Problemlösung (PDCA, 8D, …) und Shopfloor Management.  \n  Kontinuierlichen Verbesserung ist auf allen Ebenen des Unternehmens etabliert.\n* Einführung betriebliches Verbesserungsvorschlagswesen.  \n  Sie heben die Verbesserungspotenziale Ihrer Mitarbeiter\n* Effektives Projektmanagement etablieren.  \n  Auch komplexere Verbesserungsthemen werden schnell und fokussiert umgesetzt."
 titel = "IDEEN entwickeln"
 [[kachel]]
-bild = ""
+bild = "/uploads/2020/04/30/kultur"
 text = "* Weiterentwicklung der Führungskultur auf allen Ebenen.  \n  Begeisterte und hoch motivierte Mitarbeiter werden zum Antrieb Ihres Unternehmens.\n* Aufbau einer effizienten und sich selbst optimierenden Organisation.  \n  Effiziente Führungs- und Kommunikationsstrukturen machen Ihr Unternehmen schnell, flexibel und reaktionsfreudig.\n* Unternehmenskommunikation gezielt steuern.  \n  Kommunikation ist der Schlüssel für das Gelingen des Veränderungsprozesses.\n* Angepasste Leistungsentgelt- und Anreizsysteme.  \n  Sie heben zusätzliche Ideen und Potenziale Ihrer Mitarbeiter"
 titel = "KULTUR leben"
 
