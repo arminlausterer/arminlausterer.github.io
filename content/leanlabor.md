@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = ""
+buttonbeschriftung = "Download"
+buttonlink = "https://youtu.be/VQLLMbeKme0"
+content = "**Lean Management Teil 1:**\n\nWie schafft es Ihr Unternehmen bei den Themen Kosten, Qualität und Technologie wirklich ganz vorne mit dabei zu sein?  \nLean Management liefert eine verblüffend einfach Antwort auf diese Frage."
+youtube-code = "<p>&lt;iframe width=\"282\" height=\"150\" src=\"<a href=\"https://www.youtube.com/embed/VQLLMbeKme0\" title=\"https://www.youtube.com/embed/VQLLMbeKme0\">https://www.youtube.com/embed/VQLLMbeKme0</a>\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen&gt;&lt;/iframe&gt;</p>"
+[[lean-labor]]
 bild_ = "/uploads/2020/04/30/lean.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
