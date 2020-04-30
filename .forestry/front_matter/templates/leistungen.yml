@@ -35,4 +35,5 @@ fields:
     labelField: 
   label: content
 pages:
+- content/Consulting.md
 - content/coaching.md
