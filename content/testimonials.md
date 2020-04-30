@@ -27,7 +27,7 @@ header = "Ficontec, Achim"
 text = "„… Ich lernte Herrn Lausterer bei ca. 10 Projektengineering-Meetings und Treffen über zwei Jahre als Leiter der Laserfertigung bei Osram Optosemiconductors kennen. Er war der Hauptentscheidungsträger auf Kundenseite.  (… ) Er überzeugt durch Klarheit und Struktur. Darüber hinaus hat er einen Sinn für die Rahmenbedingungen in einem mittelständischen Unternehmen, welches mit einem Konzern in Geschäftsbeziehung steht…“"
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/opto.jpg"
-button = ""
+button = "Optosystem_Letter-of-Reference_111130.pdf"
 buttonbeschriftung = "weiterlesen"
 header = "Opto System, Kyoto, Japan"
 text = "„ (…) As a director of high power laser production he was in charge of introducing our new tools made in Japan in the new production line of Osram OS.  (…) He was a good communicator and an effecitve coordinator who could easily overcome the cultural differences and achieve a consensus in the difficult subjects. …"
