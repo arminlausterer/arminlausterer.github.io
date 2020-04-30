@@ -9,7 +9,7 @@ subheadline = "Unsere Leistungen"
 aufzaehlung = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
 subheadline = "Ihr Nutzen"
 [[content]]
-aufzaehlung = ""
-subheadline = ""
+aufzaehlung = "* Projektmanagement\n* Lieferantenaudits nach VDA 6.3\n* Performance Measurement (Balanced Score Card)"
+subheadline = "Werkzeuge und Methoden"
 
 +++
