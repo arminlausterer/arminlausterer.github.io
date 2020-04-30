@@ -1,4 +1,78 @@
 ---
 label: LeanLabor
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: header
+- name: header_bild
+  type: file
+  config:
+    maxSize: 64
+  label: header bild
+- name: subheadline
+  type: text
+  config:
+    required: false
+  label: subheadline
+- name: einfuhrungstext
+  type: text
+  config:
+    required: false
+  label: einführungstext
+- name: aufzahlung
+  type: field_group_list
+  fields:
+  - name: aufzaehlungspunkt
+    type: text
+    config:
+      required: false
+    label: aufzaehlungspunkt
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Aufzählung
+- name: lean-labor
+  type: field_group_list
+  fields:
+  - name: bild_
+    type: file
+    config:
+      maxSize: 64
+    label: 'Bild '
+  - name: youtube-code
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: youtube-code
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: content
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: lean-labor
