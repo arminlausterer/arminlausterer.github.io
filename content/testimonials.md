@@ -2,6 +2,12 @@
 header = "Testimonials"
 header-bild = "/uploads/2020/04/30/header_pic.jpg"
 [[kundenstimmen]]
+bild-links = "/uploads/2020/04/30/autec.jpg"
+button = ""
+buttonbeschriftung = ""
+header = "AUTEC Sondermaschinenbau, Amberg"
+text = ""
+[[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/polytec.jpg"
 button = ""
 buttonbeschriftung = "weiterlesen"
