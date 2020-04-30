@@ -15,7 +15,7 @@ header = "AUTEC Sondermaschinenbau, Amberg"
 text = "Herr Lausterer unterstützte uns bei der Weiterentwicklung unseres bestehenden Projektmanagements unter Einbeziehung der Beteiligten, sowohl auf Geschäftsleitungsebene also auch auf Mitarbeiterebene.  (…) Dank der praxisorientierten Arbeitsweise von Herrn Lausterer, konnte nicht nur konzipiert, sondern auch umgesetzt werden."
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/polytec.jpg"
-button = ""
+button = "Polytec_Referenz_160518.pdf"
 buttonbeschriftung = "weiterlesen"
 header = "Polytec Group, Weiden"
 text = "Herr Lausterer war im Werk Weiden bei der Einführung von KVP und Lean Management als externer Unternehmensberater tätig. Ferner übernahm er als Interimsmanager die Position des stellvertretenden Werkleiters für 9 Monate.  (…) Als Coach unterstütze er tatkräftig die Umsetzungsteams. Vor allem in den Bereichen Steigerung der Anlagenverfügbarkeit und Rüstzeitoptimierung war dies sehr erfolgreich."
