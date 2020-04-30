@@ -1,6 +1,52 @@
 ---
 label: Lösungen
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: headerpicture
+  type: file
+  config:
+    maxSize: 64
+  label: Headerpicture
+- name: ziele
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Ziele
+- name: kachel
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: bild
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kachel
 pages:
 - content/Lösungen.md
