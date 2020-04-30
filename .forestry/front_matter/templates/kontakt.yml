@@ -16,29 +16,28 @@ fields:
     schema:
       format: html-blocks
   label: Karte
-- name: content
-  type: field_group
+- name: seo
+  type: include
   config: {}
+  template: seo
+  label: seo
+- name: content
+  type: field_group_list
   fields:
   - name: icon
     type: file
     config:
       maxSize: 64
     label: Icon
-  - name: titel
-    type: textarea
-    default: ''
+  - name: content
+    type: text
     config:
       required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Titel
-  label: Content
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: seo
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: content
 pages:
 - content/Kontakt.md
