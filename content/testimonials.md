@@ -4,9 +4,9 @@ header-bild = "/uploads/2020/04/30/header_pic.jpg"
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/autec.jpg"
 button = ""
-buttonbeschriftung = ""
+buttonbeschriftung = "weiterlesen"
 header = "AUTEC Sondermaschinenbau, Amberg"
-text = ""
+text = "Herr Lausterer unterstützte uns bei der Weiterentwicklung unseres bestehenden Projektmanagements unter Einbeziehung der Beteiligten, sowohl auf Geschäftsleitungsebene also auch auf Mitarbeiterebene.  (…) Dank der praxisorientierten Arbeitsweise von Herrn Lausterer, konnte nicht nur konzipiert, sondern auch umgesetzt werden."
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/polytec.jpg"
 button = ""
