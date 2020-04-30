@@ -1,6 +1,12 @@
 +++
 header = "Projekte"
 [[kunden]]
+beschreibung = "* Ca. 250 Mitarbeiter – 1 Standort\n* Herstellung von SMC und Composite-Produkte für Automotive\n\n**Projektziel:**\n\n* Interimsmanagement als Assistenz der Werkleitung\n* Weiterentwicklung des Managementteams\n\n**Erfolge:**\n\n* Die Abwesenheitszeit des Werkleiters wurde ohne größere Probleme überbrückt.\n* Prozesse, Arbeitsplätze und Arbeitsabläufe konnten bezüglich Kosten, Zeit und Qualität signifikant weiterentwickelt werden.\n* Die Zusammenarbeit im Managementteam gestaltet sich konfliktfreier. Entscheidungen werden nun schneller und häufig im Konsens getroffen."
+bild = "/uploads/2020/04/30/projekt2.jpg"
+buttonbeschriftung = ">> Details ansehen"
+buttonlink = "5_Referenzprojekt_PoW_2014.pdf"
+kunde = "Projekt 5: Produktionswerk in einem Konzern"
+[[kunden]]
 beschreibung = "* Ca. 370 Mitarbeiter – 2 Standorte\n* Hochpräzise Metallbearbeitung (Drehen, Fräsen) für Automotive\n\n**Projektziel:**\n\n* Ausbau der bestehenden Lean/KVP Verbesserungskultur\n\n**Erfolge:**\n\n* Standortübergreifender Erfahrungsaustausch etabliert.\n* Kontinuierliche Verbesserungskultur etabliert\n* Austausch zwischen Führungskräfte und Mitarbeiter verbessert.\n* Kontinuierliche Verbesserungsprojekte durch Mitarbeiter vor Ort in der Produktion"
 bild = "/uploads/2020/04/30/Projekt4.jpg"
 buttonbeschriftung = ">> Details ansehen"
