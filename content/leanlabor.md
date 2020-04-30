@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = "/uploads/2020/04/30/lean.jpg"
+buttonbeschriftung = "Download"
+buttonlink = ""
+content = "**Change Management Teil 2 (Handout):**\n\nSo verankern Sie als Führungskraft Veränderungen nachhaltig im Unternehmen\n\n* Die Hauptursachen für Veränderungen\n* Fünf praktische Schritte, wie Sie als Führungskraft Veränderungen in Ihrem Unternehmen nachhaltig verankern"
+youtube-code = ""
+[[lean-labor]]
 bild_ = ""
 buttonbeschriftung = "Download"
 buttonlink = "https://youtu.be/aphhemZeSGI"
