@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = ""
+buttonbeschriftung = "Download"
+buttonlink = "https://youtu.be/0TfZZxTwSco"
+content = "**Lean Management Teil 2: Wertströme optimieren**\n\nIn diesem Video zeige ich Ihnen ganz konkret, wie Sie Ihre Wertströme erfolgreich optimieren. Dies garantiert Ihrem Unternehmen hohe Wettbewerbsfähigkeit, nachhaltiges Wachstum und hohen Ertrag."
+youtube-code = "<p>&lt;iframe width=\"282\" height=\"150\" src=\"<a href=\"https://www.youtube.com/embed/0TfZZxTwSco\" title=\"https://www.youtube.com/embed/0TfZZxTwSco\">https://www.youtube.com/embed/0TfZZxTwSco</a>\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen&gt;&lt;/iframe&gt;</p>"
+[[lean-labor]]
 bild_ = "/uploads/2020/04/30/lean.jpg"
 buttonbeschriftung = "Download"
 buttonlink = ""
