@@ -34,7 +34,12 @@ fields:
     type: text
     config:
       required: false
-    label: Button
+    label: Buttonlink
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
   config:
     min: 
     max: 
