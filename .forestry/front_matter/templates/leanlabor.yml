@@ -76,3 +76,5 @@ fields:
     max: 
     labelField: 
   label: lean-labor
+pages:
+- content/leanlabor.md
