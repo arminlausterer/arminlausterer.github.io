@@ -1,4 +1,36 @@
 ---
 label: Unternehmen
 hide_body: true
-fields: []
+fields:
+- name: unternehmen
+  type: text
+  config:
+    required: false
+  label: Unternehmen
+- name: headerbild
+  type: file
+  config:
+    maxSize: 64
+  label: Headerbild
+- name: content
+  type: field_group_list
+  fields:
+  - name: headertitel
+    type: text
+    config:
+      required: false
+    label: Headertitel
+  - name: inhalt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Inhalt
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Content
