@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = "/uploads/2020/04/30/lean.jpg"
+buttonbeschriftung = "Download"
+buttonlink = ""
+content = "**Change Management Teil 1 (Hand out):**  \nMit diesen vier handfesten Tipps führen Sie ihr Team schnell und sicher durch Veränderungen …\n\n* Wie Veränderung richtig gestalten?\n* Was spielt sich bei Veränderungsprozessen in Gruppen ab?\n* Wie führe ich die Gruppe durch Veränderungsprozesse?\n* Der 20/60/20 Code"
+youtube-code = ""
+[[lean-labor]]
 bild_ = ""
 buttonbeschriftung = "Download"
 buttonlink = ""
