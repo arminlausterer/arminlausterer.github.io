@@ -36,4 +36,5 @@ fields:
   label: content
 pages:
 - content/Consulting.md
+- content/Outsourcing.md
 - content/coaching.md
