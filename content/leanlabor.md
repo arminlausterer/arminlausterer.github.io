@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = "/uploads/2020/04/30/video.png"
+buttonbeschriftung = "Download"
+buttonlink = "https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A"
+content = "**Abonnieren Sie meinen Youtubekanal**\n\nWertvolle Tipps rund um das Thema Prozessoptimierung / Lean Management zur Verfügung.\n\nDie von mir speziell dafür produzierten Videos und Handouts, enthalten konkrete Handlungsempfehlungen zu den jeweiligen Themen und kommen sofort auf den Punkt. – Reden also nicht lange um den heißen Brei.\n\nDer besondere Vorteil daran, Sie erhalten praxisrelevante, handfeste Informationen und wertvolle Tipps schnell, werbefrei und selbstverständlich kostenlos."
+youtube-code = ""
+[[lean-labor]]
 bild_ = ""
 buttonbeschriftung = "Download"
 buttonlink = "https://youtu.be/s0sXubEU-wU"
