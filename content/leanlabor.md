@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = ""
+buttonbeschriftung = "Download"
+buttonlink = "https://youtu.be/ped9vV9BE3k"
+content = "**Lean Management Teil 3: So heben Sie Ihre Verbesserungspotenziale**\n\nIn diesem Video zeige ich Ihnen ganz konkret, wie Sie in Ihrem Unternehmen dauerhaft Verbesserungspotenziale heben und dem Teufelskreis aus ständigen Feuerwehraktionen entkommen."
+youtube-code = "<p>&lt;iframe width=\"282\" height=\"150\" src=\"<a href=\"https://www.youtube.com/embed/ped9vV9BE3k\" title=\"https://www.youtube.com/embed/ped9vV9BE3k\">https://www.youtube.com/embed/ped9vV9BE3k</a>\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen&gt;&lt;/iframe&gt;</p>"
+[[lean-labor]]
 bild_ = "/uploads/2020/04/30/lean.jpg"
 buttonbeschriftung = "Download"
 buttonlink = ""
