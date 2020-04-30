@@ -1,6 +1,12 @@
 +++
 header = "Projekte"
 [[kunden]]
+beschreibung = "* Ca. 370 Mitarbeiter – 2 Standorte\n* Hochpräzise Metallbearbeitung (Drehen, Fräsen) für Automotive\n\n**Projektziel:**\n\n* Ausbau der bestehenden Lean/KVP Verbesserungskultur\n\n**Erfolge:**\n\n* Standortübergreifender Erfahrungsaustausch etabliert.\n* Kontinuierliche Verbesserungskultur etabliert\n* Austausch zwischen Führungskräfte und Mitarbeiter verbessert.\n* Kontinuierliche Verbesserungsprojekte durch Mitarbeiter vor Ort in der Produktion"
+bild = "/uploads/2020/04/30/Projekt4.jpg"
+buttonbeschriftung = ">> Details ansehen"
+buttonlink = "4_Referenzprojekt_MuC_20141.pdf"
+kunde = "Projekt 4: Mittelständisches Unternehmen"
+[[kunden]]
 beschreibung = "* >1000 Mitarbeiter – 1 Standort\n* Komponentenhersteller Automotive\n\n**Projektziel:**\n\n* Steigerung der Prozesssicherheit bei einem Zulieferer\n\n**Erfolge:**\n\n* Durchführung eines VDA 6.3 Audits beim Zulieferer\n* Fristgerechte Umsetzung der Maßnahmenliste beim Zulieferer\n* Deutliche Verbesserung der Prozesssicherheit beim Zulieferer\n* Konstant hohe Lieferqualität des Zulieferers\n* Verbesserung des Verständnisses beim Zulieferer für Anforderungen und Vorgehensweisen in der Automobilindustrie"
 bild = "/uploads/2020/04/30/projekt3.jpg"
 buttonbeschriftung = ">> Details ansehen"
