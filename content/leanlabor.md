@@ -5,6 +5,9 @@ einfuhrungstext = "Hier im Lean – Labor entwickle ich, exklusiv für mein Netz
 header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
+[menu.main]
+name = "LeanLabor"
+weight = 4
 [[lean-labor]]
 bild_ = ""
 buttonbeschriftung = "Download"
