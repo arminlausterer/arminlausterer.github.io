@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = ""
+buttonbeschriftung = "Download"
+buttonlink = "https://youtu.be/aphhemZeSGI"
+content = "**Change Management Teil 1 (Video):**\n\nSo führen Sie Ihr Team schnell und sicher durch Veränderungen\n\n* Wie Veränderung richtig gestalten?\n* Was spielt sich bei Veränderungsprozessen in Gruppen ab?\n* Wie führe ich die Gruppe durch Veränderungsprozesse?\n* Der 20/60/20 Code"
+youtube-code = "<p>&lt;iframe width=\"282\" height=\"150\" src=\"<a href=\"https://www.youtube.com/embed/aphhemZeSGI\" title=\"https://www.youtube.com/embed/aphhemZeSGI\">https://www.youtube.com/embed/aphhemZeSGI</a>\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen&gt;&lt;/iframe&gt;</p>"
+[[lean-labor]]
 bild_ = "/uploads/2020/04/30/lean.jpg"
 buttonbeschriftung = "Download"
 buttonlink = ""
