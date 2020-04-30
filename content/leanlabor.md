@@ -6,6 +6,12 @@ header = "LeanLabor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 subheadline = "Willkommen im Lean – Labor:"
 [[lean-labor]]
+bild_ = "/uploads/2020/04/30/impuls.jpg"
+buttonbeschriftung = "Download"
+buttonlink = ""
+content = "**Impulsworkshop am 03.12. in Regensburg:**\n\nWir starten mit einer kurzweiligen Einführung in das Thema Lean Management.  \nAnschließend optimieren Sie, in unserer _Fabrik im Tagungsraum_, Schritt für Schritt die Herstellung eines realen Produktes vom Zulieferer bis zum Endkunden.  \nIn Impulsgesprächen lernen Sie dazu effiziente Methoden und Vorgehensweisen kennen.  \nJetzt planen und gestalten Sie aktiv die notwendigen Verbesserungsschritte:  \nSie eliminieren Verschwendung, optimieren Arbeitsabläufe, analysieren Unternehmenskennzahlen und vieles mehr.  \nDie erzielten Ergebnisse sind in den folgenden Produktionsrunden sofort sichtbar."
+youtube-code = ""
+[[lean-labor]]
 bild_ = "/uploads/2020/04/30/video.png"
 buttonbeschriftung = "Download"
 buttonlink = "https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A"
