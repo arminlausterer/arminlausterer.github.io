@@ -9,7 +9,7 @@ subheadline = "Unsere Erfahrung"
 aufzaehlung = "* Analyse der IST-Situation in Ihrem Unternehmen\n* Erarbeiten von maßgeschneiderten Handlungsoptionen\n* Begleitung und Beratung bei der Entscheidungsfindung\n* Ergebnissicherung"
 subheadline = "Unsere Leistungen"
 [[content]]
-aufzaehlung = ""
-subheadline = ""
+aufzaehlung = "* Sie haben einen kompetenten Partner an Ihrer Seite, der die gestellten Herausforderungen aus persönlicher Erfahrung kennt und versteht.\n* Die Aufbereitung von alternativen Handlungsoptionen, gibt Ihnen Sicherheit bei Entscheidungen.\n* Nachvollziehbare Entscheidungen, sind der Schlüssel um Mitarbeiter für Veränderung zu begeistern."
+subheadline = "Ihr Nutzen:"
 
 +++
