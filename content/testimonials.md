@@ -21,7 +21,7 @@ header = "Polytec Group, Weiden"
 text = "Herr Lausterer war im Werk Weiden bei der Einführung von KVP und Lean Management als externer Unternehmensberater tätig. Ferner übernahm er als Interimsmanager die Position des stellvertretenden Werkleiters für 9 Monate.  (…) Als Coach unterstütze er tatkräftig die Umsetzungsteams. Vor allem in den Bereichen Steigerung der Anlagenverfügbarkeit und Rüstzeitoptimierung war dies sehr erfolgreich."
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/fivontec..jpg"
-button = ""
+button = "Ficontec_Referenz_111128.pdf"
 buttonbeschriftung = "weiterlesen"
 header = "Ficontec, Achim"
 text = "„… Ich lernte Herrn Lausterer bei ca. 10 Projektengineering-Meetings und Treffen über zwei Jahre als Leiter der Laserfertigung bei Osram Optosemiconductors kennen. Er war der Hauptentscheidungsträger auf Kundenseite.  (… ) Er überzeugt durch Klarheit und Struktur. Darüber hinaus hat er einen Sinn für die Rahmenbedingungen in einem mittelständischen Unternehmen, welches mit einem Konzern in Geschäftsbeziehung steht…“"
