@@ -12,6 +12,11 @@ fields:
   config:
     maxSize: 64
   label: header bild
+- name: subheadline
+  type: text
+  config:
+    required: false
+  label: subheadline
 - name: einfuhrungstext
   type: textarea
   default: ''
@@ -21,24 +26,15 @@ fields:
     schema:
       format: markdown
   label: einführungstext
-- name: subheadline
-  type: text
+- name: aufzaehlung
+  type: textarea
+  default: ''
   config:
     required: false
-  label: subheadline
-- name: aufzahlung
-  type: field_group_list
-  fields:
-  - name: aufzaehlungspunkt
-    type: text
-    config:
-      required: false
-    label: aufzaehlungspunkt
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Aufzählung
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Aufzaehlung
 - name: lean-labor
   type: field_group_list
   fields:
