@@ -34,3 +34,5 @@ fields:
     max: 
     labelField: 
   label: Content
+pages:
+- content/Unternehmen.md
