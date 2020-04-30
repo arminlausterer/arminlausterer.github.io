@@ -2,7 +2,7 @@
 header = "Testimonials"
 header-bild = "/uploads/2020/04/30/header_pic.jpg"
 [[kundenstimmen]]
-bild-links = ""
+bild-links = "/uploads/2020/04/30/Bischof_klein.jpeg"
 button = ""
 buttonbeschriftung = "weiterlesen"
 header = "BISCHOF+KLEIN, Werk Konzell"
