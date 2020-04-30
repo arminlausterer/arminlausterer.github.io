@@ -2,6 +2,10 @@
 draft = true
 headerpic = "/uploads/2020/04/30/consulting.jpg"
 headertitel = "Consulting"
+[menu.main]
+name = "Consulting"
+parent = "Lösungen"
+weight = 1
 [[content]]
 aufzaehlung = "* 20 Jahre direkte persönliche Verantwortung in der kontinuierlichen Verbesserung komplexer Produktionsstätten. In einem stark wachsenden technologie – und preisgetriebenen Marktumfeld.\n* Qualitätsmanagement auf Unternehmensebene\n* Interkulturelle Erfahrung mit Lieferanten und Kunden aus Asien"
 subheadline = "Unsere Erfahrung"

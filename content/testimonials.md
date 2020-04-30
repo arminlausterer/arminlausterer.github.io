@@ -1,6 +1,9 @@
 +++
 header = "Testimonials"
 header-bild = "/uploads/2020/04/30/header_pic.jpg"
+[menu.main]
+name = "Testimonials"
+weight = 3
 [[kundenstimmen]]
 bild-links = "/uploads/2020/04/30/Bischof_klein.jpeg"
 button = "BK_Referenz_171124-2.pdf"
