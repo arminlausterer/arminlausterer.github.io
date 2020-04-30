@@ -44,3 +44,5 @@ fields:
     max: 
     labelField: 
   label: Kunden
+pages:
+- content/Projekte.md
