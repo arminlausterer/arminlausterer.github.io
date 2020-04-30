@@ -8,8 +8,8 @@ text = "* Analyse des Wertstroms mit Hilfe von Prozessmapping und Wertstromanaly
 titel = "Wertstrom"
 [[kachel]]
 bild = ""
-text = ""
-titel = ""
+text = "* Ausbau von Methoden zur Prozessstabilisierung (SPC, 6 Sigma), Problemlösung (PDCA, 8D, …) und Shopfloor Management.  \n  Kontinuierlichen Verbesserung ist auf allen Ebenen des Unternehmens etabliert.\n* Einführung betriebliches Verbesserungsvorschlagswesen.  \n  Sie heben die Verbesserungspotenziale Ihrer Mitarbeiter\n* Effektives Projektmanagement etablieren.  \n  Auch komplexere Verbesserungsthemen werden schnell und fokussiert umgesetzt."
+titel = "Ideen entwickeln"
 [[kachel]]
 bild = ""
 text = ""
