@@ -24,11 +24,6 @@ fields:
 - name: content
   type: field_group_list
   fields:
-  - name: icon
-    type: file
-    config:
-      maxSize: 64
-    label: Icon
   - name: content
     type: textarea
     default: ''
@@ -38,6 +33,11 @@ fields:
       schema:
         format: html-blocks
     label: Content
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
   config:
     min: 
     max: 
