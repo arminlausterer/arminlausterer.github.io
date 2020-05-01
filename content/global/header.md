@@ -1,5 +1,5 @@
 ---
 title: Header
-logo: "/uploads/2020/01/20/logo.png"
+logo: "/uploads/2020/04/30/Logo_Lausterer_final.png"
 
 ---
