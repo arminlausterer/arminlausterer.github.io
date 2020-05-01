@@ -10,18 +10,18 @@ name = "Kontakt"
 weight = 6
 [[content]]
 content = "Armin Lausterer\nIn der Au 34 B\n93179 Brennberg"
-icon = ""
+icon = "map marker alternate"
 [[content]]
 content = "+49 171 - 1 64 44 22\n+49 94 84 - 95 15 94"
-icon = ""
+icon = "mobile alternate"
 [[content]]
 content = "info@armin-lausterer.de"
-icon = ""
+icon = "envelope outline"
 [[content]]
 content = "LinkedIn"
-icon = ""
+icon = "linkedin alternate"
 [[content]]
 content = "Xing"
-icon = ""
+icon = "xing"
 
 +++

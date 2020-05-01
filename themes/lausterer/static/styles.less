@@ -1,10 +1,9 @@
-@blue:#44a9ff;
-@blue_dark: #0a4c85;
-@grey:rgba(114,114,114);
+@blue:rgb(0, 157, 238);
+@blue_dark: rgb(2, 123, 186);
+@grey:rgb(95, 97, 101);
 @grey_light:rgba(114,114,114,0.3);
 @grey_light2:rgba(114,114,114,0.1);
 @content: rgb(30,30,30);
-
 
 body{
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif,serif;
@@ -67,49 +66,14 @@ a{
 }
 header{
   width:100vw;
-  background:@blue;
+  background:white;
   #hcontent{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     z-index:99999;
     
     #hmenu{
-      width:50%;
-      padding:0.5rem 90px 0.5rem 0;
-    }
-    #hlogo{
-      width:180px;
-      margin: 0 -81px;
-      z-index:99999;
-      position:relative;
-      img{
-        margin-bottom:-2rem;
-        z-index:99999;
-      }
-    }
-    #hcont{
-      width:50%;
-      padding:0.5rem 0 0.5rem 90px;
-      ul{
-        height:100%;
-        padding:0;
-        margin:0;
-        list-style-type: none;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-        li{
-          padding-right:2rem;
-          color:white;
-          font-size:0.8rem;
-          margin: 0 0 0.5rem 0;
-          background-size: 1em!important;
-          a{
-            color:white!important;
-          }
-        }
-      }
     }
   }
   @media (max-width: 720px){
@@ -211,33 +175,33 @@ header{
   }
   #headermenu{
     display:flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     @media (max-width: 720px){
       display:none!important;
     }
     padding:0;
     margin:0;
     li{
-      padding: 0 0 0 1rem;
+      padding: 0 0 0 2rem;
       list-style-type: none;
     }
   }
 }
 .headermenuitem{
   flex:0 1 auto;
-  color:white;
+  color:@blue_dark;
   text-align:left;
   position:relative;
   a{
-    color:white;
+    color:@blue_dark;
     text-decoration: none;
-    font-size:0.8rem;
-    line-height:1rem;
+    font-size:0.9rem;
+    text-transform:uppercase;
   }
 }
 footer{
+  margin-top:2rem;
   .eblink{
     color:white;
     font-size:0.8rem;
@@ -277,325 +241,12 @@ footer{
     }
   }
 }
-.imggal{
-  .gimg{
-    cursor:pointer;
-    padding-top:100%;
-    &.h{
-      padding-top:calc(200% + 10rem);
-    }
-    &.w{
-      padding-top:calc(66.6% - 1rem);
-    }
-  }
-}
-.subpage{
-  .bgal{
-    width:33%;
-    @media (max-width: 720px){
-      width:100vw;
-      margin:0 -1.5rem;
-    }
-  }
-  .imggal{
-    img{
-      width:100%;
-      cursor:pointer;
-    }
-    .column{
-      padding:0.5rem!important;
-    }
-  }
-}
-.rsebutton{
-  color:white;
-  background:@blue;
-  padding:0.5rem 2rem;
-  display:inline-block;
-}
-.rsebutton_grey{
-  color:white;
-  background:@grey;
-  padding:0.5rem 2rem;
-  display:inline-block;
-}
-.imggalcol{
-  img{
-    width:100%;
-  }
-}
-.grey{
-  background:@grey_light2;
-}
-.section{
-  padding:2rem 0;
-}
-.subheaderimg{
-  height:20vh;
-}
-.map{
-  margin-bottom:1rem;
-  .column{
-    &.map{
-      padding:0!important;
-    }
-    &.content{
-      padding:2rem 2rem 2rem 4rem!important;
-      display:flex!important;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color:white;
-      h2{
-        color:white;
-      }
-      .rsebutton_grey{
-        margin-top:2rem;
-      }
-    }
-  }
-}
-.content{
-  &.bluelight{
-    background-color: @blue!important;
-  }
-  &.kontakt{
-    p{
-      line-height:2em!important;
-    }
-  }
-  ul{
-    margin:0 0 1rem 0;
-    li{
-      margin-left:1.2em;
-    }
-  }
-  &.li2col{
-    ul{
-      columns:2;
-      column-gap: 2rem;
-    }
-  }
-}
-.subpage{
-  &.noimg{
-    padding:4rem 0 2rem 0;
-  }
+.titlewrap{
+  background:@blue_dark;
   h1{
-    text-align:center;
-    color:@blue;
-    font-weight:bold;
-    font-size:1.8rem;
-  }
-  .grey{
-    h2{
-      color:@grey;
-      font-weight:bold;
-      font-size:1.4rem;
-    }
-  }
-  h2.bigblue{
-    text-align:center;
-    color:@blue;
-    font-weight:bold;
-    font-size:1.8rem;
-  }
-  .column{
-    img{
-      max-width:100%;
-    }
-  }
-  .bbutton{
-    padding:2rem;
-    text-align:center;
     color:white;
-    font-size:2.2rem;
-    line-height:1.4em;
-    text-transform: uppercase;
-    background:@blue_dark;
+    font-size:1.5rem;
+    line-height:3rem;
   }
-  .newslist{
-    > div{
-      margin-bottom:2rem;
-      h3{
-        font-weight:bold;
-        color:@grey;
-        margin-bottom:1rem;
-        font-size:1.2rem;
-      }
-    }
-    > div:nth-child(even){
-      background:@grey_light2;
-    }
-  }
-  .etlist{
-    > div{
-      margin-bottom:2rem;
-      h3{
-        font-weight:bold;
-        color:@blue;
-      }
-    }
-    > div:nth-child(even){
-      background:@grey_light2;
-    }
-  }
-}
-#home{
-  #gal{
-    background:@blue;
-    padding:2rem 1rem;
-    h2{
-      text-align:center;
-      color:white;
-      text-transform:uppercase;
-      font-weight:bold;
-      font-size:1.4rem;
-    }
-    .label{
-      text-align:center;
-    }
-  }
-  #leist{
-    padding:4rem 0 2rem 0;
-    @media (max-width: 720px){
-      padding:2rem 0;
-    }
-    background-size:cover!important;
-    h2{
-      font-size:1.6rem;
-      text-transform:uppercase;
-      text-align:center;
-      font-weight: bold;
-      margin:2rem 0 4rem 0;
-    }
-    .column{
-      text-align:center;
-      color:@blue_dark;
-      h3{
-        font-size:1.4rem;
-      text-transform:uppercase;
-      text-align:center;
-      font-weight: bold;
-      color:@blue_dark;
-      }
-    }
-  }
-  #intro{
-    background:@grey_light2;
-    text-align:center;
-    .cont{
-      text-align:center;
-      margin:0 0 2rem;
-    }
-    margin-top:-1rem;
-    padding:3rem 0 2rem 0;
-    h1{
-      margin:0 0 1rem;
-      color:@blue_dark;
-      font-size:1.6rem;
-      font-weight:bold;
-    }
-    h2{
-      margin:0 0 0.5rem 0;
-      font-size:1.3rem;
-      color:@blue;
-    }
-  }
-  #slidercontainer{
-    margin:0 0 1rem;
-  }
-  #slider{
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    .slideritem{
-      margin:0;
-      position:relative;
-      height:40vh!important;
-      padding:1rem 6rem;
-      .ptxt{
-        h4{
-          color:white!important;
-        }
-        a{
-          text-decoration:none!important;
-          color:white;
-        }
-      }
-      .morebutton_slider{
-        margin-top:2rem;
-        border-top:1px solid white;
-        width:200px;
-        display:flex;
-        justify-content: flex-start;
-        > div{
-          width:100px;
-          background:white;
-          color:@blue;
-          padding:0.5rem 0.75rem;
-          font-weight:bold;
-          text-align:center;
-        }
-      }
-      background-size:cover !important;
-        display:flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: center;
-        .ptxt{
-          padding:0 50% 0 0;
-          text-align:left;
-          .titles{
-            display:flex;
-            flex-direction: column-reverse;
-          }
-          h4{
-            font-weight:normal;
-            margin:0;
-            color:@content;
-            font-size:1.6rem;
-            text-transform:none;
-          }
-          h3{
-            color:@blue;
-            font-size:4rem;
-            text-transform:none;
-            font-weight:bold;
-            letter-spacing:0.05em;
-          }
-          @media (max-width: 720px){
-            h4{
-              font-size:1.3rem;
-              text-transform:none;
-            }
-            h3{
-              font-size:3rem;
-            }
-          }
-        }
-      
-      @media (max-width: 720px){
-        flex-direction:column;
-        .pimg{
-          background-size:cover!important;
-          width:100%;
-          height:30vh;
-          min-height:100px;
-        }
-        .ptxt{
-          padding:1rem 3rem;
-          width:100%;
-          h4{
-            font-weight:normal;
-            margin:0;
-          }
-          h3{
-            margin:0 0 1rem 0;
-            font-size:1.5rem;
-          }
-        }
-      }
-    }
-  }
+  margin-bottom:1rem;
 }

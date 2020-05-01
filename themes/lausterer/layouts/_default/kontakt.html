@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="subpage kontakt">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.titel}}</h1>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <div class="ui two column stackable grid">
+        <div class="column"></div>
+        <div class="column">
+          <ul>
+            {{range .Params.content}}
+            <li>
+              <i class="{{.icon}} icon"></i>
+              <div>
+                {{.content | safeHTML}}
+              </div>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
