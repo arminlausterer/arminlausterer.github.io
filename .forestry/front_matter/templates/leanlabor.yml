@@ -34,12 +34,12 @@ fields:
     config:
       maxSize: 64
     label: 'Bild '
-  - name: youtube-code
+  - name: youtube_code
     type: textarea
     default: ''
     config:
       required: false
-      wysiwyg: true
+      wysiwyg: false
       schema:
         format: html-blocks
     label: youtube-code
