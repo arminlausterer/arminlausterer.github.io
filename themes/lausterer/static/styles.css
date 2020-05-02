@@ -36,6 +36,36 @@ ul {
 ul li {
   margin: 0;
 }
+blockquote,
+q {
+  border: none;
+  font-style: italic;
+  quotes: "\201C" "\201D" "\2018" "\2019" !important;
+}
+blockquote p {
+  background: transparent;
+}
+/**/
+blockquote:before {
+  position: absolute;
+  color: #ccc;
+  content: "\201C";
+  font-size: 3rem;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  top: 0;
+  left: 0;
+  margin-top: 1rem;
+  width: 30px;
+  z-index: 99;
+}
+blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.26315789;
+  margin-bottom: 24px;
+}
 a {
   color: #027bba;
 }
@@ -59,6 +89,23 @@ a:hover {
 }
 .imggalslider {
   margin-left: -16px !important;
+}
+.albutton {
+  background: #009dee;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+  border: 1px solid transparent;
+  text-decoration: none!important;
+  margin: 1rem 0;
+  display: inline-block;
+}
+.albutton:hover {
+  border: 1px solid #009dee;
+  color: #009dee;
+  background: white;
 }
 header {
   width: 100vw;
@@ -249,6 +296,36 @@ footer .footermenu a:last-child {
   color: white;
   font-size: 1.5rem;
   line-height: 3rem;
+}
+.subpage.testimonial .content img,
+.subpage.projekte .content img {
+  max-width: 100%;
+}
+.subpage.testimonial .ks,
+.subpage.projekte .ks {
+  margin-top: 2rem!important;
+}
+.subpage.testimonial .ks img,
+.subpage.projekte .ks img {
+  width: 100%;
+}
+.subpage.testimonial .ks .column > div,
+.subpage.projekte .ks .column > div {
+  position: relative;
+}
+.subpage.testimonial .ks .content ul,
+.subpage.projekte .ks .content ul {
+  padding: 0;
+  margin: 0;
+}
+.subpage.testimonial .ks .content ul li,
+.subpage.projekte .ks .content ul li {
+  list-style-position: outside;
+  margin-left: 1em;
+}
+.subpage.testimonial .ks .content p,
+.subpage.projekte .ks .content p {
+  margin: 0.5rem 0;
 }
 .subpage.kontakt ul.klist {
   margin: 0;

@@ -6,7 +6,7 @@ layout = "testimonials"
 name = "Testimonials"
 weight = 3
 [[kundenstimmen]]
-bild-links = "/uploads/2020/04/30/Bischof_klein.jpeg"
+bild-links = ""
 bild_links = "/uploads/2020/04/30/Bischof_klein.jpeg"
 button = "BK_Referenz_171124-2.pdf"
 buttonbeschriftung = "weiterlesen"
