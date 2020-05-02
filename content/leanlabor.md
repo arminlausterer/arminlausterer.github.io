@@ -2,7 +2,7 @@
 aufzaehlung = ""
 aufzahlung = []
 einfuhrungstext = "<p>Hier im Lean – Labor entwickle ich, exklusiv für mein Netzwerk, wertvolle Werkzeuge, Methoden und Tipps rund um die Themen Prozessoptimierung und ganzheitliche Lean / KVP Konzepte. Damit machen Sie Ihre Prozesse robuster, schneller und kostengünstiger. Selbstverständlich kostenlos und unverbindlich. </p><p>Neu im Lean – Labor:</p>"
-header = "LeanLabor"
+header = "Lean-Labor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 layout = "leanlabor"
 subheadline = "Willkommen im Lean – Labor:"
