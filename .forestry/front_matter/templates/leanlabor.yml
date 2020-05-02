@@ -26,7 +26,7 @@ fields:
     schema:
       format: markdown
   label: einführungstext
-- name: lean-labor
+- name: lean_labor
   type: field_group_list
   fields:
   - name: bild_
