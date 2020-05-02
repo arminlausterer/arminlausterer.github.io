@@ -7,13 +7,20 @@
   </div>
   <div class="ui container standard">
     <div class="content">
-      <div class="ui two column stackable grid">
-        <div class="column"></div>
+      <div class="ui two column stackable grid mobile reversed">
         <div class="column">
-          <ul>
+          <div
+            class="ui 4:3 embed active"
+            data-url="https://www.openstreetmap.org/export/embed.html?bbox=11.307678222656252%2C48.493857443054395%2C13.220672607421877%2C49.32333182991096&amp;layer=mapnik&amp;marker=49.07422%2C12.39148"
+          ></div>
+        </div>
+        <div class="column">
+          <ul class="klist">
             {{range .Params.content}}
             <li>
-              <i class="{{.icon}} icon"></i>
+              <div class="ki">
+                <i class="{{.icon}} icon"></i>
+              </div>
               <div>
                 {{.content | safeHTML}}
               </div>
