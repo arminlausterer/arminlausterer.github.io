@@ -34,11 +34,6 @@ fields:
     config:
       required: false
     label: buttonbeschriftung
-  - name: buttonlink
-    type: text
-    config:
-      required: false
-    label: buttonlink
   - name: buttonlinkfile
     type: file
     config:
