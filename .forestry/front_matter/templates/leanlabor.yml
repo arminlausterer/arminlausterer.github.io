@@ -22,9 +22,9 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: einführungstext
 - name: lean_labor
   type: field_group_list
