@@ -1,9 +1,10 @@
 +++
 headerpicture = "/uploads/2020/04/30/loesungen"
 titel = "Lösungen"
+layout = "solutions"
 titelziele = "ZIELE erreichen"
 ziele = "* Entwicklung einer langfristigen Unternehmensvision und Strategie.  \n  Sie geben Ihrem Unternehmen eine langfristige Orientierung. Dies hilft Ihren Mitarbeitern gerade in turbulenten Zeiten das Unternehmen auf Kurs zu halten.\n* Ableitung von quantifizierten und terminierten Zielen in allen Unternehmensbereichen.  \n  Jeder Mitarbeiter kennt seinen Beitrag zum Unternehmenserfolg und kann sein Potenzial entsprechend entfalten.\n* Zielverfolgung und Monitoring unter Verwendung einer Balanced Score Card.  \n  Sie haben jederzeit die notwendig Transparenz.\n* Einführen von Methoden zum schnellen Erkennen und Reagieren bei Zielabweichungen.  \n  So bringen Sie das Unternehmen schnell wieder auf den richtigen Kurs."
-ziele-pic = "/uploads/2020/04/30/ziele"
+ziele_pic = "/uploads/2020/04/30/ziele"
 [menu.main]
 name = "Lösungen"
 weight = 1

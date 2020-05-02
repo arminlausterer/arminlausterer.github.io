@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="subpage coaching">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.headertitel}}</h1>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <div class="ui stackable grid">
+        <div class="six wide column">
+          <img src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_1200" )}} "/> 
+        </div>
+        <div class="ten wide column">
+          {{range .Params.content}}
+      <section class="ct">
+        <h2>{{.subheadline}}</h2>
+        {{.aufzaehlung|markdownify}}
+      </section>
+      {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

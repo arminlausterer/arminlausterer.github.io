@@ -117,6 +117,9 @@ header #hcontent {
   align-items: center;
   z-index: 99999;
 }
+header #hcontent #hmenu {
+  padding-right: 1rem;
+}
 @media (max-width: 720px) {
   header #hcontent {
     display: flex;
@@ -240,11 +243,30 @@ header #headermenu li {
   text-align: left;
   position: relative;
 }
+.headermenuitem .sub-menu {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
 .headermenuitem a {
   color: #027bba;
   text-decoration: none;
   font-size: 0.9rem;
   text-transform: uppercase;
+}
+.headermenuitem:hover {
+  color: #009dee;
+}
+.headermenuitem:hover a {
+  color: #009dee !important;
+}
+.headermenuitem:hover .sub-menu {
+  height: auto;
+  padding: 0.5rem 1rem;
 }
 footer {
   margin-top: 2rem;
@@ -296,6 +318,39 @@ footer .footermenu a:last-child {
   color: white;
   font-size: 1.5rem;
   line-height: 3rem;
+}
+.subpage.outsourcing .content img,
+.subpage.coaching .content img,
+.subpage.solutions .content img {
+  max-width: 100%;
+}
+.subpage.outsourcing h2,
+.subpage.coaching h2,
+.subpage.solutions h2 {
+  padding: 0.5rem 1rem;
+  background: #5f6165;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.subpage.outsourcing li,
+.subpage.coaching li,
+.subpage.solutions li {
+  list-style-type: none;
+  padding: 0 0 1rem 1rem;
+  line-height: 1.3em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.subpage.outsourcing li:before,
+.subpage.coaching li:before,
+.subpage.solutions li:before {
+  content: "\f35a";
+  font-family: outline-icons;
+  color: #009dee;
+  margin: 0 1rem 0 -1rem;
+  font-size: 1.3em;
 }
 .subpage.testimonial .content img,
 .subpage.projekte .content img,
