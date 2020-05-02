@@ -15,7 +15,7 @@ fields:
 - name: kundenstimmen
   type: field_group_list
   fields:
-  - name: bild-links
+  - name: bild_links
     type: file
     config:
       maxSize: 64
