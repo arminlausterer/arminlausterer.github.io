@@ -26,7 +26,7 @@ fields:
     schema:
       format: markdown
   label: einführungstext
-- name: lean-labor
+- name: lean_labor
   type: field_group_list
   fields:
   - name: bild_
@@ -39,10 +39,15 @@ fields:
     default: ''
     config:
       required: false
-      wysiwyg: true
+      wysiwyg: false
       schema:
         format: html-blocks
     label: youtube-code
+  - name: youtube_code
+    type: text
+    config:
+      required: false
+    label: youtube_code
   - name: content
     type: textarea
     default: ''
