@@ -39,6 +39,11 @@ fields:
     config:
       required: false
     label: buttonlink
+  - name: buttonlinkfile
+    type: file
+    config:
+      maxSize: 64
+    label: buttonlinkfile
   config:
     min: 
     max: 
