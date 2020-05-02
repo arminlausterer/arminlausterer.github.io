@@ -8,6 +8,10 @@
   <div class="ui container standard">
     <div class="content">
       <img src="{{partial "imgUrl" (dict "img" .Params.header_bild "params" "c_scale,f_auto,w_1200" )}} "/> 
+      <div class="ks">
+        <h2>{{.Params.subheadline}}</h2>
+        {{.Params.einfuhrungstext|safeHTML}}
+      </div>
       {{range .Params.lean_labor}}
       <div class="ks">
         <div class="ui stackable grid mobile reversed">
@@ -20,7 +24,7 @@
             {{end}}
           </div>
           <div class="twelve wide column">
-            <h2>{{.kunde}}</h2>
+            <h2>{{.titel}}</h2>
             <div class="content">{{.content|markdownify}}</div>
             <a class="albutton" href="{{.buttonlink}}" target="_blank">{{.buttonbeschriftung}}</a>
           </div>
