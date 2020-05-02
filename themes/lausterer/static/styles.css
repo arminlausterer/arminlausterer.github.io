@@ -1,7 +1,7 @@
 body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif, serif;
   color: #1e1e1e;
-  background: white;
+  background: #f8f8f8;
   font-size: 13px;
 }
 body *:not(i) {
@@ -319,6 +319,16 @@ footer .footermenu a:last-child {
   font-size: 1.5rem;
   line-height: 3rem;
 }
+.ks {
+  background: white;
+  padding: 0.5rem;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.ks img {
+  width: 100%;
+}
 .subpage.outsourcing .content img,
 .subpage.coaching .content img,
 .subpage.solutions .content img {
@@ -361,11 +371,6 @@ footer .footermenu a:last-child {
 .subpage.projekte .ks,
 .subpage.lean .ks {
   margin-top: 2rem!important;
-}
-.subpage.testimonial .ks img,
-.subpage.projekte .ks img,
-.subpage.lean .ks img {
-  width: 100%;
 }
 .subpage.testimonial .ks .column > div,
 .subpage.projekte .ks .column > div,
