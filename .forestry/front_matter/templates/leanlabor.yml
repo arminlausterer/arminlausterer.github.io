@@ -34,7 +34,7 @@ fields:
     config:
       maxSize: 64
     label: 'Bild '
-  - name: youtube_code
+  - name: youtube-code
     type: textarea
     default: ''
     config:
@@ -43,6 +43,11 @@ fields:
       schema:
         format: html-blocks
     label: youtube-code
+  - name: youtube_code
+    type: text
+    config:
+      required: false
+    label: youtube_code
   - name: content
     type: textarea
     default: ''
