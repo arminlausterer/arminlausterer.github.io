@@ -298,33 +298,40 @@ footer .footermenu a:last-child {
   line-height: 3rem;
 }
 .subpage.testimonial .content img,
-.subpage.projekte .content img {
+.subpage.projekte .content img,
+.subpage.lean .content img {
   max-width: 100%;
 }
 .subpage.testimonial .ks,
-.subpage.projekte .ks {
+.subpage.projekte .ks,
+.subpage.lean .ks {
   margin-top: 2rem!important;
 }
 .subpage.testimonial .ks img,
-.subpage.projekte .ks img {
+.subpage.projekte .ks img,
+.subpage.lean .ks img {
   width: 100%;
 }
 .subpage.testimonial .ks .column > div,
-.subpage.projekte .ks .column > div {
+.subpage.projekte .ks .column > div,
+.subpage.lean .ks .column > div {
   position: relative;
 }
 .subpage.testimonial .ks .content ul,
-.subpage.projekte .ks .content ul {
+.subpage.projekte .ks .content ul,
+.subpage.lean .ks .content ul {
   padding: 0;
   margin: 0;
 }
 .subpage.testimonial .ks .content ul li,
-.subpage.projekte .ks .content ul li {
+.subpage.projekte .ks .content ul li,
+.subpage.lean .ks .content ul li {
   list-style-position: outside;
   margin-left: 1em;
 }
 .subpage.testimonial .ks .content p,
-.subpage.projekte .ks .content p {
+.subpage.projekte .ks .content p,
+.subpage.lean .ks .content p {
   margin: 0.5rem 0;
 }
 .subpage.kontakt ul.klist {

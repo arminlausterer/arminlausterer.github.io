@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="subpage lean">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.header}}</h1>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <img src="{{partial "imgUrl" (dict "img" .Params.header_bild "params" "c_scale,f_auto,w_1200" )}} "/> 
+      {{range .Params.lean_labor}}
+      <div class="ks">
+        <div class="ui stackable grid mobile reversed">
+          <div class="four wide column">
+            {{with .youtube_code}}
+            <div class="ui embed" data-source="youtube" autoplay data-id="{{.}}" data-icon="video"></div>
+            {{end}}
+            {{with .bild_}}
+            <img src="{{partial "imgUrl" (dict "img" . "params" "c_scale,f_auto,w_600" )}} "/>
+            {{end}}
+          </div>
+          <div class="twelve wide column">
+            <h2>{{.kunde}}</h2>
+            <div class="content">{{.content|markdownify}}</div>
+            <a class="albutton" href="{{.buttonlink}}" target="_blank">{{.buttonbeschriftung}}</a>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>
+{{ end }}
