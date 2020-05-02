@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Header
-- name: header-bild
+- name: header_bild
   type: file
   config:
     maxSize: 64
