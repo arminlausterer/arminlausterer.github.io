@@ -29,11 +29,17 @@ fields:
 - name: lean_labor
   type: field_group_list
   fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
   - name: bild_
     type: file
     config:
       maxSize: 64
     label: 'Bild '
+    description: alternativ zu youtube-ID
   - name: youtube_code
     type: text
     config:
@@ -53,6 +59,12 @@ fields:
     config:
       required: false
     label: buttonlink
+  - name: buttonlinkfile
+    type: file
+    config:
+      maxSize: 64
+    label: buttonlinkfile
+    description: alternativ zu link
   - name: buttonbeschriftung
     type: text
     config:
