@@ -11,7 +11,7 @@ bild_links = "/uploads/2020/04/30/Bischof_klein.jpeg"
 button = "BK_Referenz_171124-2.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2020/04/30/BK_Referenz_171124-2.pdf"
-content = "<blockquote><p>… Vor allem durch die Themen Rüstzeitreduzierung und Shopfloormanagement wurden signifikante Erfolge erzielt.  Mit Hoshin Kanri gelang eine konsequente Fokussierung aller Mitarbeiter auf die Werksziele.  (…) Er zeichnet sich durch sehr viel Erfahrung, kreative Ideen und den Blick für das “Machbare” aus. …</p></blockquote>"
+content = "<blockquote><p>… Vor allem durch die Themen Rüstzeitreduzierung und Shopfloormanagement wurden signifikante Erfolge erzielt. </p><p></p><p>Mit Hoshin Kanri gelang eine konsequente Fokussierung aller Mitarbeiter auf die Werksziele. </p><p></p><p>(…) Er zeichnet sich durch sehr viel Erfahrung, kreative Ideen und den Blick für das “Machbare” aus. …</p></blockquote>"
 header = "BISCHOF+KLEIN, Werk Konzell"
 text = ""
 [[kundenstimmen]]
