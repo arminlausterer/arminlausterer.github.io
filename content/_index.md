@@ -9,6 +9,7 @@ buttonbeschriftung = "Entdecken"
 buttonlink = ""
 headline = "Lean Labor"
 text = "**Neu im Lean – Labor:**\n\nVideo und White Paper Lean Management Teil 4: Strukturiert Verbessern\n\nDurch strukturiertes Verbessern durchbrechen Sie den Teufelskreis ungelöster Probleme in Ihrem Unternehmen. Ich zeige Ihnen eine einfache und bewährte Methode, wie Sie Ihr Team schnell und sicher durch Verbesserungsprozesse führen. Damit erzielen Sie exzellente Ergebnisse, die Ihr Unternehmen wettbewerbsfähiger machen. Abschließend verrate ich Ihnen, wie Sie das größte Risiko bei Verbesserungsprozessen vermeiden."
+vordergrund-bild = "/uploads/2020/05/04/lean-labor-vordergrund"
 [leistungen]
 backgroundpicture = "/uploads/2020/05/04/leistungen_background-picture"
 buttonbeschriftung = "Entdecken"
