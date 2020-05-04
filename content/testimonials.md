@@ -4,7 +4,7 @@ header_bild = "/uploads/2020/04/30/header_pic.jpg"
 layout = "testimonials"
 [menu.main]
 name = "Testimonials"
-weight = 3
+weight = 5
 [[kundenstimmen]]
 bild-links = ""
 bild_links = "/uploads/2020/04/30/Bischof_klein.jpeg"
