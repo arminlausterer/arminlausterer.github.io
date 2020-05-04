@@ -15,6 +15,10 @@ buttonbeschriftung = "Entdecken"
 buttonlink = ""
 titelzeile = "Leistungen"
 [[leistungen.kacheln]]
+icon = "/uploads/2020/05/04/coaching-icon"
+text-vorderseite = "Coaching"
+text_ruckseite = "* Auf die Unternehmenssituation perfekt abgestimmte Lösungen aus der Praxis für die Praxis.\n* Schneller Rückfluss der investierten Mittel, meist innerhalb der ersten 12 Monate nach Projektstart.\n* Transparenz durch die kontinuierliche Verfolgung messbarer Ziele.\n* ... Methoden und Werkzeuge"
+[[leistungen.kacheln]]
 icon = ""
 text-vorderseite = "Consulting"
 text_ruckseite = "* Analyse der IST-Situation in Ihrem Unternehmen\n* Erarbeiten von maßgeschneiderten Handlungsoptionen\n* Begleitung und Beratung bei der Entscheidungsfindung\n* Ergebnissicherung"
