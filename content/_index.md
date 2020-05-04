@@ -18,6 +18,10 @@ titelzeile = "Leistungen"
 icon = ""
 text-vorderseite = "Consulting"
 text_ruckseite = "* Analyse der IST-Situation in Ihrem Unternehmen\n* Erarbeiten von maßgeschneiderten Handlungsoptionen\n* Begleitung und Beratung bei der Entscheidungsfindung\n* Ergebnissicherung"
+[[leistungen.kacheln]]
+icon = ""
+text-vorderseite = "Outsourcing"
+text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen   \n   fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
 [team]
 buttonbeschriftung = ""
 buttonlink = ""
