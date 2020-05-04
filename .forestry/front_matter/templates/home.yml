@@ -102,10 +102,15 @@ fields:
       required: false
     label: buttonbeschriftung
   - name: buttonlink
-    type: text
+    type: file
     config:
-      required: false
+      maxSize: 64
     label: buttonlink
+  - name: vordergrund-bild
+    type: file
+    config:
+      maxSize: 64
+    label: Vordergrund-bild
   label: Lean Labor
 - name: team
   type: field_group
