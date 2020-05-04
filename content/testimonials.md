@@ -27,7 +27,7 @@ bild_links = "/uploads/2020/04/30/polytec.jpg"
 button = "Polytec_Referenz_160518.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2020/04/30/Polytec_Referenz_160518.pdf"
-content = "<blockquote><p>Herr Lausterer war im Werk Weiden bei der Einführung von KVP und Lean Management als externer Unternehmensberater tätig. Ferner übernahm er als Interimsmanager die Position des stellvertretenden Werkleiters für 9 Monate.  (…) Als Coach unterstütze er tatkräftig die Umsetzungsteams. Vor allem in den Bereichen Steigerung der Anlagenverfügbarkeit und Rüstzeitoptimierung war dies sehr erfolgreich.</p></blockquote>"
+content = "<blockquote><p>Herr Lausterer war im Werk Weiden bei der Einführung von KVP und Lean Management als externer Unternehmensberater tätig. Ferner übernahm er als Interimsmanager die Position des stellvertretenden Werkleiters für 9 Monate. </p><p></p><p>(…) Als Coach unterstütze er tatkräftig die Umsetzungsteams. Vor allem in den Bereichen Steigerung der Anlagenverfügbarkeit und Rüstzeitoptimierung war dies sehr erfolgreich.</p></blockquote>"
 header = "Polytec Group, Weiden"
 text = ""
 [[kundenstimmen]]
