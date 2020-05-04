@@ -19,7 +19,7 @@ bild_links = "/uploads/2020/04/30/autec.jpg"
 button = "AUTEC_Referenz_160425.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2020/04/30/AUTEC_Referenz_160425.pdf"
-content = "<blockquote><p>Herr Lausterer unterstützte uns bei der Weiterentwicklung unseres bestehenden Projektmanagements unter Einbeziehung der Beteiligten, sowohl auf Geschäftsleitungsebene also auch auf Mitarbeiterebene.  (…) Dank der praxisorientierten Arbeitsweise von Herrn Lausterer, konnte nicht nur konzipiert, sondern auch umgesetzt werden.</p></blockquote>"
+content = "<blockquote><p>Herr Lausterer unterstützte uns bei der Weiterentwicklung unseres bestehenden Projektmanagements unter Einbeziehung der Beteiligten, sowohl auf Geschäftsleitungsebene also auch auf Mitarbeiterebene. </p><p></p><p>(…) Dank der praxisorientierten Arbeitsweise von Herrn Lausterer, konnte nicht nur konzipiert, sondern auch umgesetzt werden.</p></blockquote>"
 header = "AUTEC Sondermaschinenbau, Amberg"
 text = ""
 [[kundenstimmen]]
