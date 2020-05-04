@@ -13,8 +13,11 @@ text = ""
 backgroundpicture = "/uploads/2020/05/04/leistungen_background-picture"
 buttonbeschriftung = "Entdecken"
 buttonlink = ""
-kacheln = []
 titelzeile = "Leistungen"
+[[leistungen.kacheln]]
+icon = ""
+text-vorderseite = "Consulting"
+text_ruckseite = "* Analyse der IST-Situation in Ihrem Unternehmen\n* Erarbeiten von maßgeschneiderten Handlungsoptionen\n* Begleitung und Beratung bei der Entscheidungsfindung\n* Ergebnissicherung"
 [team]
 buttonbeschriftung = ""
 buttonlink = ""
