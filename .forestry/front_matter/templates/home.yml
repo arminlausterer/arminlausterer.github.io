@@ -102,5 +102,49 @@ fields:
       required: false
     label: buttonlink
   label: Lean Labor
+- name: team
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: teambild
+    type: file
+    config:
+      maxSize: 64
+    label: TeamBild
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: position
+    type: text
+    config:
+      required: false
+    label: Position
+  - name: kachel-ruckseite
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Kachel-Rückseite
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  label: Team
 pages:
 - content/_index.md
