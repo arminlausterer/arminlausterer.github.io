@@ -52,15 +52,15 @@ position = "Geschäftsführer"
 teambild = "/uploads/2020/05/04/lausterer.png"
 [testimonials]
 Titel_links = "Referenzen"
-backgroundpicture = ""
+backgroundpicture = "/uploads/2020/05/04/background-picture"
 buttonlink = ""
 grosser_button = "Testimonials zeigen"
 [[testimonials.kunden]]
-textkunden = "<p>Ca. 370 Mitarbeiter – 2 Standorte</p><p class=\"p1\">Hochpräzise Metallbearbeitung (Drehen, Fräsen) für Automotive</p><p class=\"p2\"><br> <strong>Projektziel:</strong></p><p class=\"p1\">Ausbau der bestehenden Lean/KVP Verbesserungskultur</p>"
-titel_ = " Mittelständisches  Unternehmen"
-[[testimonials.kunden]]
 textkunden = "<p>Ca. 250 Mitarbeiter – 1 Standort</p><p class=\"p1\">Herstellung von SMC und Composite-Produkte für Automotive</p><p class=\"p2\"><br><strong>Projektziel:</strong></p><p class=\"p2\">Produktivitätssteigerung durch die Einführung einer KVP / Lean Kultur</p>"
 titel_ = "Produktionswerk  in einem Konzern"
+[[testimonials.kunden]]
+textkunden = "<p>Ca. 370 Mitarbeiter – 2 Standorte</p><p class=\"p1\">Hochpräzise Metallbearbeitung (Drehen, Fräsen) für Automotive</p><p class=\"p2\"><br> <strong>Projektziel:</strong></p><p class=\"p1\">Ausbau der bestehenden Lean/KVP Verbesserungskultur</p>"
+titel_ = " Mittelständisches  Unternehmen"
 [[testimonials.kunden]]
 textkunden = "<p>Ca. 270 Mitarbeiter – 2 Standorte</p><p class=\"p1\">Hochpräzise Kunststoffspritzgussteile für Automotive, Medizintechnik, Halbleiter, Optohalbleiter (LED)</p><p class=\"p2\"><br><strong>Projektziel:<br></strong>Produktivitätssteigerung durch die Einführung einer KVP / Lean Kultur</p>"
 titel_ = "Mittelständisches Unternehmen"
