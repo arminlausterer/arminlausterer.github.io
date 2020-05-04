@@ -19,7 +19,7 @@ buttonlink = "2_Referenzprojekt_PoW_20141.pdf"
 buttonlinkfile = "/uploads/2020/04/30/2_Referenzprojekt_PoW_20141.pdf"
 kunde = "Projekt 2: Produktionswerk in einem Konzern"
 [[kunden]]
-beschreibung = "* >1000 Mitarbeiter – 1 Standort\n* Komponentenhersteller Automotive\n\n**Projektziel:**\n\n* Steigerung der Prozesssicherheit bei einem Zulieferer\n\n**Erfolge:**\n\n* Durchführung eines VDA 6.3 Audits beim Zulieferer\n* Fristgerechte Umsetzung der Maßnahmenliste beim Zulieferer\n* Deutliche Verbesserung der Prozesssicherheit beim Zulieferer\n* Konstant hohe Lieferqualität des Zulieferers\n* Verbesserung des Verständnisses beim Zulieferer für Anforderungen und Vorgehensweisen in der Automobilindustrie"
+beschreibung = "* > 1000 Mitarbeiter – 1 Standort\n* Komponentenhersteller Automotive\n\n**Projektziel:**\n\n* Steigerung der Prozesssicherheit bei einem Zulieferer\n\n**Erfolge:**\n\n* Durchführung eines VDA 6.3 Audits beim Zulieferer\n* Fristgerechte Umsetzung der Maßnahmenliste beim Zulieferer\n* Deutliche Verbesserung der Prozesssicherheit beim Zulieferer\n* Konstant hohe Lieferqualität des Zulieferers\n* Verbesserung des Verständnisses beim Zulieferer für Anforderungen und Vorgehensweisen in der Automobilindustrie"
 bild = "/uploads/2020/04/30/projekt3.jpg"
 buttonbeschriftung = ">> Details ansehen"
 buttonlink = "3_Referenzprojekt_OeA_2014.pdf"
