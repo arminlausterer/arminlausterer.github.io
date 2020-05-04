@@ -67,6 +67,11 @@ fields:
     config:
       required: false
     label: buttonlink
+  - name: titelzeile
+    type: text
+    config:
+      required: false
+    label: Titelzeile
   label: Leistungen
 - name: lean_labor
   type: field_group
