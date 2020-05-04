@@ -126,6 +126,11 @@ fields:
     config:
       required: false
     label: buttonbeschriftung
+  - name: buttonlink
+    type: file
+    config:
+      maxSize: 64
+    label: buttonlink
   - name: team-einzeln
     type: field_group_list
     fields:
@@ -158,11 +163,6 @@ fields:
       max: 
       labelField: 
     label: team-einzeln
-  - name: buttonlink
-    type: file
-    config:
-      maxSize: 64
-    label: buttonlink
   label: Team
 - name: testimonials
   type: field_group
