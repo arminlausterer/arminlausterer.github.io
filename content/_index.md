@@ -34,8 +34,12 @@ headline = "Unser Team"
 kachel-ruckseite = ""
 name = ""
 position = ""
-team-einzeln = []
 teambild = ""
+[[team.team-einzeln]]
+kachelruckseite = "_Ihr Erfolg ist unser Ziel ... Erfolgreich sein heißt Kunden, Märkte, Produkte ganzheitlich zu betrachten. Die spezifischen Strukturen und Bedürfnisse zu erkennen und schließlich schnell und zielgerichtet zu handeln._"
+name = "Armin  Lausterer"
+position = "Geschäftsführer"
+teambild = "/uploads/2020/05/04/lausterer.png"
 [testimonials]
 Titel_links = ""
 backgroundpicture = ""
