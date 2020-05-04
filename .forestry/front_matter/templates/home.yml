@@ -57,11 +57,6 @@ fields:
         schema:
           format: markdown
       label: Text Rückseite
-    - name: buttonlink
-      type: file
-      config:
-        maxSize: 64
-      label: buttonlink
     config:
       min: 
       max: 
@@ -72,6 +67,11 @@ fields:
     config:
       required: false
     label: buttonbeschriftung
+  - name: buttonlink
+    type: file
+    config:
+      maxSize: 64
+    label: buttonlink
   label: Leistungen
 - name: lean_labor
   type: field_group
