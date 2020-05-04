@@ -43,7 +43,7 @@ bild_links = "/uploads/2020/04/30/opto.jpg"
 button = "Optosystem_Letter-of-Reference_111130.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2020/04/30/Optosystem_Letter-of-Reference_111130.pdf"
-content = "<blockquote><p>„ (…) As a director of high power laser production he was in charge of introducing our new tools made in Japan in the new production line of Osram OS.  (…) He was a good communicator and an effecitve coordinator who could easily overcome the cultural differences and achieve a consensus in the difficult subjects. …</p></blockquote>"
+content = "<blockquote><p>„ (…) As a director of high power laser production he was in charge of introducing our new tools made in Japan in the new production line of Osram OS. </p><p></p><p>(…) He was a good communicator and an effective coordinator who could easily overcome the cultural differences and achieve a consensus in the difficult subjects. …</p></blockquote>"
 header = "Opto System, Kyoto, Japan"
 text = ""
 
