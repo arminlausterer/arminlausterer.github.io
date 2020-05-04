@@ -28,12 +28,13 @@ icon = "/uploads/2020/05/04/outsourcing-icon"
 text-vorderseite = "Outsourcing"
 text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen   \n   fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
 [team]
-buttonbeschriftung = ""
+buttonbeschriftung = "Entdecken"
 buttonlink = ""
 headline = "Unser Team"
 kachel-ruckseite = ""
 name = ""
 position = ""
+team-einzeln = []
 teambild = ""
 [testimonials]
 Titel_links = ""
