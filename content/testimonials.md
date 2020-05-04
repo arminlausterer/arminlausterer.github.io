@@ -35,7 +35,7 @@ bild_links = "/uploads/2020/04/30/fivontec..jpg"
 button = "Ficontec_Referenz_111128.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2020/04/30/Ficontec_Referenz_111128.pdf"
-content = "<blockquote><p>\"… Ich lernte Herrn Lausterer bei ca. 10 Projektengineering-Meetings und Treffen über zwei Jahre als Leiter der Laserfertigung bei Osram Optosemiconductors kennen. Er war der Hauptentscheidungsträger auf Kundenseite.  (… ) Er überzeugt durch Klarheit und Struktur. Darüber hinaus hat er einen Sinn für die Rahmenbedingungen in einem mittelständischen Unternehmen, welches mit einem Konzern in Geschäftsbeziehung steht…“</p></blockquote>"
+content = "<blockquote><p>\"… Ich lernte Herrn Lausterer bei ca. 10 Projektengineering-Meetings und Treffen über zwei Jahre als Leiter der Laserfertigung bei Osram Optosemiconductors kennen. Er war der Hauptentscheidungsträger auf Kundenseite. </p><p></p><p>(… ) Er überzeugt durch Klarheit und Struktur. Darüber hinaus hat er einen Sinn für die Rahmenbedingungen in einem mittelständischen Unternehmen, welches mit einem Konzern in Geschäftsbeziehung steht…“</p></blockquote>"
 header = "Ficontec, Achim"
 text = ""
 [[kundenstimmen]]
