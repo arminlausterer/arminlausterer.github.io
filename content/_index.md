@@ -11,9 +11,10 @@ headline = ""
 text = ""
 [leistungen]
 backgroundpicture = "/uploads/2020/05/04/leistungen_background-picture"
-buttonbeschriftung = ""
+buttonbeschriftung = "Entdecken"
 buttonlink = ""
 kacheln = []
+titelzeile = "Leistungen"
 [team]
 buttonbeschriftung = ""
 buttonlink = ""
