@@ -51,10 +51,10 @@ name = "Armin  Lausterer"
 position = "Geschäftsführer"
 teambild = "/uploads/2020/05/04/lausterer.png"
 [testimonials]
-Titel_links = ""
+Titel_links = "Referenzen"
 backgroundpicture = ""
 buttonlink = ""
-grosser_button = ""
+grosser_button = "Testimonials zeigen"
 kunden = []
 
 +++
