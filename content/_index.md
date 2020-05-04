@@ -36,6 +36,11 @@ name = ""
 position = ""
 teambild = ""
 [[team.team-einzeln]]
+kachelruckseite = "Text folgt auch"
+name = "Frau Huber"
+position = "Kundenservice"
+teambild = "/uploads/2020/05/04/deuber.png"
+[[team.team-einzeln]]
 kachelruckseite = "Text folgt"
 name = "Melanie Düber"
 position = "Lean Labor"
