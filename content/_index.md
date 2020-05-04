@@ -30,7 +30,7 @@ text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen   \
 [team]
 buttonbeschriftung = ""
 buttonlink = ""
-headline = ""
+headline = "Unser Team"
 kachel-ruckseite = ""
 name = ""
 position = ""
