@@ -134,15 +134,6 @@ fields:
   - name: team-einzeln
     type: field_group_list
     fields:
-    - name: kachelruckseite
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: markdown
-      label: Kachelrückseite
     - name: name
       type: text
       config:
@@ -158,6 +149,15 @@ fields:
       config:
         maxSize: 64
       label: Teambild
+    - name: kachelruckseite
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Kachelrückseite
     config:
       min: 
       max: 
