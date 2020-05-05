@@ -1,7 +1,7 @@
 +++
 headerpic = "/uploads/2020/04/30/consulting.jpg"
 headertitel = "Consulting"
-layout = "coachingviK4ekuGg3WRuQVy7b7N"
+layout = "coaching"
 [menu.main]
 name = "Consulting"
 parent = "Lösungen"
