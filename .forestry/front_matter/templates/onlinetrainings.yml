@@ -1,0 +1,23 @@
+---
+label: Onlinetrainings
+hide_body: true
+fields:
+- type: file
+  name: headerpic
+  label: headerpic
+- type: text
+  name: headertitel
+  label: headertitel
+- type: text
+  name: layout
+  label: layout
+- type: field_group_list
+  name: content
+  label: content
+  fields:
+  - type: textarea
+    name: aufzaehlung
+    label: aufzaehlung
+  - type: text
+    name: subheadline
+    label: subheadline
