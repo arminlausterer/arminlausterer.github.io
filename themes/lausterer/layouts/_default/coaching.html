@@ -7,19 +7,13 @@
   </div>
   <div class="ui container standard">
     <div class="content">
-      <div class="ui stackable grid">
-        <div class="six wide column">
-          <img src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_1200" )}} "/> 
-        </div>
-        <div class="ten wide column">
-          {{range .Params.content}}
+      <img src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_1200" )}} "/> 
+      {{range .Params.content}}
           <section class="ct ks">
             <h2>{{.subheadline}}</h2>
             {{.aufzaehlung|markdownify}}
           </section>
           {{end}}
-        </div>
-      </div>
     </div>
   </div>
 </div>

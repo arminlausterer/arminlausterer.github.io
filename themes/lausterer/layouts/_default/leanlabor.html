@@ -26,7 +26,12 @@
           <div class="twelve wide column">
             <h2>{{.titel}}</h2>
             <div class="content">{{.content|markdownify}}</div>
+            {{if ne .buttonlink ""}}
             <a class="albutton" href="{{.buttonlink}}" target="_blank">{{.buttonbeschriftung}}</a>
+            {{end}}
+            {{if ne .buttonlinkfile ""}}
+            <a class="albutton" href="{{.buttonlinkfile}}" target="_blank">{{.buttonbeschriftung}}</a>
+            {{end}}
           </div>
         </div>
       </div>
