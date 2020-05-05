@@ -8,7 +8,7 @@ layout = "leanlabor"
 subheadline = "Willkommen im Lean – Labor:"
 [menu.main]
 name = "LeanLabor"
-weight = 4
+weight = 5
 [[lean_labor]]
 bild_ = ""
 buttonbeschriftung = "Download"

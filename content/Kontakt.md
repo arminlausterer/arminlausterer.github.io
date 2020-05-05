@@ -7,7 +7,7 @@ titel = "Kontakt"
 titel_bild = ""
 [menu.main]
 name = "Kontakt"
-weight = 6
+weight = 7
 [[content]]
 content = "<p>Armin Lausterer <br>In der Au 34 B <br>93179 Brennberg</p>"
 icon = "map marker alternate"

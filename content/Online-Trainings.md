@@ -3,6 +3,9 @@ einfuhrungstext = "Corona stellt uns alle vor immense Herausforderungen.\n\nDies
 headerpic = "/uploads/2020/05/05/onlinetrainigs.png"
 headertitel = "Online Trainings"
 layout = ""
+[menu.main]
+name = "Online-Trainings"
+weight = 2
 [[content]]
 aufzaehlung = "**Vorbereitung:**\n\n* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen\n\n  **Onlinetraining**:\n* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume\n\n  **Einzelcoaching**:\n* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation  \n     \n   "
 subheadline = "Unser Konzept:"
