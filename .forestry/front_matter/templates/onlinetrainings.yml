@@ -41,6 +41,11 @@ fields:
   - name: kurse
     type: field_group_list
     fields:
+    - name: titelzeile
+      type: text
+      config:
+        required: false
+      label: Titelzeile
     - name: einzelkurse
       type: textarea
       default: ''
@@ -55,6 +60,20 @@ fields:
       max: 
       labelField: 
     label: Kurse
+  - name: titelzeile
+    type: text
+    config:
+      required: false
+    label: Titelzeile
+  - name: kalender
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Kalender
   label: Kurse
 pages:
 - content/Online-Trainings.md
