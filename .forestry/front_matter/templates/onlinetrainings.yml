@@ -21,3 +21,5 @@ fields:
   - type: text
     name: subheadline
     label: subheadline
+pages:
+- content/Online-Trainings.md
