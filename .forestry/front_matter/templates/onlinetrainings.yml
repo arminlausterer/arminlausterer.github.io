@@ -11,15 +11,28 @@ fields:
 - type: text
   name: layout
   label: layout
+- name: einfuhrungstext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: einführungstext
 - type: field_group_list
   name: content
   label: content
   fields:
-  - type: textarea
-    name: aufzaehlung
-    label: aufzaehlung
   - type: text
     name: subheadline
     label: subheadline
+  - type: textarea
+    name: aufzaehlung
+    label: aufzaehlung
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
 - content/Online-Trainings.md
