@@ -3,6 +3,12 @@ einfuhrungstext = "Corona stellt uns alle vor immense Herausforderungen.\n\nDies
 headerpic = "/uploads/2020/05/05/onlinetrainigs.png"
 headertitel = "Online Trainings"
 layout = ""
+[kurse]
+kalender = ""
+titelzeile = ""
+[[kurse.kurse]]
+einzelkurse = "<pre><code>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"<a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses\">https://armin-lausterer.kurs.software/iframe/?&amp;module=courses</a>\" frameborder=\"0\"&gt;&lt;/iframe&gt;\n&lt;script src=\"<a href=\"https://assets.kursoli.no/iframe.min.js\" title=\"https://assets.kursoli.no/iframe.min.js\">https://assets.kursoli.no/iframe.min.js</a>\"&gt;&lt;/script&gt;</code></pre>"
+titelzeile = "Kurse"
 [menu.main]
 name = "Online-Trainings"
 weight = 2
