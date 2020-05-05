@@ -4,6 +4,9 @@ headerpic = "/uploads/2020/05/05/onlinetrainigs.png"
 headertitel = "Online Trainings"
 layout = ""
 [[content]]
+aufzaehlung = "**Vorbereitung:**\n\n* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen\n\n  **Onlinetraining**:\n* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume\n\n  **Einzelcoaching**:\n* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation  \n     \n   "
+subheadline = "Unser Konzept:"
+[[content]]
 aufzaehlung = "Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung\nInhalte sind praxisbezogen und schnell umsetzbar\nAbwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\nVirtuelle Planspiele\nVertiefendes Einzelcoaching\nUmfangreiche Trainingsunterlagen \nDetaillierter Schulungsnachweis\nSoftwareplattform, die stabil und ganz einfach zu bedienen ist\nBereitstellung von Headsets und Webcams\nKostengünstig"
 subheadline = "Kriterien für Online Qualitätstrainings"
 
