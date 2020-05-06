@@ -57,6 +57,11 @@ fields:
         schema:
           format: markdown
       label: Text Rückseite
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
     config:
       min: 
       max: 
