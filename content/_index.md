@@ -52,7 +52,7 @@ name = "Melanie Düber"
 position = "Lean Labor"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[team.team_einzeln]]
-farbe = ""
+farbe = "grey"
 kachelruckseite = "_Ihr Erfolg ist unser Ziel ... Erfolgreich sein heißt Kunden, Märkte, Produkte ganzheitlich zu betrachten. Die spezifischen Strukturen und Bedürfnisse zu erkennen und schließlich schnell und zielgerichtet zu handeln._"
 name = "Armin  Lausterer"
 position = "Geschäftsführer"
