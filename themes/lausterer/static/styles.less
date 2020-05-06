@@ -335,15 +335,102 @@ footer{
   #videocontainer{
     #home_player{
       background:white;
-      max-height:70vh;
+      height:70vh;
       width:100%;
     }
     padding:0 0 2rem 0;
   }
   .titlewrap{
-    margin:0;
+    margin-bottom:0;
+  }
+  #team{
+    padding:2rem 0;
+    h2{
+      color:@grey;
+      text-align:center;
+      font-size:2.5rem;
+    }
+    .teamgrid{
+      width:100%;
+      position:relative;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .tcol{
+        width:30%;
+        cursor:pointer;
+        .hidden{
+          position:absolute;
+          top:0;
+          z-index:-1;
+          height:100%;
+        }
+        .visible{
+          z-index:2;
+        }
+        &:hover{
+          .hidden{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .visible{
+            display:none;
+          }
+        }
+      }
+    }
+  }
+  #lean_labor{
+    padding-bottom:4rem;
+    position: relative;
+    background-color:white!important;
+    img{
+      z-index:2;
+      position:absolute;
+      right:0;
+      bottom:7rem;
+    }
+    .lean_labor_c{
+      padding:3rem 3rem 8rem 3rem;
+      width:50%;
+      background:@blue_dark;
+      position:relative;
+      color:white;
+      h2{
+        color:white;
+      }
+      .morebutton{
+        position:absolute;
+        bottom:0;
+        margin-bottom:-1rem;
+        left:50%;
+        width:200px;
+        margin-left:-100px!important;
+        text-align:center;
+      }
+    }
   }
   #leistungen{
+    padding-bottom:4rem;
+    margin-bottom:2rem;
+    position:relative;
+    .morebutton{
+      position:absolute;
+      bottom:0;
+      margin-bottom:-1rem;
+      left:50%;
+      width:200px;
+      margin-left:-100px!important;
+      text-align:center;
+    }
+    h2{
+      font-size:2.5rem;
+      text-align:center;
+      color:white;
+      padding:2rem 0 1rem 0;
+    }
     .column{
       .reveal{
         display:flex!important;
@@ -352,6 +439,35 @@ footer{
           flex: 1 1 100%;
           width:100%;
           height:100%;
+        }
+        .content{
+          padding:1rem;
+          display:flex;
+          flex-direction:column;
+          justify-content: center;
+          align-items: center;
+          color:white;
+          img{
+            height:80%;
+          }
+          &.visible{
+            font-weight:bold!important;
+            font-size:1.1rem!important;
+          }
+          ul{
+            li{
+              margin:0 0 0 1rem;
+            }
+          }
+          &.grey{
+            background:@grey;
+          }
+          &.blue{
+            background:@blue;
+          }
+          &.blue_dark{
+            background:@blue_dark;
+          }
         }
       }
     }

@@ -25,17 +25,56 @@
         {{range .kacheln}}
           <div class="ui column">
             <div class="ui fade reveal">
-              <div class="visible content" style="background:yellow;">
-                {{.text_vorderseite}}
+              <div class="visible content {{.farbe}}">
+                <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
+                {{.text_vorderseite|markdownify}}
               </div>
-              <div class="hidden content" style="background:yellow;">
-                {{.text_ruckseite}}
+              <div class="hidden content {{.farbe}}">
+                {{.text_ruckseite|markdownify}}
               </div>
             </div>
           </div>
         {{end}}
       </div>
     </div>
+    <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+  </div>
+  {{end}}
+  {{with .Params.lean_labor}}
+  <div id="lean_labor" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) right top no-repeat; background-size:50% auto">
+    <div class="ui container">
+      <div class="lean_labor_c">
+        <div>
+          <h2>{{.headline}}</h2>
+          <div class="content">
+            {{.text|markdownify}}
+          </div>
+          <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+        </div>
+      </div>
+      <img src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_800" )}} "/>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.team}}
+  <div id="team" class="grey">
+    <div class="ui container">
+      <h2>{{.headline}}</h2>
+      <div class="teamgrid">
+        {{range .team_einzeln}}
+          <div class="tcol">
+            <div class="visible content">
+              <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_300" )}} "/>
+              {{.text_vorderseite|markdownify}}
+            </div>
+            <div class="hidden content">
+              {{.kachelruckseite|markdownify}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+    <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
   </div>
   {{end}}
 </div>

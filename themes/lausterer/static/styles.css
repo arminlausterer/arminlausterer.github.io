@@ -338,11 +338,98 @@ footer .footermenu a:last-child {
 }
 #home #videocontainer #home_player {
   background: white;
-  max-height: 70vh;
+  height: 70vh;
   width: 100%;
 }
 #home .titlewrap {
-  margin: 0;
+  margin-bottom: 0;
+}
+#home #team {
+  padding: 2rem 0;
+}
+#home #team h2 {
+  color: #5f6165;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#home #team .teamgrid {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#home #team .teamgrid .tcol {
+  width: 30%;
+  cursor: pointer;
+}
+#home #team .teamgrid .tcol .hidden {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+}
+#home #team .teamgrid .tcol .visible {
+  z-index: 2;
+}
+#home #team .teamgrid .tcol:hover .hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home #team .teamgrid .tcol:hover .visible {
+  display: none;
+}
+#home #lean_labor {
+  padding-bottom: 4rem;
+  position: relative;
+  background-color: white!important;
+}
+#home #lean_labor img {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 7rem;
+}
+#home #lean_labor .lean_labor_c {
+  padding: 3rem 3rem 8rem 3rem;
+  width: 50%;
+  background: #027bba;
+  position: relative;
+  color: white;
+}
+#home #lean_labor .lean_labor_c h2 {
+  color: white;
+}
+#home #lean_labor .lean_labor_c .morebutton {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1rem;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px !important;
+  text-align: center;
+}
+#home #leistungen {
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+#home #leistungen .morebutton {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1rem;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px !important;
+  text-align: center;
+}
+#home #leistungen h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  padding: 2rem 0 1rem 0;
 }
 #home #leistungen .column .reveal {
   display: flex!important;
@@ -352,6 +439,33 @@ footer .footermenu a:last-child {
   flex: 1 1 100%;
   width: 100%;
   height: 100%;
+}
+#home #leistungen .column .reveal .content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#home #leistungen .column .reveal .content img {
+  height: 80%;
+}
+#home #leistungen .column .reveal .content.visible {
+  font-weight: bold!important;
+  font-size: 1.1rem !important;
+}
+#home #leistungen .column .reveal .content ul li {
+  margin: 0 0 0 1rem;
+}
+#home #leistungen .column .reveal .content.grey {
+  background: #5f6165;
+}
+#home #leistungen .column .reveal .content.blue {
+  background: #009dee;
+}
+#home #leistungen .column .reveal .content.blue_dark {
+  background: #027bba;
 }
 .subpage.outsourcing .content img,
 .subpage.coaching .content img,
