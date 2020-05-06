@@ -361,6 +361,7 @@ footer .footermenu a:last-child {
 }
 #home #team .teamgrid .tcol {
   width: 30%;
+  position: relative;
   cursor: pointer;
 }
 #home #team .teamgrid .tcol .hidden {
@@ -372,11 +373,52 @@ footer .footermenu a:last-child {
 #home #team .teamgrid .tcol .visible {
   z-index: 2;
 }
+#home #team .teamgrid .tcol img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#home #team .teamgrid .tcol .tm {
+  padding: 1rem;
+  width: 100%;
+}
+#home #team .teamgrid .tcol .tm h3,
+#home #team .teamgrid .tcol .tm h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+#home #team .teamgrid .tcol .tm h4 {
+  margin: 0;
+}
+#home #team .teamgrid .tcol .tm.grey {
+  background: #5f6165;
+}
+#home #team .teamgrid .tcol .tm.blue {
+  background: #009dee;
+}
+#home #team .teamgrid .tcol .tm.blue_dark {
+  background: #027bba;
+}
 #home #team .teamgrid .tcol:hover .hidden {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+#home #team .teamgrid .tcol:hover .hidden.grey {
+  background: #5f6165;
+}
+#home #team .teamgrid .tcol:hover .hidden.blue {
+  background: #009dee;
+}
+#home #team .teamgrid .tcol:hover .hidden.blue_dark {
+  background: #027bba;
 }
 #home #team .teamgrid .tcol:hover .visible {
   display: none;

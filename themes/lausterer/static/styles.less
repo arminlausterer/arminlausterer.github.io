@@ -358,6 +358,7 @@ footer{
       justify-content: space-between;
       .tcol{
         width:30%;
+        position:relative;
         cursor:pointer;
         .hidden{
           position:absolute;
@@ -368,12 +369,52 @@ footer{
         .visible{
           z-index:2;
         }
+        img{
+          width:100%;
+          margin:0;
+          padding:0;
+          display:block;
+        }
+        .tm{
+          padding:1rem;
+          h3,h4{
+            color:white;
+            text-align:center;
+            margin-bottom:0.5rem;
+          }
+          h4{
+            margin:0;
+          }
+          &.grey{
+            background:@grey;
+          }
+          &.blue{
+            background:@blue;
+          }
+          &.blue_dark{
+            background:@blue_dark;
+          }
+          width:100%;
+        }
         &:hover{
           .hidden{
             display:flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width:100%;
+            padding:2rem;
+            color:white;
+            font-size:1.2rem;
+            &.grey{
+              background:@grey;
+            }
+            &.blue{
+              background:@blue;
+            }
+            &.blue_dark{
+              background:@blue_dark;
+            }
           }
           .visible{
             display:none;

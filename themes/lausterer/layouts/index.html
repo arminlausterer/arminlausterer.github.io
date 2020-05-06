@@ -65,9 +65,12 @@
           <div class="tcol">
             <div class="visible content">
               <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_300" )}} "/>
-              {{.text_vorderseite|markdownify}}
+              <div class="tm  {{.farbe}}">
+                <h3>{{.name}}</h3>
+                <h4>{{.position}}</h4>
+              </div>
             </div>
-            <div class="hidden content">
+            <div class="hidden content {{.farbe}}">
               {{.kachelruckseite|markdownify}}
             </div>
           </div>
