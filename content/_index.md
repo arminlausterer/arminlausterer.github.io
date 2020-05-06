@@ -1,6 +1,6 @@
 +++
 seo_description = ""
-title = "Home"
+title = "Ingenieurbüro für Produktionssysteme"
 type = "page"
 video_home = "/uploads/2020/05/04/lausterer_v5.mp4"
 [lean_labor]
