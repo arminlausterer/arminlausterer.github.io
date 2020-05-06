@@ -136,7 +136,7 @@ fields:
     config:
       maxSize: 64
     label: buttonlink
-  - name: team-einzeln
+  - name: team_einzeln
     type: field_group_list
     fields:
     - name: name
