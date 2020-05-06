@@ -46,7 +46,7 @@ name = "Frau Huber"
 position = "Kundenservice"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[team.team_einzeln]]
-farbe = ""
+farbe = "blue"
 kachelruckseite = "Text folgt"
 name = "Melanie Düber"
 position = "Lean Labor"
