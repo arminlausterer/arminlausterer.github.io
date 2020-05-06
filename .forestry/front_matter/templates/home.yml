@@ -163,6 +163,11 @@ fields:
         schema:
           format: markdown
       label: Kachelrückseite
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
     config:
       min: 
       max: 
