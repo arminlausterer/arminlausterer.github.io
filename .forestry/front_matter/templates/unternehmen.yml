@@ -34,5 +34,28 @@ fields:
     max: 
     labelField: 
   label: Content
+- name: titelzeile
+  type: text
+  config:
+    required: false
+  label: Titelzeile
+- name: textlinks
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: textlinks
+- name: text_rechts
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text rechts
 pages:
 - content/Unternehmen.md
