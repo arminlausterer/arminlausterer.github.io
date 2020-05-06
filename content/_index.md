@@ -16,17 +16,20 @@ buttonbeschriftung = "Entdecken"
 buttonlink = ""
 titelzeile = "Leistungen"
 [[leistungen.kacheln]]
+farbe = "blue_dark"
 icon = "/uploads/2020/05/04/coaching-icon"
-text_vorderseite = "Coaching"
 text_ruckseite = "* Auf die Unternehmenssituation perfekt abgestimmte Lösungen aus der Praxis für die Praxis.\n* Schneller Rückfluss der investierten Mittel, meist innerhalb der ersten 12 Monate nach Projektstart.\n* Transparenz durch die kontinuierliche Verfolgung messbarer Ziele.\n* ... Methoden und Werkzeuge"
+text_vorderseite = "Coaching"
 [[leistungen.kacheln]]
+farbe = "blue"
 icon = "/uploads/2020/05/04/consulting-icon"
-text_vorderseite = "Consulting"
 text_ruckseite = "* Analyse der IST-Situation in Ihrem Unternehmen\n* Erarbeiten von maßgeschneiderten Handlungsoptionen\n* Begleitung und Beratung bei der Entscheidungsfindung\n* Ergebnissicherung"
+text_vorderseite = "Consulting"
 [[leistungen.kacheln]]
+farbe = "grey"
 icon = "/uploads/2020/05/04/outsourcing-icon"
-text_vorderseite = "Outsourcing"
 text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen   \n   fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
+text_vorderseite = "Outsourcing"
 [team]
 buttonbeschriftung = "Entdecken"
 buttonlink = ""
