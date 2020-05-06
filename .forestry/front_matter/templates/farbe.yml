@@ -1,4 +1,20 @@
 ---
 label: Farbe
 hide_body: true
-fields: []
+fields:
+- name: farbe
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - blue
+    - blue_dark
+    - grey
+    - grey_light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Farbe
