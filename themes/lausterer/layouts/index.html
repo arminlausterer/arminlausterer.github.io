@@ -86,25 +86,37 @@
   <div id="testimonials" >
     <div class="blue">
       <div class="ui container">
-        <div class="ui three column stackable mobile-reverse grid">
-          <div class="ui column" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+        <div class="ui stackable mobile-reverse grid">
+          <div class="ui four wide column" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
 
           </div>
-          <div class="ui column">
-            {{ range $x,$k := .kunden }} {{if lt $x 2}}
-            <div>
-              <h4>{{.titel_}}</h4>
-              {{.textkunden|safeHTML}}
+          <div class="ui twelve wide column">
+            <div class="ui stackable two column grid rg">
+              {{ range $x,$k := .kunden }} {{if lt $x 2}}
+              <div class="ui column">
+              <div class="block {{.farbe}}">
+                <h4>{{.titel_}}</h4>
+                {{.textkunden|safeHTML}}
+              </div>
+              </div>
+              {{end}}{{end}}
             </div>
-            {{end}}{{end}}
-          </div>
-          <div class="ui column">
-            {{ range $x,$k := .kunden }} {{if gt $x 1}}
-            <div>
-              <h4>{{.titel_}}</h4>
-              {{.textkunden|safeHTML}}
+            <div class="ui stackable two column grid rg">
+                {{ range $x,$k := .kunden }} {{if gt $x 1}}
+                <div class="ui column">
+                <div class="block {{.farbe}}">
+                  <h4>{{.titel_}}</h4>
+                  {{.textkunden|safeHTML}}
+                </div>
+                </div>
+                {{end}}{{end}}
+                <div class="ui column">
+                  <div class="block blue">
+                    <a class="bb" href="{{.buttonlink}}">{{.grosser_button}}</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            {{end}}{{end}}
           </div>
         </div>
       </div>

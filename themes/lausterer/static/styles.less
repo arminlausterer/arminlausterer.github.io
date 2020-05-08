@@ -1,7 +1,7 @@
 @blue:rgb(0, 157, 238);
 @blue_dark: rgb(2, 123, 186);
 @grey:rgb(95, 97, 101);
-@grey_light:rgba(114,114,114,0.3);
+@grey_light:rgb(173, 173, 173);
 @grey_light2:rgba(114,114,114,0.1);
 @content: rgb(30,30,30);
 
@@ -349,6 +349,47 @@ footer{
     .blue{
       background:@blue_dark;
     }
+    .rg{
+      .column{
+        padding:0;
+      }
+    }
+    .block{
+      color:white;
+      padding:2rem;
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+      text-align:center;
+      .bb{
+        color:rgba(255,255,255,0.5);
+        font-size:2rem;
+        font-weight:bold;
+        text-decoration: none!important;
+        &:hover{
+          color:white;
+        }
+      }
+      h4{
+        color:white;
+        font-weight:bold;
+        font-size:1.2rem;
+      }
+      &.blue{
+        background:@blue;
+      }
+      &.blue_dark{
+        background:@blue_dark;
+      }
+      &.grey{
+        background: @grey;
+      }
+      &.grey_light{
+        background:@grey_light;
+      }
+    }
   }
   #team{
     padding:2rem 0 0 0;
@@ -368,8 +409,9 @@ footer{
       margin:0;
     }
     .teamgrid{
-      width:100%;
+      width:calc(100% + 2rem);
       position:relative;
+      margin: 0 -1rem;
       display:flex;
       flex-direction: row;
       justify-content: space-between;

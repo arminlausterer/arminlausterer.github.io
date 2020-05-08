@@ -63,7 +63,7 @@ backgroundpicture = "/uploads/2020/05/04/background-picture"
 buttonlink = ""
 grosser_button = "Testimonials zeigen"
 [[testimonials.kunden]]
-farbe = "blue"
+farbe = "blue_dark"
 textkunden = "<p>Ca. 250 Mitarbeiter – 1 Standort</p><p class=\"p1\">Herstellung von SMC und Composite-Produkte für Automotive</p><p class=\"p2\"><br><strong>Projektziel:</strong></p><p class=\"p2\">Produktivitätssteigerung durch die Einführung einer KVP / Lean Kultur</p>"
 titel_ = "Produktionswerk  in einem Konzern"
 [[testimonials.kunden]]

@@ -351,6 +351,45 @@ footer .footermenu a:last-child {
 #home #testimonials .blue {
   background: #027bba;
 }
+#home #testimonials .rg .column {
+  padding: 0;
+}
+#home #testimonials .block {
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+#home #testimonials .block .bb {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none!important;
+}
+#home #testimonials .block .bb:hover {
+  color: white;
+}
+#home #testimonials .block h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#home #testimonials .block.blue {
+  background: #009dee;
+}
+#home #testimonials .block.blue_dark {
+  background: #027bba;
+}
+#home #testimonials .block.grey {
+  background: #5f6165;
+}
+#home #testimonials .block.grey_light {
+  background: #adadad;
+}
 #home #team {
   padding: 2rem 0 0 0;
   position: relative;
@@ -370,8 +409,9 @@ footer .footermenu a:last-child {
   margin: 0;
 }
 #home #team .teamgrid {
-  width: 100%;
+  width: calc(100% + 2rem);
   position: relative;
+  margin: 0 -1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
