@@ -180,7 +180,13 @@ header #mnt {
   display: none;
   position: absolute;
   right: 1rem;
-  top: 0.5rem;
+  top: 1rem;
+}
+header #mnt #mntbt {
+  box-shadow: none!important;
+}
+header #mnt #mntbt i {
+  color: #027bba;
 }
 @media (max-width: 720px) {
   header #mnt {
@@ -250,7 +256,7 @@ header #headermenu li {
   height: 0px;
   overflow: hidden;
   padding: 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: white;
 }
 .headermenuitem a {
   color: #027bba;
@@ -767,6 +773,11 @@ footer .footermenu a:last-child {
 .subpage.kontakt ul.klist {
   margin: 0;
   padding: 0;
+}
+@media (max-width: 720px) {
+  .subpage.kontakt ul.klist {
+    margin-top: 1rem;
+  }
 }
 .subpage.kontakt ul.klist li {
   list-style-type: none;

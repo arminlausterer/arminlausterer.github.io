@@ -184,7 +184,13 @@ header{
     display:none;
     position:absolute;
     right:1rem;
-    top:0.5rem;
+    top:1rem;
+    #mntbt{
+      box-shadow:none!important;
+      i{
+        color:@blue_dark;
+      }
+    }
     @media (max-width: 720px){
       display:block;
     }
@@ -248,7 +254,7 @@ header{
     height:0px;
     overflow:hidden;
     padding:0;
-    background:rgba(255,255,255,0.8);
+    background:white;
   }
   a{
     color:@blue_dark;
@@ -749,6 +755,9 @@ footer{
   &.kontakt{
     ul.klist{
       margin:0;
+      @media (max-width: 720px){
+        margin-top:1rem;
+      }
       padding:0;
       li{
         list-style-type: none;
