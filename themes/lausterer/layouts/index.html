@@ -77,7 +77,38 @@
         {{end}}
       </div>
     </div>
-    <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    <div class="buttoncontainer">
+      <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.testimonials}}
+  <div id="testimonials" >
+    <div class="blue">
+      <div class="ui container">
+        <div class="ui three column stackable mobile-reverse grid">
+          <div class="ui column" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+
+          </div>
+          <div class="ui column">
+            {{ range $x,$k := .kunden }} {{if lt $x 2}}
+            <div>
+              <h4>{{.titel_}}</h4>
+              {{.textkunden|safeHTML}}
+            </div>
+            {{end}}{{end}}
+          </div>
+          <div class="ui column">
+            {{ range $x,$k := .kunden }} {{if gt $x 1}}
+            <div>
+              <h4>{{.titel_}}</h4>
+              {{.textkunden|safeHTML}}
+            </div>
+            {{end}}{{end}}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   {{end}}
 </div>
