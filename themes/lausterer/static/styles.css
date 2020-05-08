@@ -130,14 +130,13 @@ header #hcontent #hmenu {
     display: none;
   }
   header #hcontent #hlogo {
-    width: 90px;
+    width: 80%;
     z-index: 99999;
     position: relative;
     margin: 0.5rem 0 0 0;
   }
   header #hcontent #hlogo img {
     z-index: 99999;
-    width: 100px;
   }
   header #hcontent #hcont {
     width: 100%;
@@ -213,7 +212,7 @@ header #headermenumobil {
     margin: 0 -1rem;
   }
   header #headermenumobil .headermenuitem {
-    width: 100%;
+    padding: 0 0.5rem;
     color: #5f6165;
     border: none;
     text-transform: uppercase;
@@ -320,6 +319,16 @@ footer .footermenu a:last-child {
   font-size: 1.5rem;
   line-height: 4rem;
 }
+@media (max-width: 720px) {
+  .titlewrap {
+    margin-bottom: 0;
+  }
+  .titlewrap h1 {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
 .ks {
   background: white;
   padding: 0.5rem;
@@ -336,10 +345,20 @@ footer .footermenu a:last-child {
 #home #videocontainer {
   padding: 0 0 2rem 0;
 }
+@media (max-width: 720px) {
+  #home #videocontainer {
+    margin: 0 -1rem;
+  }
+}
 #home #videocontainer #home_player {
   background: white;
   height: 70vh;
   width: 100%;
+}
+@media (max-width: 720px) {
+  #home #videocontainer #home_player {
+    height: 100vw;
+  }
 }
 #home .titlewrap {
   margin-bottom: 0;
@@ -480,10 +499,90 @@ footer .footermenu a:last-child {
 #home #team .teamgrid .tcol:hover .visible {
   display: none;
 }
+@media (max-width: 720px) {
+  #home #team .teamgrid {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  #home #team .teamgrid .tcol {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+  #home #team .teamgrid .tcol .hidden {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+  }
+  #home #team .teamgrid .tcol .visible {
+    z-index: 2;
+  }
+  #home #team .teamgrid .tcol img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  #home #team .teamgrid .tcol .tm {
+    padding: 1rem;
+    width: 100%;
+  }
+  #home #team .teamgrid .tcol .tm h3,
+  #home #team .teamgrid .tcol .tm h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  #home #team .teamgrid .tcol .tm h4 {
+    margin: 0;
+  }
+  #home #team .teamgrid .tcol .tm.grey {
+    background: #5f6165;
+  }
+  #home #team .teamgrid .tcol .tm.blue {
+    background: #009dee;
+  }
+  #home #team .teamgrid .tcol .tm.blue_dark {
+    background: #027bba;
+  }
+  #home #team .teamgrid .tcol:hover .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  #home #team .teamgrid .tcol:hover .hidden.grey {
+    background: #5f6165;
+  }
+  #home #team .teamgrid .tcol:hover .hidden.blue {
+    background: #009dee;
+  }
+  #home #team .teamgrid .tcol:hover .hidden.blue_dark {
+    background: #027bba;
+  }
+  #home #team .teamgrid .tcol:hover .visible {
+    display: none;
+  }
+}
 #home #lean_labor {
   padding-bottom: 4rem;
   position: relative;
   background-color: white!important;
+}
+@media (max-width: 720px) {
+  #home #lean_labor {
+    background-position: bottom right!important;
+    background-size: 50% auto;
+  }
+  #home #lean_labor img {
+    display: none!important;
+  }
 }
 #home #lean_labor img {
   z-index: 2;
@@ -497,6 +596,14 @@ footer .footermenu a:last-child {
   background: #027bba;
   position: relative;
   color: white;
+}
+@media (max-width: 720px) {
+  #home #lean_labor .lean_labor_c {
+    padding: 0 0 4rem 0;
+    width: 100%;
+    background: transparent;
+    color: #027bba;
+  }
 }
 #home #lean_labor .lean_labor_c h2 {
   color: white;
@@ -539,7 +646,7 @@ footer .footermenu a:last-child {
   width: 100%;
   height: 100%;
 }
-#home #leistungen .column .reveal .content {
+#home #leistungen .column .content {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -547,23 +654,38 @@ footer .footermenu a:last-child {
   align-items: center;
   color: white;
 }
-#home #leistungen .column .reveal .content img {
+@media (max-width: 720px) {
+  #home #leistungen .column .content {
+    font-weight: normal!important;
+  }
+  #home #leistungen .column .content h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+}
+#home #leistungen .column .content img {
   height: 80%;
 }
-#home #leistungen .column .reveal .content.visible {
+@media (max-width: 720px) {
+  #home #leistungen .column .content img {
+    height: 60px;
+  }
+}
+#home #leistungen .column .content.visible {
   font-weight: bold!important;
   font-size: 1.1rem !important;
 }
-#home #leistungen .column .reveal .content ul li {
+#home #leistungen .column .content ul li {
   margin: 0 0 0 1rem;
 }
-#home #leistungen .column .reveal .content.grey {
+#home #leistungen .column .content.grey {
   background: #5f6165;
 }
-#home #leistungen .column .reveal .content.blue {
+#home #leistungen .column .content.blue {
   background: #009dee;
 }
-#home #leistungen .column .reveal .content.blue_dark {
+#home #leistungen .column .content.blue_dark {
   background: #027bba;
 }
 .subpage.outsourcing .content img,

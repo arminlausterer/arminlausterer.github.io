@@ -23,7 +23,7 @@
       <h2>{{.titelzeile}}</h2>
       <div class="ui three column stackable grid">
         {{range .kacheln}}
-          <div class="ui column">
+          <div class="ui column computer only">
             <div class="ui fade reveal">
               <div class="visible content {{.farbe}}">
                 <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
@@ -32,6 +32,13 @@
               <div class="hidden content {{.farbe}}">
                 {{.text_ruckseite|markdownify}}
               </div>
+            </div>
+          </div>
+          <div class="ui column mobile only">
+            <div class=" content {{.farbe}}">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
+              <h3>{{.text_vorderseite|markdownify}}</h3>
+              {{.text_ruckseite|markdownify}}
             </div>
           </div>
         {{end}}
