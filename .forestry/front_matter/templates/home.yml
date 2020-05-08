@@ -205,6 +205,11 @@ fields:
         schema:
           format: html-blocks
       label: TextKunden
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
     config:
       min: 
       max: 
