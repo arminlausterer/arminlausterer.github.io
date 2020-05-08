@@ -367,8 +367,19 @@ footer .footermenu a:last-child {
   background: white;
   padding: 4rem 0 0 0;
 }
+#home #testimonials h2 {
+  color: #027bba;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
 #home #testimonials .blue {
   background: #027bba;
+}
+@media (max-width: 720px) {
+  #home #testimonials .blue {
+    background: white;
+  }
 }
 #home #testimonials .rg .column {
   padding: 0;

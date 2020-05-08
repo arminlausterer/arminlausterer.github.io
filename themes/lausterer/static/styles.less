@@ -359,8 +359,17 @@ footer{
   #testimonials{
     background:white;
     padding: 4rem 0 0 0;
+    h2{
+      color:@blue_dark;
+      text-align:center;
+      font-size:2.5rem;
+      padding:1rem 0;
+    }
     .blue{
       background:@blue_dark;
+      @media (max-width: 720px){
+        background:white;
+      }
     }
     .rg{
       .column{

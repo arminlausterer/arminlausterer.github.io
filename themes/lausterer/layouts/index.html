@@ -91,10 +91,12 @@
   {{end}}
   {{with .Params.testimonials}}
   <div id="testimonials" >
+    <h2>{{.titel_links}}</h2>
     <div class="blue">
       <div class="ui container">
+        
         <div class="ui stackable mobile-reverse grid">
-          <div class="ui four wide column" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+          <div class="ui four wide column computer only" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
 
           </div>
           <div class="ui twelve wide column">
