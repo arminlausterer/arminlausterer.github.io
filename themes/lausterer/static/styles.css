@@ -705,46 +705,62 @@ footer .footermenu a:last-child {
 #home #leistungen .column .content.blue_dark {
   background: #027bba;
 }
-.subpage.solutions .timg {
+.subpage.solutions .timg,
+.subpage.online .timg {
   margin-bottom: 2rem;
 }
 @media (max-width: 720px) {
-  .subpage.solutions .tim {
+  .subpage.solutions .tim,
+  .subpage.online .tim {
     margin: 0!important;
   }
+}
+.subpage.online section {
+  margin-bottom: 2rem!important;
 }
 .subpage.outsourcing .content img,
 .subpage.coaching .content img,
 .subpage.solutions .content img,
-.subpage.unternehmen .content img {
+.subpage.unternehmen .content img,
+.subpage.online .content img {
   max-width: 100%;
 }
 .subpage.outsourcing h2,
 .subpage.coaching h2,
 .subpage.solutions h2,
-.subpage.unternehmen h2 {
+.subpage.unternehmen h2,
+.subpage.online h2 {
   padding: 0.5rem 1rem;
   background: #5f6165;
   color: white;
   font-size: 1.2rem;
   font-weight: normal;
 }
+.subpage.outsourcing ul,
+.subpage.coaching ul,
+.subpage.solutions ul,
+.subpage.unternehmen ul,
+.subpage.online ul {
+  position: relative;
+}
 .subpage.outsourcing li,
 .subpage.coaching li,
 .subpage.solutions li,
-.subpage.unternehmen li {
+.subpage.unternehmen li,
+.subpage.online li {
   list-style-type: none;
-  padding: 0 0 1rem 1rem;
+  padding: 0 0 1rem 2rem;
   line-height: 1.3em;
 }
 .subpage.outsourcing li:before,
 .subpage.coaching li:before,
 .subpage.solutions li:before,
-.subpage.unternehmen li:before {
+.subpage.unternehmen li:before,
+.subpage.online li:before {
   content: "\f35a";
   font-family: outline-icons;
   color: #009dee;
-  margin: 0 1rem 0 -1rem;
+  margin: 0 0.4rem 0 -1.6rem;
   font-size: 1.3em;
 }
 .subpage.testimonial .content img,
