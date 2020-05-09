@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="subpage unternehmen">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.headertitel}}</h1>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <img src="{{partial "imgUrl" (dict "img" .Params.headerbild "params" "c_scale,f_auto,w_1200" )}} "/> 
+      {{range .Params.content}}
+        <section class="ct ks">
+          <h2>{{.headertitel}}</h2>
+          {{.inhalt|markdownify}}
+        </section>
+      {{end}}
+      <section class="ct ks">
+        <h2>{{.Params.titelzeile}}</h2>
+        <div class="ui two column stackable grid">
+          <div class="ui column">
+            {{.Params.textlinks|markdownify}}
+          </div>
+          <div class="ui column">
+            {{.Params.text_rechts|markdownify}}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+{{ end }}

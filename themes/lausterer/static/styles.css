@@ -705,14 +705,24 @@ footer .footermenu a:last-child {
 #home #leistungen .column .content.blue_dark {
   background: #027bba;
 }
+.subpage.solutions .timg {
+  margin-bottom: 2rem;
+}
+@media (max-width: 720px) {
+  .subpage.solutions .tim {
+    margin: 0!important;
+  }
+}
 .subpage.outsourcing .content img,
 .subpage.coaching .content img,
-.subpage.solutions .content img {
+.subpage.solutions .content img,
+.subpage.unternehmen .content img {
   max-width: 100%;
 }
 .subpage.outsourcing h2,
 .subpage.coaching h2,
-.subpage.solutions h2 {
+.subpage.solutions h2,
+.subpage.unternehmen h2 {
   padding: 0.5rem 1rem;
   background: #5f6165;
   color: white;
@@ -721,17 +731,16 @@ footer .footermenu a:last-child {
 }
 .subpage.outsourcing li,
 .subpage.coaching li,
-.subpage.solutions li {
+.subpage.solutions li,
+.subpage.unternehmen li {
   list-style-type: none;
   padding: 0 0 1rem 1rem;
   line-height: 1.3em;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 .subpage.outsourcing li:before,
 .subpage.coaching li:before,
-.subpage.solutions li:before {
+.subpage.solutions li:before,
+.subpage.unternehmen li:before {
   content: "\f35a";
   font-family: outline-icons;
   color: #009dee;

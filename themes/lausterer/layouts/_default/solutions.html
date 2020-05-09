@@ -5,22 +5,34 @@
       <h1>{{.Params.titel}}</h1>
     </div>
   </div>
+  <div class="ui container standard tim">
+    <div class="content ">
+      <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.headerpicture "params" "c_scale,f_auto,w_1600" )}} "/>
+    </div>
+  </div>
   <div class="ui container standard">
     <div class="content">
-      <img src="{{partial "imgUrl" (dict "img" .Params.headerpicture "params" "c_scale,f_auto,w_1600" )}} "/>
-      <div class="ui stackable grid ">
-        <div class="six wide column">
-          <img src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_600" )}} "/> 
+      <div class="ui stackable two column grid ">
+        <div class="ui column">
+          <img src="{{partial "imgUrl" (dict "img" .Params.ziele_pic "params" "c_scale,f_auto,w_600" )}} "/> 
         </div>
-        <div class="ten wide column">
-          {{range .Params.content}}
-      <section class="ct">
-        <h2>{{.subheadline}}</h2>
-        {{.aufzaehlung|markdownify}}
-      </section>
-      {{end}}
+        <div class="ui column">
+          <h3>{{.Params.titelziele}}</h3>
+          {{ .Params.ziele|markdownify}}
         </div>
       </div>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <div class="ui stackable three column grid ">
+        {{range .Params.kachel}}
+        <div class="ui column">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_500" )}} "/> 
+          <h3>{{.titel}}</h3>
+          {{ .text|markdownify}}
+        </div>
+        {{end}}
     </div>
   </div>
 </div>
