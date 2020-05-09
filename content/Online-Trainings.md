@@ -13,7 +13,7 @@ titelzeile = "Kurse"
 name = "Online-Trainings"
 weight = 2
 [[content]]
-aufzaehlung = "**Vorbereitung:**\n\n* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen\n\n  **Onlinetraining**:\n* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume\n\n  **Einzelcoaching**:\n* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation  \n     \n   "
+aufzaehlung = "**Vorbereitung:**\n\n* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen\n\n  **Onlinetraining**:\n\n* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume\n\n  **Einzelcoaching**:\n\n* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
 subheadline = "Unser Konzept:"
 [[content]]
 aufzaehlung = "* Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung\n* Inhalte sind praxisbezogen und schnell umsetzbar \n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten \n* Virtuelle Planspiele \n* Vertiefendes Einzelcoaching \n* Umfangreiche Trainingsunterlagen \n* Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist \n* Bereitstellung von Headsets und Webcams Kostengünstig"
