@@ -16,6 +16,9 @@ weight = 2
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
 subheadline = "Vorbereitung:"
 [[content]]
+aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
+subheadline = "Onlinetraining:"
+[[content]]
 aufzaehlung = "* Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung\n* Inhalte sind praxisbezogen und schnell umsetzbar \n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten \n* Virtuelle Planspiele \n* Vertiefendes Einzelcoaching \n* Umfangreiche Trainingsunterlagen \n* Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist \n* Bereitstellung von Headsets und Webcams Kostengünstig"
 subheadline = "Kriterien für Online Qualitätstrainings"
 
