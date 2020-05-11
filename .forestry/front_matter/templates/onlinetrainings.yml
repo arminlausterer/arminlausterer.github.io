@@ -2,12 +2,6 @@
 label: Onlinetrainings
 hide_body: true
 fields:
-- type: file
-  name: headerpic
-  label: headerpic
-- type: text
-  name: headertitel
-  label: headertitel
 - name: einfuhrungstext
   type: textarea
   default: ''
@@ -17,6 +11,12 @@ fields:
     schema:
       format: markdown
   label: einführungstext
+- type: file
+  name: headerpic
+  label: headerpic
+- type: text
+  name: headertitel
+  label: headertitel
 - type: text
   name: layout
   label: layout
