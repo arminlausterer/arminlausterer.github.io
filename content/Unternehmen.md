@@ -9,6 +9,23 @@ unternehmen = "Unternehmen"
 [menu.main]
 name = "Unternehmen"
 weight = 4
+[team]
+headline = ""
+teammitglied = []
+[werte]
+werte = "Unsere Werte: Werte sind die Grundlage unseres Handelns und durch die folgenden Prinzipien beschrieben."
+[[werte.aufklapp-headline]]
+aufklapp-headline = "Wir haben eine Passion für unsere Kunden:"
+aufklapptext = "<ul><li><p>Wir werden von der Situation unserer Kunden persönlich berührt.</p></li><li><p>Neben der geschäftlichen Ebene basiert die Beziehung zu unseren Kunden auf ehrlicher Anteilnahme.</p></li><li><p>Wir sind bereit für unsere Kunden die „Extrameile“ zu gehen.</p></li></ul>"
+[[werte.aufklapp-headline]]
+aufklapp-headline = "Durch unsere Persönlichkeit und unseren Erfahrungsschatz bieten wir dem Kunden Orientierung, Inspiration und Sicherheit in seiner einzigartigen Situation:"
+aufklapptext = "<ul><li><p>Wir sind Persönlichkeiten mit Ausstrahlung, auf die sich der Kunde mit gutem Gewissen einlässt.</p></li><li><p>Wir kennen die Situation unserer Kunden aus eigener, persönlicher Erfahrung</p></li><li><p>Wir haben ehrliches Interesse daran, die besondere Situation unseres Kunden wirklich zu verstehen.</p></li></ul>"
+[[werte.aufklapp-headline]]
+aufklapp-headline = "Unser Reden und Tun haben Hand und Fuß:"
+aufklapptext = "<ul><li><p>Wir sagen nur zu, was wir einhalten können und halten ein, was wir zusagen.</p></li><li><p>Wir sind ehrlich, beweisen Rückgrat und beziehen klar Position.</p></li><li><p>Wir übernehmen die persönliche Verantwortung für unser eigenes Reden und Handeln.</p></li><li><p>Unsere Aussagen sind gereift, fundiert, nachvollziehbar und wenn immer möglich mit Fakten belegt.</p></li></ul>"
+[[werte.aufklapp-headline]]
+aufklapp-headline = "Wir geben uns erst zufrieden, wenn wir die Ursache genau kennen:"
+aufklapptext = "<ul><li><p>Unsere Entscheidungen und Empfehlungen basieren auf einer umfassenden Analyse der besonderen Situation.<br>Dies beinhaltet die Einschätzung aller Beteiligten, Kennzahlen, eigene Beobachtungen und den Stand der Wissenschaft und Technik.</p></li><li><p>Wir hören zu, um zu verstehen, besonders bei Aussagen, die nicht mit unserer Sicht der Dinge übereinstimmen.</p></li></ul>"
 [[content]]
 headertitel = "Unsere Vision: Wir sind die leidenschaftlichen Wegbereiter unserer Kunden"
 inhalt = "* Unglückliche Menschen und fehlendes Methodenwissen sind die zentralen Engpässe in Unternehmen.\n* Wir bereiten den Weg für die Menschen in Unternehmen und Organisationen damit Sie konfliktfreier, schneller, zufriedener, vorausschauender und handlungsfähiger zusammenarbeiten.\n* Wir bereiten Unternehmen und Organisationen den Weg, wettbewerbsfähiger zu werden, um die Existenzgrundlage der Mitarbeiter abzusichern."
