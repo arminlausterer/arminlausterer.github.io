@@ -20,6 +20,11 @@ fields:
 - type: text
   name: layout
   label: layout
+- name: konzept_headline
+  type: text
+  config:
+    required: false
+  label: Konzept_headline
 - type: field_group_list
   name: content
   label: content
@@ -34,11 +39,6 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-- name: konzept_headline
-  type: text
-  config:
-    required: false
-  label: Konzept_headline
 - name: kriterien
   type: field_group
   config: {}
