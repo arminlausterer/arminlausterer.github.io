@@ -15,6 +15,10 @@ headline = "Team"
 beschreibung = "<p>Herr Lausterer: ich bin der text der noch fehlt</p>"
 name = "Armin Lausterer"
 teambild = "/uploads/2020/05/04/lausterer.png"
+[[team.teammitglied]]
+beschreibung = "<p>Motto:</p><p><em>„Entweder wir finden einen Weg oder wir machen einen.“ Hannibal</em></p><p></p><p>Wofür ich stehe</p><p>Vorausschauend - aktiv - ganzheitlich</p><p>Persönlich</p><p>•In Zeitz geboren und in Sachsen-Anhalt aufgewachsen, lebe ich heute verheiratet in Niederbayern</p><p>Referenzprojekte</p><p>•2006- 2008 Einführung Lean Produktionssystem Rieger Automotive International a.s.</p><p>•2010-2011 Einführung Lean SCM Cipag SA</p><p>•2015 – 2017 Werksoptimierung mittelständisches Unternehmen Anlagenbau</p><p>Persönliche Kompetenz</p><p>•hohe Affinität zu Technik, interdisziplinäre und strukturierte Arbeitsweise</p><p>•Authentische, humorvolle und engagierte Persönlichkeit</p><p>•moderne Führungskraft mit Vorbildfunktion und zielorientiertem, partizipierenden Führungsstil</p><p>•Fachkompetenz / Management - Erfahrung</p><p>•Über 10 Jahre praktische Erfahrung entlang der Wertschöpfungskette</p><p>•Breite Branchenerfahrung:</p><p>Elektrowerkzeuge, Automotive, Heiztechnik, Logistik (Ladungsträger)</p><p>•Aufbau, Veränderung und Optimierung entlang der Wertschöpfungskette</p><p>•Führungskraft bei KMUs in Tschechien und Deutschland:</p><p>•Fertigungsleiterin in Tschechien</p><p>•Head of Production in Deutschland</p><p>•Lean Manufacturing Leader in Deutschland</p>"
+name = "Melanier Düber"
+teambild = "/uploads/2020/05/04/deuber.png"
 [werte]
 werte = "Unsere Werte: Werte sind die Grundlage unseres Handelns und durch die folgenden Prinzipien beschrieben."
 [[werte.aufklapp-headline]]
