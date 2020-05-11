@@ -19,6 +19,9 @@ subheadline = "Vorbereitung:"
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
 subheadline = "Onlinetraining:"
 [[content]]
+aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
+subheadline = "Einzelcoaching:"
+[[content]]
 aufzaehlung = "* Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung\n* Inhalte sind praxisbezogen und schnell umsetzbar \n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten \n* Virtuelle Planspiele \n* Vertiefendes Einzelcoaching \n* Umfangreiche Trainingsunterlagen \n* Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist \n* Bereitstellung von Headsets und Webcams Kostengünstig"
 subheadline = "Kriterien für Online Qualitätstrainings"
 
