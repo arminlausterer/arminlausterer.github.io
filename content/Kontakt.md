@@ -25,6 +25,6 @@ content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\
 icon = "xing"
 [[content]]
 content = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"\">Youtube</a></p>"
-icon = "alternate youtube"
+icon = "youtube alternate"
 
 +++
