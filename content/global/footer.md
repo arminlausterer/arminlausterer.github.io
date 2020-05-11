@@ -18,7 +18,7 @@ icon = "xing"
 icon_link = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"https://www.xing.com/profile/Armin_Lausterer\">https://www.xing.com/profile/Armin_Lausterer</a></p>"
 [[icons]]
 content = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"\">Youtube</a></p>"
-icon = ""
-icon_link = ""
+icon = "youtube alternate"
+icon_link = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\">https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A</a></p>"
 
 +++
