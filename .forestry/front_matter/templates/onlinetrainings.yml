@@ -39,6 +39,11 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - name: farbe
+    type: include
+    config: {}
+    template: farbe
+    label: Farbe
 - name: kriterien
   type: field_group
   config: {}
