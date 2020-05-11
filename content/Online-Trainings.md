@@ -4,10 +4,10 @@ headerpic = "/uploads/2020/05/05/onlinetrainigs.png"
 headertitel = "Online Trainings"
 layout = "onlinetraining"
 [kurse]
-kalender = "https://armin-lausterer.kurs.software/iframe/?module=calendar"
+kalender = "<p>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"800\" src=\"<a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\">https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments</a>\" frameborder=\"0\"&gt;&lt;/iframe&gt;&lt;script src=\"<a href=\"https://assets.kursoli.no/iframe.min.js\" title=\"https://assets.kursoli.no/iframe.min.js\">https://assets.kursoli.no/iframe.min.js</a>\"&gt;&lt;/script&gt;</p>"
 titelzeile = "Kalender"
 [[kurse.kurse]]
-einzelkurse = "https://armin-lausterer.kurs.software/iframe/?module=courses"
+einzelkurse = "<p>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"800\" src=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses\" frameborder=\"0\"&gt;&lt;/iframe&gt; &lt;script src=\"https://assets.kursoli.no/iframe.min.js\"&gt;&lt;/script&gt;</p>"
 titelzeile = "Kurse"
 [menu.main]
 name = "Online-Trainings"
