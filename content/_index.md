@@ -31,6 +31,12 @@ farbe = "grey"
 icon = "/uploads/2020/05/04/outsourcing-icon"
 text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen   \n   fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
 text_vorderseite = "Outsourcing"
+[online-semin]
+bild = "/uploads/2020/05/11/training-neu"
+buttonbeschriftung = "Entdecken"
+buttonlink = ""
+headline = "Online-Trainings"
+text = "<p>Wir auf Basis unserer bewährten Präsenstrainings ganzheitliche Onlinetrainings konzipiert, die höchsten Ansprüchen genügen.</p><ul><li><p>Produktionssteuerung und Planung</p></li><li><p>Lösung technischer Probleme in der Produktion</p></li><li><p>Visuelles Management in der Produktion</p></li><li><p>Gestalten von Veränderung Change Management</p></li><li><p>Einführung in das QM-System nach</p><p>ISO 9001:2015</p></li><li><p>Videokonferenzen professionell moderieren</p></li></ul>"
 [team]
 buttonbeschriftung = "Entdecken"
 buttonlink = ""
