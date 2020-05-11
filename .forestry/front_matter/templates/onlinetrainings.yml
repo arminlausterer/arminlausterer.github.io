@@ -8,9 +8,6 @@ fields:
 - type: text
   name: headertitel
   label: headertitel
-- type: text
-  name: layout
-  label: layout
 - name: einfuhrungstext
   type: textarea
   default: ''
@@ -20,6 +17,9 @@ fields:
     schema:
       format: markdown
   label: einführungstext
+- type: text
+  name: layout
+  label: layout
 - type: field_group_list
   name: content
   label: content
