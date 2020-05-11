@@ -24,11 +24,6 @@ fields:
   name: content
   label: content
   fields:
-  - name: headline
-    type: text
-    config:
-      required: false
-    label: headline
   - type: text
     name: subheadline
     label: subheadline
@@ -39,6 +34,25 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+- name: kriterien
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: content_ganzebreite
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content_ganzeBreite
+  label: Kriterien
 - name: kurse
   type: field_group
   config: {}
@@ -80,24 +94,5 @@ fields:
         format: html-blocks
     label: Kalender
   label: Kurse
-- name: kriterien
-  type: field_group
-  config: {}
-  fields:
-  - name: headline
-    type: text
-    config:
-      required: false
-    label: Headline
-  - name: content_ganzebreite
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Content_ganzeBreite
-  label: Kriterien
 pages:
 - content/Online-Trainings.md
