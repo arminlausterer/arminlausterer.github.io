@@ -24,12 +24,7 @@ fields:
 - name: icons
   type: field_group_list
   fields:
-  - name: icontitel
-    type: text
-    config:
-      required: false
-    label: icontitel
-  - name: icon
+  - name: content
     type: textarea
     default: ''
     config:
@@ -37,7 +32,12 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
-    label: icon
+    label: Content
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
   config:
     min: 
     max: 
