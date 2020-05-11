@@ -23,12 +23,12 @@ headline = ""
 subheadline = "Vorbereitung:"
 [[content]]
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
-farbe = ""
+farbe = "grey"
 headline = ""
 subheadline = "Onlinetraining:"
 [[content]]
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
-farbe = ""
+farbe = "blue_dark"
 headline = ""
 subheadline = "Einzelcoaching:"
 
