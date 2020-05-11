@@ -3,6 +3,9 @@ einfuhrungstext = "Corona stellt uns alle vor immense Herausforderungen.\n\nDies
 headerpic = "/uploads/2020/05/11/training-neu"
 headertitel = "Online Trainings"
 layout = "onlinetraining"
+[kriterien]
+content_ganzebreite = "<ul><li><p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p></li><li><p>Inhalte sind praxisbezogen und schnell umsetzbar</p></li><li><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p></li><li><p>Virtuelle Planspiele</p></li><li><p>Vertiefendes Einzelcoaching</p></li><li><p>Umfangreiche Trainingsunterlagen</p></li><li><p>Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist</p></li><li><p>Bereitstellung von Headsets und Webcams Kostengünstig</p></li></ul>"
+headline = "Kriterien für Online Qualitätstrainings"
 [kurse]
 kalender = "<p><a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\">https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments</a></p>"
 titelzeile = "Kalender"
@@ -14,15 +17,19 @@ name = "Online-Trainings"
 weight = 2
 [[content]]
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
+headline = ""
 subheadline = "Vorbereitung:"
 [[content]]
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
+headline = ""
 subheadline = "Onlinetraining:"
 [[content]]
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
+headline = ""
 subheadline = "Einzelcoaching:"
 [[content]]
 aufzaehlung = "* Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung\n* Inhalte sind praxisbezogen und schnell umsetzbar \n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten \n* Virtuelle Planspiele \n* Vertiefendes Einzelcoaching \n* Umfangreiche Trainingsunterlagen \n* Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist \n* Bereitstellung von Headsets und Webcams Kostengünstig"
+headline = ""
 subheadline = "Kriterien für Online Qualitätstrainings"
 
 +++
