@@ -7,6 +7,15 @@ fields:
   config:
     required: false
   label: Unternehmen
+- name: einfuhrungstext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: einführungstext
 - name: headerbild
   type: file
   config:
