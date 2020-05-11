@@ -15,7 +15,7 @@ icon = "linkedin alternate"
 content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\">Xing</a></p>"
 icon = "xing"
 [[icons]]
-content = ""
+content = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"\">Youtube</a></p>"
 icon = ""
 
 +++
