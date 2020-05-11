@@ -34,7 +34,7 @@ text_vorderseite = "Outsourcing"
 [team]
 buttonbeschriftung = "Entdecken"
 buttonlink = ""
-headline = "Unser Team"
+headline = "Unser Unternehmen"
 kachel-ruckseite = ""
 name = ""
 position = ""
