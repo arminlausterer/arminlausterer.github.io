@@ -27,9 +27,5 @@ subheadline = "Onlinetraining:"
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
 headline = ""
 subheadline = "Einzelcoaching:"
-[[content]]
-aufzaehlung = "* Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung\n* Inhalte sind praxisbezogen und schnell umsetzbar \n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten \n* Virtuelle Planspiele \n* Vertiefendes Einzelcoaching \n* Umfangreiche Trainingsunterlagen \n* Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist \n* Bereitstellung von Headsets und Webcams Kostengünstig"
-headline = ""
-subheadline = "Kriterien für Online Qualitätstrainings"
 
 +++
