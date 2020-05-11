@@ -1,4 +1,5 @@
 +++
+einfuhrungstext = "ich bin der text der noch fehlt"
 headerbild = "/uploads/2020/05/11/NEU_Unternehmen.jpg"
 layout = "unternehmen"
 text_rechts = "**Unser Reden und Tun haben Hand und Fuß:**\n\n* Wir sagen nur zu, was wir einhalten können und halten ein, was wir zusagen.\n* Wir sind ehrlich, beweisen Rückgrat und beziehen klar Position.\n* Wir übernehmen die persönliche Verantwortung für unser eigenes Reden und Handeln.\n* Unsere Aussagen sind gereift, fundiert, nachvollziehbar und wenn immer möglich mit Fakten belegt.\n\n**Wir geben uns erst zufrieden, wenn wir die Ursache genau kennen:**\n\n* Unsere Entscheidungen und Empfehlungen basieren auf einer umfassenden Analyse der besonderen Situation.  \n    Dies beinhaltet die Einschätzung aller Beteiligten, Kennzahlen, eigene Beobachtungen und den Stand der Wissenschaft und Technik.\n* Wir hören zu, um zu verstehen, besonders bei Aussagen, die nicht mit unserer Sicht der Dinge übereinstimmen."
