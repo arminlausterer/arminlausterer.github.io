@@ -21,5 +21,27 @@ fields:
     schema:
       format: markdown
   label: kontakt
+- name: icons
+  type: field_group_list
+  fields:
+  - name: icontitel
+    type: text
+    config:
+      required: false
+    label: icontitel
+  - name: icon
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: icons
 pages:
 - content/global/footer.md
