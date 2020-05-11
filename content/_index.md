@@ -53,7 +53,7 @@ position = ""
 teambild = "/uploads/2020/05/11/Team_Unternehmen.jpg"
 [[team.team_einzeln]]
 farbe = "blue"
-kachelruckseite = "**Motto**:  \n_„Entweder wir finden einen Weg oder wir machen einen.“ Hannibal_"
+kachelruckseite = "_„Entweder wir finden einen Weg oder wir machen einen.“_ \n\n_Hannibal_"
 name = "Melanie Düber"
 position = "Lean Labor"
 teambild = "/uploads/2020/05/04/deuber.png"
