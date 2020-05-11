@@ -78,6 +78,40 @@ fields:
       maxSize: 64
     label: buttonlink
   label: Leistungen
+- name: online-semin
+  type: field_group
+  config: {}
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: Bild
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Text
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: file
+    config:
+      maxSize: 64
+    label: buttonlink
+  label: OnlineTrainings
 - name: team
   type: field_group
   config: {}
@@ -226,39 +260,5 @@ fields:
       required: false
     label: buttonlink
   label: Testimonials
-- name: online-semin
-  type: field_group
-  config: {}
-  fields:
-  - name: bild
-    type: file
-    config:
-      maxSize: 64
-    label: Bild
-  - name: headline
-    type: text
-    config:
-      required: false
-    label: headline
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Text
-  - name: buttonbeschriftung
-    type: text
-    config:
-      required: false
-    label: buttonbeschriftung
-  - name: buttonlink
-    type: file
-    config:
-      maxSize: 64
-    label: buttonlink
-  label: OnlineTrainings
 pages:
 - content/_index.md
