@@ -7,7 +7,7 @@ layout = "onlinetraining"
 kalender = "<p><a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\">https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments</a></p>"
 titelzeile = "Kalender"
 [[kurse.kurse]]
-einzelkurse = "<p>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"800\" src=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses\" frameborder=\"0\"&gt;&lt;/iframe&gt; &lt;script src=\"https://assets.kursoli.no/iframe.min.js\"&gt;&lt;/script&gt;</p>"
+einzelkurse = "<p>https://armin-lausterer.kurs.software/iframe/?&amp;module=courses</p>"
 titelzeile = "Kurse"
 [menu.main]
 name = "Online-Trainings"
