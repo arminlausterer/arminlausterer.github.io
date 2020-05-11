@@ -12,8 +12,8 @@ logos = []
 content = "<p><a href=\"https://www.linkedin.com/in/armin-lausterer-28b91432/\" title=\"\">LinkedIn</a></p>"
 icon = "linkedin alternate"
 [[icons]]
-content = ""
-icon = ""
+content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\">Xing</a></p>"
+icon = "xing"
 [[icons]]
 content = ""
 icon = ""
