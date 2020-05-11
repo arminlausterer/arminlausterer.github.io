@@ -9,16 +9,16 @@ uberschrift = "Kontakt"
 content = ""
 logos = []
 [[icons]]
-content = "<p><a href=\"https://www.linkedin.com/in/armin-lausterer-28b91432/\" title=\"\">LinkedIn</a></p>"
+content = ""
 icon = "linkedin alternate"
-icon_link = "<p><a href=\"https://www.linkedin.com/in/armin-lausterer-28b91432/\" title=\"https://www.linkedin.com/in/armin-lausterer-28b91432/\">https://www.linkedin.com/in/armin-lausterer-28b91432/</a></p>"
+icon_link = "https://www.linkedin.com/in/armin-lausterer-28b91432"
 [[icons]]
-content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\">Xing</a></p>"
+content = ""
 icon = "xing"
-icon_link = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"https://www.xing.com/profile/Armin_Lausterer\">https://www.xing.com/profile/Armin_Lausterer</a></p>"
+icon_link = "https://www.xing.com/profile/Armin_Lausterer"
 [[icons]]
-content = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"\">Youtube</a></p>"
+content = ""
 icon = "youtube alternate"
-icon_link = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\">https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A</a></p>"
+icon_link = "https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A"
 
 +++

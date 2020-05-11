@@ -275,11 +275,27 @@ header #headermenu li {
   padding: 0.5rem 1rem;
 }
 footer {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 footer .eblink {
   color: white;
   font-size: 0.8rem;
+}
+footer .footer1 {
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+}
+footer .footer1 h3 {
+  font-size: 2.5rem;
+  color: white;
+}
+footer .footer1 a {
+  color: white!important;
+}
+footer .footer1 i {
+  line-height: 3rem;
+  font-size: 1.5rem;
 }
 footer .footerm {
   background: #5f6165;

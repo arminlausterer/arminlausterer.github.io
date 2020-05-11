@@ -1,5 +1,16 @@
 {{ $t := .Site.GetPage "footer.md" }}
-<footer class=" {{if .IsHome}}home{{end}}">
+<footer>
+  <div class="footer1" style="background:url({{partial "imgUrl" (dict "img" $t.Params.hintergrundbild "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+    <div class="ui container">
+      <h3>{{$t.Params.uberschrift}}</h3>
+      <div>{{$t.Params.kontakt|markdownify}}</div>
+      <div class="iconlist">
+        {{range $t.Params.icons}}
+          <a href="{{.icon_link}}" target="_blank"> <i class="{{.icon}} icon"></i></a>
+        {{end}}
+      </div>
+    </div>
+  </div>
   <div class="footerm">
       <div class="ui container">
           <div class="footermenu">
