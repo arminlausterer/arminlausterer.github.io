@@ -34,6 +34,11 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+- name: konzept_headline
+  type: text
+  config:
+    required: false
+  label: Konzept_headline
 - name: kriterien
   type: field_group
   config: {}
