@@ -30,7 +30,16 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Ziele
+  label: Ziele_linkespalte
+- name: ziele_2spalte
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: ziele_2spalte
 - name: kachel
   type: field_group_list
   fields:
