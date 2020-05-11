@@ -18,14 +18,17 @@ name = "Online-Trainings"
 weight = 2
 [[content]]
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
+farbe = "blue"
 headline = ""
 subheadline = "Vorbereitung:"
 [[content]]
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
+farbe = ""
 headline = ""
 subheadline = "Onlinetraining:"
 [[content]]
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
+farbe = ""
 headline = ""
 subheadline = "Einzelcoaching:"
 
