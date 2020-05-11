@@ -18,7 +18,7 @@ icon = "mobile alternate"
 content = "<p><a href=\"mailto:info@armin-lausterer.de\" title=\"\" target=\"_blank\">info@armin-lausterer.de</a></p>"
 icon = "envelope outline"
 [[content]]
-content = "<p><a href=\"http://www.linkedin.com/profile/view?id=115734923&amp;trk=eml_inv_status_profile\" title=\"\" target=\"_blank\">LinkedIn</a></p>"
+content = "<p><a href=\"https://www.linkedin.com/in/armin-lausterer-28b91432/\" title=\"\">LinkedIn</a></p>"
 icon = "linkedin alternate"
 [[content]]
 content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\" target=\"_blank\">Xing</a></p>"
