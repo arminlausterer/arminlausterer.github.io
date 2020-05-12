@@ -47,19 +47,18 @@
     <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
   </div>
   {{end}}
-  {{with .Params.lean_labor}}
-  <div id="lean_labor" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) right top no-repeat; background-size:50% auto">
-    <div class="ui container">
-      <div class="lean_labor_c">
+  {{with .Params.online_semin}}
+  <div id="online_semin" >
+    <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_auto" )}}) left top no-repeat; background-size:cover">
+      <div class="online_semin_c" >
         <div>
           <h2>{{.headline}}</h2>
           <div class="content">
-            {{.text|markdownify}}
+            {{.text|safeHTML}}
           </div>
           <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
         </div>
       </div>
-      <img src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_800" )}} "/>
     </div>
   </div>
   {{end}}
@@ -86,6 +85,22 @@
     </div>
     <div class="buttoncontainer">
       <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.lean_labor}}
+  <div id="lean_labor" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) right top no-repeat; background-size:50% auto">
+    <div class="ui container">
+      <div class="lean_labor_c">
+        <div>
+          <h2>{{.headline}}</h2>
+          <div class="content">
+            {{.text|markdownify}}
+          </div>
+          <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+        </div>
+      </div>
+      <img src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_800" )}} "/>
     </div>
   </div>
   {{end}}
@@ -136,14 +151,14 @@
 <script type="text/javascript">
   $(function () {
     var cld = cloudinary.Cloudinary.new({ cloud_name: 'b-coding' });
-    /*
+    
     var demoplayer = cld.videoPlayer('home_player',{
       loop:true,
       autoplayMode:'on-scroll',
       hideContextMenu:true,
       quality: "auto", videoCodec: "auto",
     });
-    */
+    
   });
 </script>
 {{ end }}

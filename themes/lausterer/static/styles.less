@@ -606,8 +606,59 @@ footer{
       }
     }
   }
+  #online_semin{
+    padding:2rem 0 4rem 0;
+    margin-bottom:2rem;
+    position: relative;
+    background-color:white!important;
+    @media (max-width: 720px){
+      background-position:bottom right!important;
+      background:white;
+      img{
+        display:none!important;
+      }
+    }
+    .online_semin_c{
+      padding:3rem 3rem 8rem 3rem;
+      width:50%;
+      margin-left:50%;
+      background:@blue_dark;
+      position:relative;
+      color:white;
+      h2{
+        color:white;
+      }
+      @media (max-width: 720px){
+        h2{
+          color:@blue!important;
+        }
+        padding: 0 1rem 4rem 1rem;
+        width:100%;
+        margin-left:0;
+        background:white;
+        color:@blue_dark;
+      }
+      ul{
+        padding:0;
+        li{
+          list-style-position: outside;
+          margin-left:1em;
+        }
+      }
+      .morebutton{
+        position:absolute;
+        bottom:0;
+        margin-bottom:-1rem;
+        left:50%;
+        width:200px;
+        margin-left:-100px!important;
+        text-align:center;
+      }
+    }
+  }
   #lean_labor{
-    padding-bottom:4rem;
+    margin-top:4rem;
+    padding:2rem 0 4rem 0;
     position: relative;
     background-color:white!important;
     @media (max-width: 720px){

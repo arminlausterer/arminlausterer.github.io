@@ -31,7 +31,7 @@ farbe = "grey"
 icon = "/uploads/2020/05/04/outsourcing-icon"
 text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen   \n   fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
 text_vorderseite = "Outsourcing"
-[online-semin]
+[online_semin]
 bild = "/uploads/2020/05/11/training-neu"
 buttonbeschriftung = "Entdecken"
 buttonlink = ""

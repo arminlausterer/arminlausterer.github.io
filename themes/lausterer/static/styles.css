@@ -611,8 +611,63 @@ footer .footermenu a:last-child {
     display: none;
   }
 }
+#home #online_semin {
+  padding: 2rem 0 4rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+  background-color: white!important;
+}
+@media (max-width: 720px) {
+  #home #online_semin {
+    background-position: bottom right!important;
+    background: white;
+  }
+  #home #online_semin img {
+    display: none!important;
+  }
+}
+#home #online_semin .online_semin_c {
+  padding: 3rem 3rem 8rem 3rem;
+  width: 50%;
+  margin-left: 50%;
+  background: #027bba;
+  position: relative;
+  color: white;
+}
+#home #online_semin .online_semin_c h2 {
+  color: white;
+}
+@media (max-width: 720px) {
+  #home #online_semin .online_semin_c {
+    padding: 0 1rem 4rem 1rem;
+    width: 100%;
+    margin-left: 0;
+    background: white;
+    color: #027bba;
+  }
+  #home #online_semin .online_semin_c h2 {
+    color: #009dee !important;
+  }
+}
+#home #online_semin .online_semin_c ul {
+  padding: 0;
+}
+#home #online_semin .online_semin_c ul li {
+  list-style-position: outside;
+  margin-left: 1em;
+}
+#home #online_semin .online_semin_c .morebutton {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1rem;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px !important;
+  text-align: center;
+}
 #home #lean_labor {
-  padding-bottom: 4rem;
+  margin-top: 4rem;
+  padding: 2rem 0 4rem 0;
   position: relative;
   background-color: white!important;
 }
