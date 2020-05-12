@@ -471,6 +471,11 @@ footer{
         }
         .visible{
           z-index:2;
+          height:100%;
+          display:flex;
+          flex-direction:column;
+          justify-content: space-between;
+          background:white;
         }
         img{
           width:100%;
@@ -727,7 +732,34 @@ footer{
       margin-bottom:2rem!important;
     }
   }
+  &.unternehmen{
+    .ks{
+      height:100%;
+    }
+    #werte{
+      margin-top:1rem;
+    }
+    #intro{
+      position:relative;
+    }
+    #team{
+      margin-top:2rem;
+      margin:1rem 0;
+      h3.hd{
+        font-size:2.5rem;
+        text-align:center;
+      }
+    }
+  }
   &.outsourcing, &.coaching, &.solutions,&.unternehmen,&.online{
+    .column{
+      h3{
+        line-height:1.3em;
+      }
+      .pt ul{
+        padding-top:calc(1.3em + 1rem)!important;
+      }
+    }
     .content{
       img{
         max-width: 100%;

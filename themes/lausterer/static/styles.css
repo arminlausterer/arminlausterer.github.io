@@ -481,6 +481,11 @@ footer .footermenu a:last-child {
 }
 #home #team .teamgrid .tcol .visible {
   z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
 }
 #home #team .teamgrid .tcol img {
   width: 100%;
@@ -733,6 +738,37 @@ footer .footermenu a:last-child {
 }
 .subpage.online section {
   margin-bottom: 2rem!important;
+}
+.subpage.unternehmen .ks {
+  height: 100%;
+}
+.subpage.unternehmen #werte {
+  margin-top: 1rem;
+}
+.subpage.unternehmen #intro {
+  position: relative;
+}
+.subpage.unternehmen #team {
+  margin-top: 2rem;
+  margin: 1rem 0;
+}
+.subpage.unternehmen #team h3.hd {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.subpage.outsourcing .column h3,
+.subpage.coaching .column h3,
+.subpage.solutions .column h3,
+.subpage.unternehmen .column h3,
+.subpage.online .column h3 {
+  line-height: 1.3em;
+}
+.subpage.outsourcing .column .pt ul,
+.subpage.coaching .column .pt ul,
+.subpage.solutions .column .pt ul,
+.subpage.unternehmen .column .pt ul,
+.subpage.online .column .pt ul {
+  padding-top: calc(1.3em + 1rem) !important;
 }
 .subpage.outsourcing .content img,
 .subpage.coaching .content img,
