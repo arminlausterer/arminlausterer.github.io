@@ -78,7 +78,7 @@ fields:
       maxSize: 64
     label: buttonlink
   label: Leistungen
-- name: online-semin
+- name: online_semin
   type: field_group
   config: {}
   fields:
