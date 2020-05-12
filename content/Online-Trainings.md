@@ -5,13 +5,13 @@ headertitel = "Online Trainings"
 konzept_headline = "Unser Konzept"
 layout = "onlinetraining"
 [kriterien]
-content_ganzebreite = "<ul><li><p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p></li><li><p>Inhalte sind praxisbezogen und schnell umsetzbar</p></li><li><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p></li><li><p>Virtuelle Planspiele</p></li><li><p>Vertiefendes Einzelcoaching</p></li><li><p>Umfangreiche Trainingsunterlagen</p></li><li><p>Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist</p></li><li><p>Bereitstellung von Headsets und Webcams Kostengünstig</p></li></ul>"
+content_ganzebreite = "<ul><li>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</li><li>Inhalte sind praxisbezogen und schnell umsetzbar</li><li>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</li><li>Virtuelle Planspiele</li><li>Vertiefendes Einzelcoaching</li><li>Umfangreiche Trainingsunterlagen</li><li>Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist</li><li>Bereitstellung von Headsets und Webcams Kostengünstig</li></ul>"
 headline = "Kriterien für Online Qualitätstrainings"
 [kurse]
-kalender = "<p><a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments\">https://armin-lausterer.kurs.software/iframe/?&amp;module=appointments</a></p>"
+kalender = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=appointments\" frameborder=\"0\"></iframe>"
 titelzeile = "Kalender"
 [[kurse.kurse]]
-einzelkurse = "<p>https://armin-lausterer.kurs.software/iframe/?&amp;module=courses</p>"
+einzelkurse = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses\" frameborder=\"0\"></iframe>"
 titelzeile = "Kurse"
 [menu.main]
 name = "Online-Trainings"

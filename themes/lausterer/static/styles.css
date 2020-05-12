@@ -364,6 +364,9 @@ footer .footermenu a:last-child {
 .white {
   background: white!important;
 }
+.ks.full {
+  height: 100%;
+}
 #home #videocontainer {
   padding: 0 0 2rem 0;
 }
@@ -833,6 +836,11 @@ footer .footermenu a:last-child {
 .subpage.projekte .ks,
 .subpage.lean .ks {
   margin-top: 2rem!important;
+}
+.subpage.testimonial .ks.full,
+.subpage.projekte .ks.full,
+.subpage.lean .ks.full {
+  height: 100%;
 }
 .subpage.testimonial .ks .column > div,
 .subpage.projekte .ks .column > div,

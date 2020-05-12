@@ -7,20 +7,18 @@
   </div>
   <div class="ui container standard tim">
     <div class="content">
+      <section class="ct ks" style="margin-bottom:2rem">
+        {{.Params.einfuhrungstext|markdownify}}
+        </section>
       <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_1200" )}} "/> 
     </div>
   </div>
   <div class="ui container standard ">
-    <div class="content">
-      <section class="ct ks" style="margin-bottom:2rem">
-      {{.Params.einfuhrungstext|markdownify}}
-    </section>
-    </div>
-    <div class="content">
-      <div class="ui two column grid stackable">
+    <div class="content" style="margin-bottom:2rem;">
+      <div class="ui three column grid stackable">
         {{range .Params.content}}
         <div class="ui column">
-          <section class="ct ks">
+          <section class="ct ks full">
             <h2>{{.subheadline}}</h2>
             {{.aufzaehlung|markdownify}}
           </section>
@@ -31,25 +29,30 @@
   </div>
   {{with .Params.kurse}}
   <div class="ui container standard">
+    
     {{range .kurse}}
     <div class="content">
       <section class="ct ks" style="margin-bottom:2rem">
         <h2>{{.titelzeile}}</h2>
-        <div class="ui 16:9 embed active"
-            data-url="{{.einzelkurse}}"
-          ></div>
+        {{.einzelkurse|safeHTML}}
       </section>
     </div>
     {{end}}
     <div class="content">
       <section class="ct ks" style="margin-bottom:2rem">
         <h2>{{.titelzeile}}</h2>
-        <div class="ui 16:10 embed active"
-            data-url="{{.kalender}}"
-          ></div>
+        {{.kalender|safeHTML}}
       </section>
     </div>
   </div>
   {{end}}
+  <div class="ui container standard tim">
+    <div class="content">
+      <section class="ct ks" style="margin-bottom:2rem">
+        <h2>{{.Params.kriterien.headline}}</h2>
+        {{.Params.kriterien.content_ganzebreite|markdownify}}
+        </section>
+    </div>
+  </div>
 </div>
 {{ end }}
