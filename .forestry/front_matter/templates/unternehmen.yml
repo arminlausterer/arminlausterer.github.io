@@ -55,7 +55,7 @@ fields:
   - name: aufklapp-headline
     type: field_group_list
     fields:
-    - name: aufklapp-headline
+    - name: aufklapp_headline
       type: text
       config:
         required: false
