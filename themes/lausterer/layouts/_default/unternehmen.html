@@ -21,24 +21,32 @@
         </div>
         {{end}}
       </div>
+      {{with .Params.werte}}
       <section id="werte" class="ct ks">
-        <h2>{{.Params.titelzeile}}</h2>
+        <h2>{{.werte}}</h2>
         <div class="ui two column stackable grid">
+          {{range .aufklapp_headline}}
           <div class="ui column">
+            <div class="ah closed">
+              <h4>{{.aufklapp_headline}}</h4>
+              <div class="ctah">
+                {{.aufklapptext|safeHTML}}
+              </div>
+            </div>
             {{.Params.textlinks|markdownify}}
           </div>
-          <div class="ui column">
-            {{.Params.text_rechts|markdownify}}
-          </div>
+          {{end}}
         </div>
       </section>
+      {{end}}
     </div>
   </div>
   {{with .Params.team}}
   <div class="ui container standard" id="team">
-    <div class="content white">
+    <div class="content">
       <h3 class="hd">{{.headline}}</h3>
       {{range .teammitglied}}
+      <section id="werte" class="ct ks">
       <div class="ui stackable mobile-reverse grid">
         <div class="ui four wide column">
           <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_600" )}} "/> 
@@ -48,6 +56,7 @@
           {{.beschreibung|safeHTML}}
         </div>
       </div>
+    </section>
       {{end}}
     </div>
   </div>

@@ -745,6 +745,15 @@ footer .footermenu a:last-child {
 .subpage.unternehmen #werte {
   margin-top: 1rem;
 }
+.subpage.unternehmen #werte .ah {
+  cursor: pointer;
+}
+.subpage.unternehmen #werte .ah h4 {
+  padding: 0 0.5rem;
+}
+.subpage.unternehmen #werte .ah.closed .ctah {
+  display: none;
+}
 .subpage.unternehmen #intro {
   position: relative;
 }

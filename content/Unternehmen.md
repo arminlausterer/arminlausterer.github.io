@@ -21,17 +21,17 @@ name = "Melanier Düber"
 teambild = "/uploads/2020/05/04/deuber.png"
 [werte]
 werte = "Unsere Werte: Werte sind die Grundlage unseres Handelns und durch die folgenden Prinzipien beschrieben."
-[[werte.aufklapp-headline]]
-aufklapp-headline = "Wir haben eine Passion für unsere Kunden:"
+[[werte.aufklapp_headline]]
+aufklapp_headline = "Wir haben eine Passion für unsere Kunden:"
 aufklapptext = "<ul><li>Wir werden von der Situation unserer Kunden persönlich berührt.</li><li>Neben der geschäftlichen Ebene basiert die Beziehung zu unseren Kunden auf ehrlicher Anteilnahme.</li><li>Wir sind bereit für unsere Kunden die „Extrameile“ zu gehen.</li></ul>"
-[[werte.aufklapp-headline]]
-aufklapp-headline = "Durch unsere Persönlichkeit und unseren Erfahrungsschatz bieten wir dem Kunden Orientierung, Inspiration und Sicherheit in seiner einzigartigen Situation:"
+[[werte.aufklapp_headline]]
+aufklapp_headline = "Durch unsere Persönlichkeit und unseren Erfahrungsschatz bieten wir dem Kunden Orientierung, Inspiration und Sicherheit in seiner einzigartigen Situation:"
 aufklapptext = "<ul><li>Wir sind Persönlichkeiten mit Ausstrahlung, auf die sich der Kunde mit gutem Gewissen einlässt.</li><li>Wir kennen die Situation unserer Kunden aus eigener, persönlicher Erfahrung</li><li>Wir haben ehrliches Interesse daran, die besondere Situation unseres Kunden wirklich zu verstehen.</li></ul>"
-[[werte.aufklapp-headline]]
-aufklapp-headline = "Unser Reden und Tun haben Hand und Fuß:"
+[[werte.aufklapp_headline]]
+aufklapp_headline = "Unser Reden und Tun haben Hand und Fuß:"
 aufklapptext = "<ul><li>Wir sagen nur zu, was wir einhalten können und halten ein, was wir zusagen.</li><li>Wir sind ehrlich, beweisen Rückgrat und beziehen klar Position.</li><li>Wir übernehmen die persönliche Verantwortung für unser eigenes Reden und Handeln.</li><li>Unsere Aussagen sind gereift, fundiert, nachvollziehbar und wenn immer möglich mit Fakten belegt.</li></ul>"
-[[werte.aufklapp-headline]]
-aufklapp-headline = "Wir geben uns erst zufrieden, wenn wir die Ursache genau kennen:"
+[[werte.aufklapp_headline]]
+aufklapp_headline = "Wir geben uns erst zufrieden, wenn wir die Ursache genau kennen:"
 aufklapptext = "<ul><li>Unsere Entscheidungen und Empfehlungen basieren auf einer umfassenden Analyse der besonderen Situation.<br>Dies beinhaltet die Einschätzung aller Beteiligten, Kennzahlen, eigene Beobachtungen und den Stand der Wissenschaft und Technik.</li><li>Wir hören zu, um zu verstehen, besonders bei Aussagen, die nicht mit unserer Sicht der Dinge übereinstimmen.</li></ul>"
 [[content]]
 headertitel = "Unsere Vision: Wir sind die leidenschaftlichen Wegbereiter unserer Kunden"
