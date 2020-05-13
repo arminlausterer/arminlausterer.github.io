@@ -1,6 +1,6 @@
 +++
 header = "Testimonials"
-header_bild = "/uploads/2020/05/11/testimonials.jpg"
+header_bild = "/uploads/2020/05/13/1_Kunden.jpg"
 layout = "testimonials"
 [menu.main]
 name = "Testimonials"
