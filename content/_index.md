@@ -14,7 +14,7 @@ vordergrund_bild = "/uploads/2020/05/04/lean-labor-vordergrund"
 [leistungen]
 backgroundpicture = "/uploads/2020/05/04/leistungen_background-picture"
 buttonbeschriftung = "Entdecken"
-buttonlink = ""
+buttonlink = "Lösungen.md"
 titelzeile = "Leistungen"
 [[leistungen.kacheln]]
 farbe = "blue_dark"
