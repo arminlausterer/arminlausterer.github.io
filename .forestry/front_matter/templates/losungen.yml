@@ -61,7 +61,16 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-    label: Text
+    label: aufzäehlung_links
+  - name: aufzaehlung_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: aufzäehlung_rechts
   config:
     min: 
     max: 
