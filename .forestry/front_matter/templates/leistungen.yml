@@ -28,7 +28,16 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-    label: aufzäehlung
+    label: aufzäehlung_links
+  - name: aufzaehlung_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: aufzäehlung_rechts
   config:
     min: 
     max: 
