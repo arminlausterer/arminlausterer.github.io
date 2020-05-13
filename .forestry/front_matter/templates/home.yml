@@ -73,9 +73,16 @@ fields:
       required: false
     label: buttonbeschriftung
   - name: buttonlink
-    type: file
+    type: select
+    default: []
     config:
-      maxSize: 64
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
     label: buttonlink
   label: Leistungen
 - name: online_semin
