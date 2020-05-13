@@ -15,9 +15,9 @@ bild = "/uploads/2020/04/30/wertstrom"
 text = "* Analyse des Wertstroms mit Hilfe von Prozessmapping und Wertstromanalyse.  \n  Sie erhalten einen umfassenden Überblick über die Stärken und Potenziale der Unternehmesprozesse.\n* Optimierung des Wertstroms nach Lean / KVP – Prinzipien (Verschwendung eliminieren; Line Balancing, One Piece Flow, Kanban, Supermarkt, Pull Prinzip).  \n  Der Einsatz bewährter Prinzipien garantiert schnelle, nachhaltige und messbare Erfolge."
 titel = "WERTSTROM optimieren"
 [[kachel]]
-aufzaehlung_rechts = ""
+aufzaehlung_rechts = "* Einführung betriebliches Verbesserungsvorschlagswesen.  \n  Sie heben die Verbesserungspotenziale Ihrer Mitarbeiter\n* Effektives Projektmanagement etablieren.  \n  Auch komplexere Verbesserungsthemen werden schnell und fokussiert umgesetzt."
 bild = "/uploads/2020/04/30/ideen-1"
-text = "* Ausbau von Methoden zur Prozessstabilisierung (SPC, 6 Sigma), Problemlösung (PDCA, 8D, …) und Shopfloor Management.  \n  Kontinuierlichen Verbesserung ist auf allen Ebenen des Unternehmens etabliert.\n* Einführung betriebliches Verbesserungsvorschlagswesen.  \n  Sie heben die Verbesserungspotenziale Ihrer Mitarbeiter\n* Effektives Projektmanagement etablieren.  \n  Auch komplexere Verbesserungsthemen werden schnell und fokussiert umgesetzt."
+text = "* Ausbau von Methoden zur Prozessstabilisierung (SPC, 6 Sigma), Problemlösung (PDCA, 8D, …) und Shopfloor Management.  \n  Kontinuierlichen Verbesserung ist auf allen Ebenen des Unternehmens etabliert."
 titel = "IDEEN entwickeln"
 [[kachel]]
 aufzaehlung_rechts = ""
