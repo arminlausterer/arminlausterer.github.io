@@ -65,7 +65,7 @@ position = "Lean Labor"
 teambild = "/uploads/2020/05/04/deuber.png"
 [testimonials]
 backgroundpicture = "/uploads/2020/05/04/background-picture"
-buttonlink = ""
+buttonlink = "testimonials.md"
 grosser_button = "Testimonials zeigen"
 titel_links = "Referenzen"
 [[testimonials.kunden]]
