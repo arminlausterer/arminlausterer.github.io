@@ -36,7 +36,7 @@ bild = "/uploads/2020/05/11/training-neu"
 buttonbeschriftung = "Entdecken"
 buttonlink = ""
 headline = "Online-Trainings"
-text = "<p>Wir auf Basis unserer bewährten Präsenstrainings ganzheitliche Onlinetrainings konzipiert, die höchsten Ansprüchen genügen.</p><ul><li><p>Produktionssteuerung und Planung</p></li><li><p>Lösung technischer Probleme in der Produktion</p></li><li><p>Visuelles Management in der Produktion</p></li><li><p>Gestalten von Veränderung Change Management</p></li><li><p>Einführung in das QM-System nach</p><p>ISO 9001:2015</p></li><li><p>Videokonferenzen professionell moderieren</p></li></ul>"
+text = "<p>Online Qualitätstrainings mit Zufriedenheitsgarantie: Sie bezahlen nur, wenn Sie 100% zufrieden waren!</p><ul><li><p>Videokonferenzen professionell moderieren</p></li><li><p>Impulstraining Produktionsplanung und Steuerung</p></li><li><p>Lösung technischer Probleme in der Produktion</p></li><li><p>Visuelles Management in der Produktion</p></li><li><p>Einführung in die ISO 9001:2015</p></li><li><p>Basistraining für Qualitätsfachkräfte</p></li><li><p>u.v.a</p></li></ul>"
 [team]
 buttonbeschriftung = "Entdecken"
 buttonlink = ""
