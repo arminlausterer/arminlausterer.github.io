@@ -32,7 +32,7 @@
     <div class="content" id="krit">
       <section class="ct ks" style="margin-bottom:2rem">
         <h2>{{.Params.kriterien.headline}}</h2>
-        {{.Params.kriterien.content_ganzebreite|markdownify}}
+        {{.Params.kriterien.content_ganzebreite | safeHTML}}
         </section>
     </div>
   </div>
