@@ -2,6 +2,11 @@
 label: Unternehmen
 hide_body: true
 fields:
+- name: untertitel
+  type: text
+  config:
+    required: false
+  label: Untertitel
 - name: unternehmen
   type: text
   config:
