@@ -21,6 +21,7 @@
           <section class="ct ks full">
             <h2>{{.subheadline}}</h2>
             {{.aufzaehlung|markdownify}}
+            <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_200" )}} "/>
           </section>
         </div>
         {{end}}

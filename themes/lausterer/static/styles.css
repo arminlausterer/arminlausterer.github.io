@@ -797,8 +797,20 @@ footer .footermenu a:last-child {
 .subpage.online section {
   margin-bottom: 2rem!important;
 }
+.subpage.online .full {
+  position: relative;
+  padding-bottom: 50px!important;
+}
 .subpage.online .full li:last-child {
   padding-bottom: 0;
+}
+.subpage.online .full img {
+  height: 100px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0.5rem;
+  z-index: 0;
 }
 .subpage.online #krit li:before {
   content: "\f058";
