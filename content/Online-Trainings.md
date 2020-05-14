@@ -33,6 +33,6 @@ aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unt
 farbe = "blue_dark"
 headline = ""
 icon = "/uploads/2020/05/14/lausterer_icon-03.jpg"
-subheadline = "Einzelcoaching:"
+subheadline = "Schritt 3 - Einzelcoaching"
 
 +++
