@@ -827,6 +827,11 @@ footer .footermenu a:last-child {
   font-family: outline-icons;
   color: #009dee;
 }
+.subpage.unternehmen h3.hd {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
 .subpage.unternehmen .ks {
   height: 100%;
 }
@@ -863,10 +868,6 @@ footer .footermenu a:last-child {
 .subpage.unternehmen #team {
   margin-top: 2rem;
   margin: 1rem 0;
-}
-.subpage.unternehmen #team h3.hd {
-  font-size: 2.5rem;
-  text-align: center;
 }
 .subpage.unternehmen #team section.tm {
   margin-top: 1rem;

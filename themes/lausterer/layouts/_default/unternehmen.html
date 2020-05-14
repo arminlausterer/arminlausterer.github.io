@@ -8,7 +8,7 @@
   <div class="ui container standard">
     <div class="content">
       <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.globalesheaderbild "params" "c_scale,f_auto,w_1200" )}} "/> 
-      
+      <h3 class="hd">{{.Params.untertitel}}</h3>
       <div id="intro" class="ct ks">
       {{.Params.einfuhrungstext|markdownify}}
       </div>
