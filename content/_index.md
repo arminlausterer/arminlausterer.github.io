@@ -53,7 +53,7 @@ position = "Geschäftsführer"
 teambild = "/uploads/2020/05/04/lausterer.png"
 [[team.team_einzeln]]
 farbe = "blue_dark"
-kachelruckseite = "**_Unsere Vision:   \n_**_Wir sind die leidenschaftlichen Wegbereiter unserer Kunden._\n\n**_Unsere Mission:_** _  \nUnsere Kunden sind der Mittelpunkt._\n\n**_Unsere Werte:_** _  \nWerte sind die Grundlage unseres Handelns._ "
+kachelruckseite = "**Unsere Vision:  \n**_Wir sind die leidenschaftlichen Wegbereiter unserer Kunden._\n\n**_Unsere Mission:_**   \nUnsere Kunden sind der Mittelpunkt.\n\n**_Unsere Werte:_**   \nWerte sind die Grundlage unseres Handelns."
 name = "Vision, Mission und Unsere Werte"
 position = ""
 teambild = "/uploads/2020/05/11/Team_Unternehmen.jpg"
