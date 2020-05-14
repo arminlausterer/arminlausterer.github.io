@@ -10,6 +10,11 @@ ziele_pic = "/uploads/2020/04/30/ziele"
 name = "Lösungen"
 weight = 1
 [[kachel]]
+aufzaehlung_rechts = "* Zielverfolgung und Monitoring unter Verwendung einer Balanced Score Card.  \n  Sie haben jederzeit die notwendig Transparenz.\n* Einführen von Methoden zum schnellen Erkennen und Reagieren bei Zielabweichungen.  \n  So bringen Sie das Unternehmen schnell wieder auf den richtigen Kurs."
+bild = "/uploads/2020/04/30/ziele"
+text = "* Entwicklung einer langfristigen Unternehmensvision und Strategie.  \n  Sie geben Ihrem Unternehmen eine langfristige Orientierung. Dies hilft Ihren Mitarbeitern gerade in turbulenten Zeiten das Unternehmen auf Kurs zu halten.\n* Ableitung von quantifizierten und terminierten Zielen in allen Unternehmensbereichen.  \n  Jeder Mitarbeiter kennt seinen Beitrag zum Unternehmenserfolg und kann sein Potenzial entsprechend entfalten."
+titel = "ZIELE erreichen"
+[[kachel]]
 aufzaehlung_rechts = "* Ausrichtung der Organisation am Wertstrom: Die Verantwortung für Qualität, Kosten und Zeit ist stets in einer Hand.  \n  Wenige Schnittstellen, klare Zuordnung von Verantwortlichkeiten und Transparenz, sorgen für einen reibungslosen operativen Ablauf."
 bild = "/uploads/2020/04/30/wertstrom"
 text = "* Analyse des Wertstroms mit Hilfe von Prozessmapping und Wertstromanalyse.  \n  Sie erhalten einen umfassenden Überblick über die Stärken und Potenziale der Unternehmesprozesse.\n* Optimierung des Wertstroms nach Lean / KVP – Prinzipien (Verschwendung eliminieren; Line Balancing, One Piece Flow, Kanban, Supermarkt, Pull Prinzip).  \n  Der Einsatz bewährter Prinzipien garantiert schnelle, nachhaltige und messbare Erfolge."
