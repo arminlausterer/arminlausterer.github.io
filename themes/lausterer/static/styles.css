@@ -368,7 +368,7 @@ footer .footermenu a:last-child {
   height: 100%;
 }
 #home #videocontainer {
-  padding: 0 0 2rem 0;
+  padding: 2rem;
 }
 @media (max-width: 720px) {
   #home #videocontainer {
@@ -377,7 +377,7 @@ footer .footermenu a:last-child {
 }
 #home #videocontainer #home_player {
   background: white;
-  height: 70vh;
+  max-height: 70vh;
   width: 100%;
 }
 @media (max-width: 720px) {
@@ -785,12 +785,22 @@ footer .footermenu a:last-child {
   background: #027bba;
 }
 .subpage.solutions .timg,
-.subpage.online .timg {
+.subpage.online .timg,
+.subpage.unternehmen .timg,
+.subpage.solutions .timg,
+.subpage.outsourcing .timg,
+.subpage.consulting .timg,
+.subpage.coaching .timg {
   margin-bottom: 2rem;
 }
 @media (max-width: 720px) {
   .subpage.solutions .tim,
-  .subpage.online .tim {
+  .subpage.online .tim,
+  .subpage.unternehmen .tim,
+  .subpage.solutions .tim,
+  .subpage.outsourcing .tim,
+  .subpage.consulting .tim,
+  .subpage.coaching .tim {
     margin: 0!important;
   }
 }
