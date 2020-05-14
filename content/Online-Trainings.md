@@ -27,7 +27,7 @@ aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche 
 farbe = "grey"
 headline = ""
 icon = "/uploads/2020/05/14/lausterer_icon-02.jpg"
-subheadline = "Onlinetraining:"
+subheadline = "Schritt 2 - Onlinetraining"
 [[content]]
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
 farbe = "blue_dark"
