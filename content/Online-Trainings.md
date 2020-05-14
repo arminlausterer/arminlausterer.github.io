@@ -23,7 +23,7 @@ headline = ""
 icon = "/uploads/2020/05/14/lausterer_icon_zeichenflache-1.jpg"
 subheadline = "Vorbereitung:"
 [[content]]
-aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
+aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und   \n  verschiedene Gruppenräume"
 farbe = "grey"
 headline = ""
 icon = "/uploads/2020/05/14/lausterer_icon-02.jpg"
