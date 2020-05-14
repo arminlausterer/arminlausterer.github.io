@@ -21,7 +21,7 @@ icon = "envelope outline"
 content = "<p><a href=\"https://www.linkedin.com/in/armin-lausterer-28b91432/\" title=\"\">LinkedIn</a></p>"
 icon = "linkedin alternate"
 [[content]]
-content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\" target=\"_blank\">Xing</a></p>"
+content = "<p><a href=\"https://www.xing.com/profile/Armin_Lausterer\" title=\"\">Xing</a></p>"
 icon = "xing"
 [[content]]
 content = "<p><a href=\"https://www.youtube.com/channel/UCX24-D7VN5eDTHXdRSqri1A\" title=\"\">Youtube</a></p>"
