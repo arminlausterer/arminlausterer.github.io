@@ -32,7 +32,7 @@ subheadline = "Onlinetraining:"
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
 farbe = "blue_dark"
 headline = ""
-icon = "/uploads/2020/05/11/Team_Unternehmen.jpg"
+icon = "/uploads/2020/05/14/lausterer_icon-03.jpg"
 subheadline = "Einzelcoaching:"
 
 +++
