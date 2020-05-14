@@ -14,6 +14,14 @@
       
     </div>
   </div>
+  <div class="ui container standard tim">
+    <div class="content" id="krit">
+      <section class="ct ks" style="margin-bottom:2rem">
+        <h2>{{.Params.kriterien.headline}}</h2>
+        {{.Params.kriterien.content_ganzebreite | safeHTML}}
+        </section>
+    </div>
+  </div>
   <div class="ui container standard ">
     <div class="content" style="margin-bottom:2rem;">
       <div class="ui three column grid stackable">
@@ -27,14 +35,6 @@
         </div>
         {{end}}
       </div>
-    </div>
-  </div>
-  <div class="ui container standard tim">
-    <div class="content" id="krit">
-      <section class="ct ks" style="margin-bottom:2rem">
-        <h2>{{.Params.kriterien.headline}}</h2>
-        {{.Params.kriterien.content_ganzebreite | safeHTML}}
-        </section>
     </div>
   </div>
   {{with .Params.kurse}}
