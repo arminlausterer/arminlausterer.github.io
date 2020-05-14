@@ -797,6 +797,14 @@ footer .footermenu a:last-child {
 .subpage.online section {
   margin-bottom: 2rem!important;
 }
+.subpage.online .full li:last-child {
+  padding-bottom: 0;
+}
+.subpage.online #krit li:before {
+  content: "\f058";
+  font-family: outline-icons;
+  color: #009dee;
+}
 .subpage.unternehmen .ks {
   height: 100%;
 }
