@@ -20,7 +20,7 @@ weight = 2
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
 farbe = "blue"
 headline = ""
-icon = "/uploads/2020/05/14/lausterer_icon_zeichenflache-1.jpg"
+icon = "/uploads/2020/05/14/1_lausterer_icon_zeichenflache-1.jpg"
 subheadline = "Schritt 1 - Vorbereitung"
 [[content]]
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und   \n  verschiedene Gruppenräume"
