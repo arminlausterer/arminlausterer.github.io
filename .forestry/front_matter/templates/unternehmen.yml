@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Unternehmen
+- name: globalesheaderbild
+  type: file
+  config:
+    maxSize: 64
+  label: globalesheaderbild
 - name: einfuhrungstext
   type: textarea
   default: ''
