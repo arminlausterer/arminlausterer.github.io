@@ -897,9 +897,9 @@ footer .footermenu a:last-child {
 .subpage.solutions h2,
 .subpage.unternehmen h2,
 .subpage.online h2 {
-  padding: 0.5rem 1rem;
-  background: #5f6165;
-  color: white;
+  padding: 0.5rem 0;
+  background: white;
+  color: #009dee;
   font-size: 1.2rem;
   font-weight: normal;
 }

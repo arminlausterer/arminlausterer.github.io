@@ -7,10 +7,11 @@
   </div>
   <div class="ui container standard tim">
     <div class="content">
+      <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_1200" )}} "/> 
       <section class="ct ks" style="margin-bottom:2rem">
         {{.Params.einfuhrungstext|markdownify}}
         </section>
-      <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.headerpic "params" "c_scale,f_auto,w_1200" )}} "/> 
+      
     </div>
   </div>
   <div class="ui container standard ">
