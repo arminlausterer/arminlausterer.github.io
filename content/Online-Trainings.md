@@ -26,7 +26,7 @@ subheadline = "Vorbereitung:"
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
 farbe = "grey"
 headline = ""
-icon = "/uploads/2020/05/11/Team_Unternehmen.jpg"
+icon = "/uploads/2020/05/14/lausterer_icon-02.jpg"
 subheadline = "Onlinetraining:"
 [[content]]
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
