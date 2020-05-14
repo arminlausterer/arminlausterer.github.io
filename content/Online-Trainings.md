@@ -20,16 +20,19 @@ weight = 2
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
 farbe = "blue"
 headline = ""
+icon = "/uploads/2020/05/11/Team_Unternehmen.jpg"
 subheadline = "Vorbereitung:"
 [[content]]
 aufzaehlung = "* Inhalte praxisbezogen, schnell umsetzbar\n* Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten\n* Virtuelle Planspiele\n* Virtueller Arbeitsraum und verschiedene Gruppenräume"
 farbe = "grey"
 headline = ""
+icon = "/uploads/2020/05/11/Team_Unternehmen.jpg"
 subheadline = "Onlinetraining:"
 [[content]]
 aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
 farbe = "blue_dark"
 headline = ""
+icon = "/uploads/2020/05/11/Team_Unternehmen.jpg"
 subheadline = "Einzelcoaching:"
 
 +++
