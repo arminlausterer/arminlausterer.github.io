@@ -7,6 +7,7 @@ text_rechts = "**Unser Reden und Tun haben Hand und Fuß:**\n\n* Wir sagen nur z
 textlinks = "**Wir haben eine Passion für unsere Kunden:**\n\n* Wir werden von der Situation unserer Kunden persönlich berührt.\n* Neben der geschäftlichen Ebene basiert die Beziehung zu unseren Kunden auf ehrlicher Anteilnahme.\n* Wir sind bereit für unsere Kunden die „Extrameile“ zu gehen.\n\n **Durch unsere Persönlichkeit und unseren Erfahrungsschatz bieten wir dem Kunden Orientierung, Inspiration und Sicherheit in seiner einzigartigen Situation:**\n\n* Wir sind Persönlichkeiten mit Ausstrahlung, auf die sich der Kunde mit gutem Gewissen einlässt.\n* Wir kennen die Situation unserer Kunden aus eigener, persönlicher Erfahrung\n* Wir haben ehrliches Interesse daran, die besondere Situation unseres Kunden wirklich zu verstehen."
 titelzeile = "Unsere Werte: Werte sind die Grundlage unseres Handelns und durch die folgenden Prinzipien beschrieben."
 unternehmen = "Unternehmen"
+untertitel = "Armin Lausterer - Ingenieurbüro für Prozessoptimierung"
 [menu.main]
 name = "Unternehmen"
 weight = 4
