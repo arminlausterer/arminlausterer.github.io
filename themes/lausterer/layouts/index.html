@@ -12,6 +12,7 @@
           id="home_player"
           data-cld-public-id="lausterer/uploads/2020/05/04/lausterer_animation_final_16zu9_11_05_2020"
           muted
+          controls
           class="cld-video-player cld-video-player-skin-light"
         ></video>
       </div>
@@ -44,7 +45,7 @@
         {{end}}
       </div>
     </div>
-    <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+    <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
   </div>
   {{end}}
   {{with .Params.online_semin}}
@@ -56,7 +57,7 @@
           <div class="content">
             {{.text|safeHTML}}
           </div>
-          <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+          <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
         </div>
       </div>
     </div>
@@ -84,7 +85,7 @@
       </div>
     </div>
     <div class="buttoncontainer">
-      <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+      <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
     </div>
   </div>
   {{end}}
@@ -97,7 +98,7 @@
           <div class="content">
             {{.text|markdownify}}
           </div>
-          <a class="albutton morebutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+          <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
         </div>
       </div>
       <img src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_800" )}} "/>
@@ -136,7 +137,7 @@
                 {{end}}{{end}}
                 <div class="ui column">
                   <div class="block blue">
-                    <a class="bb" href="{{.buttonlink}}">{{.grosser_button}}</a>
+                    <a class="bb" href="{{relref $p .buttonlink}}">{{.grosser_button}}</a>
                   </div>
                 </div>
               </div>
@@ -151,14 +152,15 @@
 <script type="text/javascript">
   $(function () {
     var cld = cloudinary.Cloudinary.new({ cloud_name: 'b-coding' });
-    
+    /*
     var demoplayer = cld.videoPlayer('home_player',{
       loop:true,
       autoplayMode:'on-scroll',
       hideContextMenu:true,
       quality: "auto", videoCodec: "auto",
+      showJumpControls: true
     });
-    
+    */
   });
 </script>
 {{ end }}

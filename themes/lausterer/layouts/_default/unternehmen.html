@@ -7,9 +7,29 @@
   </div>
   <div class="ui container standard">
     <div class="content">
-      <div id="intro">
+      <div id="intro" class="ct ks">
       {{.Params.einfuhrungstext|markdownify}}
       </div>
+      {{with .Params.team}}
+      <div class="ui container standard" id="team">
+        <div class="content">
+          <h3 class="hd">{{.headline}}</h3>
+          {{range .teammitglied}}
+          <section class="ct ks tm">
+          <div class="ui stackable mobile-reverse grid">
+            <div class="ui four wide column">
+              <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_600" )}} "/> 
+            </div>
+            <div class="ui twelve wide column">
+              <h3>{{.name}}</h3>
+              {{.beschreibung|safeHTML}}
+            </div>
+          </div>
+        </section>
+          {{end}}
+        </div>
+      </div>
+      {{end}}
       <img src="{{partial "imgUrl" (dict "img" .Params.headerbild "params" "c_scale,f_auto,w_1200" )}} "/> 
       <div class="ui two column stackable grid">
         {{range .Params.content}}
@@ -41,25 +61,5 @@
       {{end}}
     </div>
   </div>
-  {{with .Params.team}}
-  <div class="ui container standard" id="team">
-    <div class="content">
-      <h3 class="hd">{{.headline}}</h3>
-      {{range .teammitglied}}
-      <section id="werte" class="ct ks">
-      <div class="ui stackable mobile-reverse grid">
-        <div class="ui four wide column">
-          <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_600" )}} "/> 
-        </div>
-        <div class="ui twelve wide column">
-          <h3>{{.name}}</h3>
-          {{.beschreibung|safeHTML}}
-        </div>
-      </div>
-    </section>
-      {{end}}
-    </div>
-  </div>
-  {{end}}
 </div>
 {{ end }}

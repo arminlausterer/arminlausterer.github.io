@@ -805,12 +805,27 @@ footer .footermenu a:last-child {
 }
 .subpage.unternehmen #werte .ah {
   cursor: pointer;
+  padding-left: 1rem;
 }
 .subpage.unternehmen #werte .ah h4 {
-  padding: 0 0.5rem;
+  padding: 0 0.5rem 0 1em;
+}
+.subpage.unternehmen #werte .ah h4:before {
+  content: "\f106";
+  font-family: icons;
+  color: #5f6165;
+  margin: 0 0.4rem 0 -1.4rem;
+  font-size: 1.3em;
+}
+.subpage.unternehmen #werte .ah .ctah {
+  padding-left: 0.5rem;
 }
 .subpage.unternehmen #werte .ah.closed .ctah {
   display: none;
+}
+.subpage.unternehmen #werte .ah.closed h4:before {
+  content: "\f107";
+  color: #027bba;
 }
 .subpage.unternehmen #intro {
   position: relative;
@@ -822,6 +837,19 @@ footer .footermenu a:last-child {
 .subpage.unternehmen #team h3.hd {
   font-size: 2.5rem;
   text-align: center;
+}
+.subpage.unternehmen #team section.tm {
+  margin-top: 1rem;
+}
+.subpage.unternehmen #team ul > li li {
+  padding: 0;
+}
+.subpage.unternehmen #team ul > li li:before {
+  content: "-";
+  font-family: icons;
+  color: #009dee;
+  margin: 0 0.4rem 0 -0.8em;
+  font-size: 0.8em;
 }
 .subpage.outsourcing .column h3,
 .subpage.coaching .column h3,
