@@ -44,6 +44,11 @@ fields:
     config: {}
     template: farbe
     label: Farbe
+  - name: icon
+    type: file
+    config:
+      maxSize: 64
+    label: icon
 - name: kriterien
   type: field_group
   config: {}
