@@ -2,6 +2,7 @@
 header = "Testimonials"
 header_bild = "/uploads/2020/05/11/testimonials.jpg"
 layout = "testimonials"
+seo_description = "Testimonials zu: Ausbau der bestehenden Lean/KVP Verbesserungskultur |  Produktivitätssteigerung durch die Einführung einer KVP / Lean Kultur"
 [menu.main]
 name = "Testimonials"
 weight = 6
