@@ -122,5 +122,10 @@ fields:
       labelField: 
     label: teammitglied
   label: Team
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/Unternehmen.md
