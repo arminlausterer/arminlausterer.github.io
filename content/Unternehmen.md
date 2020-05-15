@@ -1,5 +1,5 @@
 +++
-einfuhrungstext = "Seit 2013 unterstützen wir sehr erfolgreich mittelständische Unternehmen bei der Gestaltung von schnellen, robusten, kostengünstigen Abläufen und technischen Prozessen. Unser Fokus liegt auf „Lösungen aus der Praxis für die Praxis“, die unmittelbar umsetzbar und nachhaltig wirksam sind.Unser Team steht für langjährige Erfahrung in komplexen Produktionsstätten unterschiedlichster Branchen."
+einfuhrungstext = "Seit 2013 unterstützen wir sehr erfolgreich mittelständische Unternehmen bei der Gestaltung von schnellen, robusten, kostengünstigen Abläufen und technischen Prozessen. \n\nUnser Fokus liegt auf „Lösungen aus der Praxis für die Praxis“, die unmittelbar umsetzbar und nachhaltig wirksam sind. Unser Team steht für langjährige Erfahrung in komplexen Produktionsstätten unterschiedlichster Branchen."
 globalesheaderbild = "/uploads/2020/05/14/unternehmen_neu"
 headerbild = "/uploads/2020/05/11/NEU_Unternehmen.jpg"
 layout = "unternehmen"
