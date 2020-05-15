@@ -2,18 +2,22 @@
 headerpic = "/uploads/2020/04/30/outsourcing.jpg"
 headertitel = "Outsourcing"
 layout = "outsourcing"
+seo_description = "Outsourcing: Entwicklung Ihrer Lieferanten (speziell im Automotive – Bereich) | Einführung und Betreuung Ihres betrieblichen Ideenmanagements (Verbesserungsvorschlagswesen) Koordination und Weiterentwicklung Ihrer KVP/Lean Aktivitäten"
 [menu.main]
 name = "Outsourcing"
 parent = "Lösungen"
 weight = 2
 [[content]]
 aufzaehlung = "* Entwicklung Ihrer Lieferanten (speziell im Automotive – Bereich)\n* Einführung und Betreuung Ihres betrieblichen Ideenmanagements (Verbesserungsvorschlagswesen)\n* Koordination und Weiterentwicklung Ihrer KVP/Lean Aktivitäten"
+aufzaehlung_rechts = ""
 subheadline = "Unsere Leistungen"
 [[content]]
 aufzaehlung = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
+aufzaehlung_rechts = ""
 subheadline = "Ihr Nutzen"
 [[content]]
 aufzaehlung = "* Projektmanagement\n* Lieferantenaudits nach VDA 6.3\n* Performance Measurement (Balanced Score Card)"
+aufzaehlung_rechts = ""
 subheadline = "Werkzeuge und Methoden"
 
 +++
