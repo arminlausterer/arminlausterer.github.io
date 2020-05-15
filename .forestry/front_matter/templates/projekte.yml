@@ -44,5 +44,10 @@ fields:
     max: 
     labelField: 
   label: Kunden
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/Projekte.md
