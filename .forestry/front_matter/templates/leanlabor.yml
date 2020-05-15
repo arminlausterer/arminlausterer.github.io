@@ -75,5 +75,10 @@ fields:
     max: 
     labelField: 
   label: lean-labor
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/leanlabor.md
