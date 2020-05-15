@@ -1,6 +1,7 @@
 +++
 headerpicture = "/uploads/2020/04/30/loesungen"
 layout = "solutions"
+seo_description = "Lösungen: Ziele erreichen, Wertstrom optimieren, Ideen entwickeln, Kultur leben"
 titel = "Lösungen"
 titelziele = "ZIELE erreichen"
 ziele = "* Entwicklung einer langfristigen Unternehmensvision und Strategie.  \n  Sie geben Ihrem Unternehmen eine langfristige Orientierung. Dies hilft Ihren Mitarbeitern gerade in turbulenten Zeiten das Unternehmen auf Kurs zu halten.\n* Ableitung von quantifizierten und terminierten Zielen in allen Unternehmensbereichen.  \n  Jeder Mitarbeiter kennt seinen Beitrag zum Unternehmenserfolg und kann sein Potenzial entsprechend entfalten."
