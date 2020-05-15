@@ -6,7 +6,7 @@ konzept_headline = "Unser Konzept"
 layout = "onlinetraining"
 seo_description = "Onlinetraining zur Prozessoptimierung: Videokonferenzen professionell moderieren | Impulstraining Produktionsplanung und Steuerung | Lösung technischer Probleme in der Produktion | Visuelles Management in der Produktion | Einführung in die ISO 9001:2015 | Basistraining für Qualitätsfachkräfte"
 [kriterien]
-content_ganzebreite = "<p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p><p>Inhalte sind praxisbezogen und schnell umsetzbar</p><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p><p>Virtuelle Planspiele</p><p>Vertiefendes Einzelcoaching</p><p>Umfangreiche Trainingsunterlagen</p><p>Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist</p><p>Bereitstellung von Headsets und Webcams</p><hr><p>Zufriedenheitsgarantie: Sie bezahlen nur, wenn Sie wirklich 100% zufrieden waren</p>"
+content_ganzebreite = "<p></p>"
 headline = "Ihre Vorteile"
 [kurse]
 kalender = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=appointments\" frameborder=\"0\"></iframe>"
