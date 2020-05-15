@@ -43,6 +43,11 @@ fields:
     max: 
     labelField: 
   label: content
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/Consulting.md
 - content/Outsourcing.md
