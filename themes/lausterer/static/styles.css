@@ -882,7 +882,8 @@ footer .footermenu a:last-child {
   margin: 0 0.4rem 0 -0.8em;
   font-size: 0.8em;
 }
-.subpage.coaching .ct.ks {
+.subpage.coaching .ct.ks,
+.subpage.outsourcing .ct.ks {
   margin-bottom: 1rem;
 }
 .subpage.outsourcing .column h3,
