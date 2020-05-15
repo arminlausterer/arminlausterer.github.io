@@ -61,7 +61,7 @@ teambild = "/uploads/2020/05/11/Team_Unternehmen.jpg"
 farbe = "blue"
 kachelruckseite = "_\"Entweder wir finden einen Weg oder wir machen einen.\"_ \n\n_Hannibal_"
 name = "Melanie Düber"
-position = "Lean Labor"
+position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [testimonials]
 backgroundpicture = "/uploads/2020/05/04/background-picture"
