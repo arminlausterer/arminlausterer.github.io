@@ -47,7 +47,7 @@ position = ""
 teambild = ""
 [[team.team_einzeln]]
 farbe = "grey"
-kachelruckseite = "_\" Ihr Erfolg ist unser Ziel ...   \nErfolgreich sein heißt Kunden, Märkte, Produkte ganzheitlich zu betrachten._\n\n_Die spezifischen Strukturen und Bedürfnisse zu erkennen und schließlich schnell und zielgerichtet zu handeln.\"_"
+kachelruckseite = "_\" Aus der Praxis für die Praxis\"_"
 name = "Armin  Lausterer"
 position = "Geschäftsführer"
 teambild = "/uploads/2020/05/04/lausterer.png"
