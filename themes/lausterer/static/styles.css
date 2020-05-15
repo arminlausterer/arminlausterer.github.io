@@ -875,6 +875,9 @@ footer .footermenu a:last-child {
 .subpage.unternehmen #team ul > li li {
   padding: 0;
 }
+.subpage.unternehmen #team ul > li li p {
+  display: inline-block !important;
+}
 .subpage.unternehmen #team ul > li li:before {
   content: "-";
   font-family: icons;
@@ -933,6 +936,13 @@ footer .footermenu a:last-child {
   list-style-type: none;
   padding: 0 0 1rem 2rem;
   line-height: 1.3em;
+}
+.subpage.outsourcing li p,
+.subpage.coaching li p,
+.subpage.solutions li p,
+.subpage.unternehmen li p,
+.subpage.online li p {
+  display: inline-block !important;
 }
 .subpage.outsourcing li:before,
 .subpage.coaching li:before,
