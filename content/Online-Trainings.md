@@ -1,7 +1,7 @@
 +++
 einfuhrungstext = "## Online Qualitätstraining\n\nCorona stellt uns alle vor immense Herausforderungen. Diese Krise bietet aber auch Chancen: Wir finden neue kreative Wege der Zusammenarbeit.\n\nSo bietet zum Beispiel das Homeoffice ausgezeichnete Möglichkeiten zur beruflichen Weiterbildung, um dann gestärkt aus der Krise hervorzugehen. Das Gute daran, Sie investieren vorausschauend in die Zeit nach Corona.\n\nVoraussetzung hierfür sind qualitativ wirklich hochwertige Onlinetrainings, also keine schlechten Internet-Filmchen oder langweiligen Livestreams ohne Konzept.\n\nSpeziell für diese Situation haben wir auf Basis unserer bewährten Präsenstrainings ganzheitliche Onlinetrainings konzipiert, die höchsten Ansprüchen genügen."
 headerpic = "/uploads/2020/05/11/training-neu"
-headertitel = "Online Trainings"
+headertitel = "Online Qualitätstrainings"
 konzept_headline = "Unser Konzept"
 layout = "onlinetraining"
 seo_description = "Onlinetraining zur Prozessoptimierung: Videokonferenzen professionell moderieren | Impulstraining Produktionsplanung und Steuerung | Lösung technischer Probleme in der Produktion | Visuelles Management in der Produktion | Einführung in die ISO 9001:2015 | Basistraining für Qualitätsfachkräfte"
