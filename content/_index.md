@@ -1,6 +1,6 @@
 +++
 seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coaching, Consulting, Outsourcing, Online Trainings zur Prozessoptimierung"
-title = "Ingenieurbüro für Produktionssysteme"
+title = "Ingenieurbüro für Prozessoptimierung"
 type = "page"
 video_home = "/uploads/2020/05/04/lausterer_v5.mp4"
 [lean_labor]
