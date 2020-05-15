@@ -5,6 +5,7 @@ einfuhrungstext = "<p>Hier im Lean – Labor entwickle ich, exklusiv für mein N
 header = "Lean-Labor"
 header_bild = "/uploads/2020/04/30/lean.jpeg"
 layout = "leanlabor"
+seo_description = "Lean Labor: wertvolle Werkzeuge, Methoden und Tipps rund um die Themen Prozessoptimierung"
 subheadline = "Willkommen im Lean – Labor:"
 [menu.main]
 name = "LeanLabor"
