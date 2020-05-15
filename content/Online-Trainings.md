@@ -9,10 +9,10 @@ seo_description = "Onlinetraining zur Prozessoptimierung: Videokonferenzen profe
 content_ganzebreite = "<ul><li><p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p></li><li><p>Inhalte sind praxisbezogen und schnell umsetzbar</p></li><li><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p></li><li><p>Virtuelle PlanspieleVertiefendes Einzelcoaching</p></li><li><p>Umfangreiche Trainingsunterlagen</p></li><li><p>Detaillierter Schulungsnachweis</p></li><li><p>Softwareplattform, die stabil und ganz einfach zu bedienen ist</p></li><li><p>Bereitstellung von Headsets und Webcams</p></li></ul><p></p><p><strong>Zufriedenheitsgarantie: Sie bezahlen nur, wenn Sie wirklich 100% zufrieden waren</strong></p>"
 headline = "Ihre Vorteile"
 [kurse]
-kalender = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=appointments\" frameborder=\"0\"></iframe>"
+kalender = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=appointments&submodule=show&ia=index\" frameborder=\"0\"></iframe>"
 titelzeile = "Kalender"
 [[kurse.kurse]]
-einzelkurse = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses\" frameborder=\"0\"></iframe>"
+einzelkurse = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?module=courses&submodule=show&ia=index\" frameborder=\"0\"></iframe>"
 titelzeile = "Kurse"
 [menu.main]
 name = "Online-Trainings"
