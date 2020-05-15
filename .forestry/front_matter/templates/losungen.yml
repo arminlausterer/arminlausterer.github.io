@@ -76,5 +76,10 @@ fields:
     max: 
     labelField: 
   label: Kachel
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/Lösungen.md
