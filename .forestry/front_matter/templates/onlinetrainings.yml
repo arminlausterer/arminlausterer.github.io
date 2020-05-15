@@ -109,5 +109,10 @@ fields:
         format: html-blocks
     label: Kalender
   label: Kurse
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/Online-Trainings.md
