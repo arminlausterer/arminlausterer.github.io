@@ -1,6 +1,7 @@
 +++
 header = "Projekte"
 layout = "projekte"
+seo_description = "Projekte für mittelständische Unternehmen, Produktionswerke und Automobilzulieferer zur Prozessoptimierung"
 [menu.main]
 name = "Projekte"
 weight = 3
