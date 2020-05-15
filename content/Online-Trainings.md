@@ -4,6 +4,7 @@ headerpic = "/uploads/2020/05/11/training-neu"
 headertitel = "Online Trainings"
 konzept_headline = "Unser Konzept"
 layout = "onlinetraining"
+seo_description = "Onlinetraining zur Prozessoptimierung: Videokonferenzen professionell moderieren | Impulstraining Produktionsplanung und Steuerung | Lösung technischer Probleme in der Produktion | Visuelles Management in der Produktion | Einführung in die ISO 9001:2015 | Basistraining für Qualitätsfachkräfte"
 [kriterien]
 content_ganzebreite = "<ul><li>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</li><li>Inhalte sind praxisbezogen und schnell umsetzbar</li><li>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</li><li>Virtuelle Planspiele</li><li>Vertiefendes Einzelcoaching</li><li>Umfangreiche Trainingsunterlagen</li><li>Detaillierter Schulungsnachweis Softwareplattform, die stabil und ganz einfach zu bedienen ist</li><li>Bereitstellung von Headsets und Webcams Kostengünstig</li></ul>"
 headline = "Kriterien für Online Qualitätstrainings"
