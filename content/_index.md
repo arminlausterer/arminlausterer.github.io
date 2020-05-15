@@ -19,7 +19,7 @@ titelzeile = "Leistungen"
 [[leistungen.kacheln]]
 farbe = "blue_dark"
 icon = "/uploads/2020/05/04/coaching-icon"
-text_ruckseite = "* Auf die Unternehmenssituation perfekt abgestimmte Lösungen aus der Praxis für die Praxis.\n* Schneller Rückfluss der investierten Mittel, meist innerhalb der ersten 12 Monate nach Projektstart.\n* Transparenz durch die kontinuierliche Verfolgung messbarer Ziele.\n* ... Methoden und Werkzeuge"
+text_ruckseite = "* Auf die Unternehmenssituation perfekt abgestimmte Lösungen aus der Praxis für die Praxis.\n* Schneller Rückfluss der investierten Mittel, meist innerhalb der ersten 12 Monate nach Projektstart.\n* Transparenz durch die kontinuierliche Verfolgung messbarer Ziele."
 text_vorderseite = "Coaching"
 [[leistungen.kacheln]]
 farbe = "blue"
