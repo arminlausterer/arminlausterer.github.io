@@ -81,5 +81,46 @@ fields:
   config: {}
   template: seo
   label: seo
+- name: kacheln
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Icon
+  - name: text-vorderseite
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text-Vorderseite
+  - name: text_ruckseite
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text Rückseite
+  - name: farbe
+    type: include
+    config: {}
+    template: farbe
+    label: Farbe
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kacheln
+- name: backgroundpicture
+  type: file
+  config:
+    maxSize: 64
+  label: Backgroundpicture
 pages:
 - content/Lösungen.md
