@@ -1,4 +1,5 @@
 +++
+backgroundpicture = "/uploads/2020/05/04/leistungen_background-picture"
 headerpicture = "/uploads/2020/04/30/loesungen"
 layout = "solutions"
 seo_description = "Lösungen: Ziele erreichen, Wertstrom optimieren, Ideen entwickeln, Kultur leben"
@@ -30,5 +31,20 @@ aufzaehlung_rechts = "* Unternehmenskommunikation gezielt steuern.  \n  Kommunik
 bild = "/uploads/2020/04/30/kultur"
 text = "* Weiterentwicklung der Führungskultur auf allen Ebenen.  \n  Begeisterte und hoch motivierte Mitarbeiter werden zum Antrieb Ihres Unternehmens.\n* Aufbau einer effizienten und sich selbst optimierenden Organisation.  \n  Effiziente Führungs- und Kommunikationsstrukturen machen Ihr Unternehmen schnell, flexibel und reaktionsfreudig."
 titel = "KULTUR leben"
+[[kacheln]]
+farbe = "blue_dark"
+image = "/uploads/2020/05/04/coaching-icon"
+text-vorderseite = "Coaching"
+text_ruckseite = "* Auf die Unternehmenssituation perfekt abgestimmte Lösungen aus der Praxis für die Praxis.\n* Schneller Rückfluss der investierten Mittel, meist innerhalb der ersten 12 Monate nach Projektstart.\n* Transparenz durch die kontinuierliche Verfolgung messbarer Ziele."
+[[kacheln]]
+farbe = ""
+image = ""
+text-vorderseite = ""
+text_ruckseite = ""
+[[kacheln]]
+farbe = ""
+image = ""
+text-vorderseite = ""
+text_ruckseite = ""
 
 +++
