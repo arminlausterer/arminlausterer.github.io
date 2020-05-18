@@ -31,6 +31,23 @@ fields:
     config:
       maxSize: 64
     label: Backgroundpicture
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
   - name: kacheln
     type: field_group_list
     fields:
@@ -62,28 +79,28 @@ fields:
       config: {}
       template: farbe
       label: Farbe
+    - name: buttonbeschriftung
+      type: text
+      config:
+        required: false
+      label: buttonbeschriftung
+    - name: buttonlink
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: seiten
+          file: 
+          path: 
+      label: buttonlink
     config:
       min: 
       max: 
       labelField: 
     label: Kacheln
-  - name: buttonbeschriftung
-    type: text
-    config:
-      required: false
-    label: buttonbeschriftung
-  - name: buttonlink
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: seiten
-        file: 
-        path: 
-    label: buttonlink
   label: Leistungen
 - name: online_semin
   type: field_group
