@@ -112,6 +112,23 @@ fields:
     config: {}
     template: farbe
     label: Farbe
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: buttonlink
   config:
     min: 
     max: 
