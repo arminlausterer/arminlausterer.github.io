@@ -42,9 +42,9 @@ image = "/uploads/2020/05/04/consulting-icon"
 text-vorderseite = "Consulting"
 text_ruckseite = "* Analyse der IST-Situation in Ihrem Unternehmen\n* Erarbeiten von maßgeschneiderten Handlungsoptionen\n* Begleitung und Beratung bei der Entscheidungsfindung\n* Ergebnissicherung"
 [[kacheln]]
-farbe = ""
-image = ""
-text-vorderseite = ""
-text_ruckseite = ""
+farbe = "grey"
+image = "/uploads/2020/05/04/outsourcing-icon"
+text-vorderseite = "Outsourcing"
+text_ruckseite = "* Ihr Unternehmen kann sich ganz auf seine Kernkompetenzen  \n  fokussieren.\n* Die von uns betreuten Prozesse sind von Beginn an voll leistungsfähig.\n* Lernkurven werden deutlich verkürzt"
 
 +++
