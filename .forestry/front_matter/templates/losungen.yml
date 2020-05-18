@@ -89,7 +89,7 @@ fields:
     config:
       maxSize: 64
     label: Icon
-  - name: text-vorderseite
+  - name: text_vorderseite
     type: textarea
     default: ''
     config:

@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "main" }}{{$p:=.}}
 <div class="subpage solutions">
   <div class="titlewrap">
     <div class="ui container">
@@ -29,5 +29,36 @@
     </section>
     {{end}}
   </div>
+  {{with .Params.kacheln}}
+  <div id="leistungen">
+    <div class="ui container">
+      <div class="ui three column stackable grid">
+        {{range .}}
+          <div class="ui column computer only">
+            <a href="{{relref $p .buttonlink}}">
+            <div class="ui fade reveal">
+              <div class="visible content {{.farbe}}">
+                <img src="{{partial "imgUrl" (dict "img" .image "params" "c_scale,f_auto,w_300" )}} "/>
+                {{.text_vorderseite|markdownify}}
+              </div>
+              <div class="hidden content {{.farbe}}">
+                {{.text_ruckseite|markdownify}}
+              </div>
+            </div>
+            </a>
+            <a class="albutton colbutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+          </div>
+          <div class="ui column mobile only">
+            <div class=" content {{.farbe}}">
+              <img src="{{partial "imgUrl" (dict "img" .image "params" "c_scale,f_auto,w_300" )}} "/>
+              <h3>{{.text_vorderseite|markdownify}}</h3>
+              {{.text_ruckseite|markdownify}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
 </div>
 {{ end }}
