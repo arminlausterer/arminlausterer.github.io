@@ -30,7 +30,7 @@ headline = ""
 icon = "/uploads/2020/05/14/1_lausterer_icon-02.jpg"
 subheadline = "Schritt 2 - Onlinetraining"
 [[content]]
-aufzaehlung = "* Praxisvertiefung\n* Anwendung der Inhalte auf die spezielle Unternehmenssituation"
+aufzaehlung = "* Praxisvertiefung im 1:1 - Gespräch\n* Anwendung der Inhalte auf Ihre spezielle Unternehmenssituation"
 farbe = "blue_dark"
 headline = ""
 icon = "/uploads/2020/05/14/1_lausterer_icon-03.jpg"
