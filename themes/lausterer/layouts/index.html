@@ -10,7 +10,7 @@
       <div style="max-width: px">
         <video
           id="home_player"
-          data-cld-public-id="lausterer/uploads/2020/05/04/lausterer_animation_final_16zu9_11_05_2020_180520"
+          data-cld-public-id="lausterer/uploads/2020/05/04/lausterer_animation_final_16zu9_280520"
           muted
           controls
           class="cld-video-player cld-video-player-skin-light"
@@ -156,10 +156,11 @@
   $(function () {
     var cld = cloudinary.Cloudinary.new({ cloud_name: 'b-coding' });
     var demoplayer = cld.videoPlayer('home_player',{
-      loop:false,
+      loop:true,
       autoplayMode:'on-scroll',
       hideContextMenu:true,
-      quality: 100, videoCodec: "h264",
+      quality: 100, 
+      // videoCodec: "h264",
       showJumpControls: true
     });
   });
