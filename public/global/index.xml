@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Globals on Armin Lausterer</title>
+    <link>https://arminlausterer.github.io/global/</link>
+    <description>Recent content in Globals on Armin Lausterer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 25 May 2018 14:23:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://arminlausterer.github.io/global/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Footer</title>
+      <link>https://arminlausterer.github.io/global/footer/</link>
+      <pubDate>Fri, 25 May 2018 14:23:18 +0000</pubDate>
+      
+      <guid>https://arminlausterer.github.io/global/footer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Header</title>
+      <link>https://arminlausterer.github.io/global/header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arminlausterer.github.io/global/header/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

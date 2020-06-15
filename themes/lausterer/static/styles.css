@@ -297,6 +297,9 @@ footer .footer1 i {
   line-height: 3rem;
   font-size: 1.5rem;
 }
+footer .footernews {
+  margin: 0 -1.5rem -0.5rem -1.5rem;
+}
 footer .footerm {
   background: #5f6165;
 }
