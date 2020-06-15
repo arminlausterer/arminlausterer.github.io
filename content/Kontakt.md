@@ -9,6 +9,9 @@ titel_bild = ""
 name = "Kontakt"
 weight = 7
 [[content]]
+content = "<pre><code>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"<a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=newsletter\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=newsletter\">https://armin-lausterer.kurs.software/iframe/?&amp;module=newsletter</a>\" frameborder=\"0\"&gt;&lt;/iframe&gt;\n&lt;script src=\"<a href=\"https://assets.kurs.software/iframe.min.js\" title=\"https://assets.kurs.software/iframe.min.js\">https://assets.kurs.software/iframe.min.js</a>\"&gt;&lt;/script&gt;</code></pre>"
+icon = ""
+[[content]]
 content = "<p>Armin Lausterer <br>In der Au 34 B <br>93179 Brennberg</p>"
 icon = "map marker alternate"
 [[content]]
