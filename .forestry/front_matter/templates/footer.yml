@@ -43,5 +43,14 @@ fields:
     max: 
     labelField: 
   label: icons
+- name: newsletter
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Newsletter
 pages:
 - content/global/footer.md
