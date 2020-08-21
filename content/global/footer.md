@@ -10,6 +10,9 @@ uberschrift = "Kontakt"
 content = ""
 logos = []
 [[icons]]
+icon = "Live Call"
+icon_link = "<p><a href=\"https://us02web.zoom.us/j/2876795051\" title=\"https://us02web.zoom.us/j/2876795051\">https://us02web.zoom.us/j/2876795051</a></p>"
+[[icons]]
 content = ""
 icon = "linkedin alternate"
 icon_link = "https://www.linkedin.com/in/armin-lausterer-28b91432"
