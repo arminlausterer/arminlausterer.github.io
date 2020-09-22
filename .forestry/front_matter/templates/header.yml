@@ -7,5 +7,40 @@ fields:
   config:
     maxSize: 2
   label: logo
+- name: livecall
+  type: field_group
+  config: {}
+  fields:
+  - name: livecall
+    type: field_group_list
+    fields:
+    - name: bild
+      type: file
+      config:
+        maxSize: 64
+      label: Bild
+    - name: buttonbeschriftung
+      type: text
+      config:
+        required: false
+      label: buttonbeschriftung
+    - name: buttonlink
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: global
+          file: 
+          path: 
+      label: buttonlink
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: livecall
+  label: Livecall
 pages:
 - content/global/header.md
