@@ -25,16 +25,13 @@ fields:
         required: false
       label: buttonbeschriftung
     - name: buttonlink
-      type: select
-      default: []
+      type: textarea
+      default: ''
       config:
         required: false
-        options: []
-        source:
-          type: pages
-          section: global
-          file: 
-          path: 
+        wysiwyg: true
+        schema:
+          format: html-blocks
       label: buttonlink
     config:
       min: 
