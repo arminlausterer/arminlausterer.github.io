@@ -117,6 +117,32 @@ header{
   background:white;
   #hcontent{
     display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    #callwrapper{
+      display:flex;
+      justify-content:flex-end;
+      @media (max-width: 720px){
+        justify-content:flex-start;
+      }
+      padding-right:1rem;
+      .callbutton{
+        > div{
+          background:@blue;
+          color:white;
+          display:flex;
+          align-items:center;
+          padding:2px 5px;
+          border-right:1px solid white;
+          img{
+            margin-right:0.5rem;
+          }
+        }
+      }
+    }
+  }
+  #logonav{
+    display:flex;
     justify-content: space-between;
     align-items: center;
     z-index:99999;

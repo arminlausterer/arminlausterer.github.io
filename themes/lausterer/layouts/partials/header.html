@@ -1,6 +1,18 @@
 {{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}{{$site := .Site}}
 <header>
   <div id="hcontent" class="ui container">
+    <div id="callwrapper">
+      {{range $t.Params.livecall.livecall}}
+      <a class="callbutton" target="_blank" {{ printf "href=%q" .buttonlink | safeHTMLAttr }}>
+        <div>
+        <img class="logo" src="{{partial "imgUrl" (dict "img" .bild "params" "q_100,w_20" )}}" />
+         {{.buttonbeschriftung}}
+        </div>
+      </a>
+      
+      {{end}}
+    </div>
+    <div id="logonav">
     <div id="hlogo">
       <a href="/" id="logolink">
         <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "q_100,w_200" )}}" />
@@ -26,6 +38,7 @@
         {{ end }}
       </ul>
     </div>
+  </div>
   </div>
     
   

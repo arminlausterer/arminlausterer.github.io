@@ -113,12 +113,38 @@ header {
 }
 header #hcontent {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+header #hcontent #callwrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+@media (max-width: 720px) {
+  header #hcontent #callwrapper {
+    justify-content: flex-start;
+  }
+}
+header #hcontent #callwrapper .callbutton > div {
+  background: #009dee;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  border-right: 1px solid white;
+}
+header #hcontent #callwrapper .callbutton > div img {
+  margin-right: 0.5rem;
+}
+header #logonav {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 99999;
   padding: 1rem 0;
 }
-header #hcontent #hmenu {
+header #logonav #hmenu {
   padding-right: 1rem;
 }
 @media (max-width: 720px) {
