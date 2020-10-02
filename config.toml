@@ -6,7 +6,3 @@ title = "Armin Lausterer"
 name = "Live Call"
 url = "https://us02web.zoom.us/j/2876795051"
 weight = 4
-[[menu.main]]
-name = "Live Call"
-url = "https://us02web.zoom.us/j/8125098758"
-weight = 8
