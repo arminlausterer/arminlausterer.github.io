@@ -74,3 +74,5 @@ fields:
         format: html-blocks
     label: kurs-iframe
   label: Kurse
+pages:
+- content/cobot-demo.md
