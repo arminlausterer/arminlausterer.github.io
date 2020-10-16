@@ -11,7 +11,7 @@ livecall:
     buttonlink: https://us02web.zoom.us/j/8125098758
 demo:
   demo:
-  - bild: "/uploads/2020/10/16/cobot.png"
+  - bild: "/uploads/2020/10/16/1cobot.png"
     buttonbeschriftung: DEMO
     buttonlink: https://armin-lausterer.de/cobot-demo/
 
