@@ -1,9 +1,10 @@
 +++
 seo_description = ""
+layout = "cobotdemo"
 title = "Cobot Demo"
-video_home = "https://youtu.be/-bFgAvCDFqI"
+video_home = "-bFgAvCDFqI"
 [kurse]
-kurs-iframe = "<pre><code>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"<a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses&amp;id=5041&amp;ia=show\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses&amp;id=5041&amp;ia=show\" target=\"_blank\">https://armin-lausterer.kurs.software/iframe/?&amp;module=courses&amp;id=5041&amp;ia=show</a>\" frameborder=\"0\"&gt;&lt;/iframe&gt;\n&lt;script src=\"<a href=\"https://assets.kurs.software/iframe.min.js\" title=\"https://assets.kurs.software/iframe.min.js\" target=\"_blank\">https://assets.kurs.software/iframe.min.js</a>\"&gt;&lt;/script&gt;</code></pre>"
+kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=5041&ia=show\" frameborder=\"0\"></iframe>"
 titel = "kurse"
 [team]
 blockquote = "<blockquote><p><em>Es ist keine andere<br>Technologie in Sicht, die die<br>Produktion unserer mittel-<br>ständischen Unternehmen, in<br>den nächsten Jahren so stark<br>verändern wird, wie COBOTS.“</em></p></blockquote>"

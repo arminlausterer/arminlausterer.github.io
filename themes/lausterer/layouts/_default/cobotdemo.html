@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="subpage cobotdemo">
+    <div class="titlewrap">
+        <div class="ui container">
+          <h1>{{.Params.title}}</h1>
+        </div>
+      </div>
+
+
+<div class="ui container">
+    <div class="ui embed" data-source="youtube" autoplay data-id="{{ .Params.video_home}}" data-icon="video"></div>
+
+
+      <div class="content">
+        <section class="ct ks" style="margin-bottom:2rem">
+          <h2>{{ .Params.kurse.titel}}</h2>
+          {{ .Params.kurse.kurs_iframe|safeHTML}}
+        </section>
+      </div>
+      </div>
+
+    
+
+
+
+
+
+
+
+
+  </div>
+
+  {{ end }} 

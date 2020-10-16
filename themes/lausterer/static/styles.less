@@ -140,6 +140,27 @@ header{
         }
       }
     }
+    #callwrapper1{
+      display:flex;
+      justify-content:flex-end;
+      @media (max-width: 720px){
+        justify-content:flex-start;
+      }
+      padding-right:1rem;
+      .callbutton{
+        > div{
+          background:rgb(248, 164, 7);
+          color:white;
+          display:flex;
+          align-items:center;
+          padding:2px 5px;
+          border-right:50px solid white;
+          img{
+            margin-right:0.5rem;
+          }
+        }
+      }
+    }
   }
   #logonav{
     display:flex;
