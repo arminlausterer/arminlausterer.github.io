@@ -1,10 +1,10 @@
 +++
 seo_description = ""
 title = "Cobot Demo"
-video_home = ""
+video_home = "https://youtu.be/-bFgAvCDFqI"
 [kurse]
-kurs-iframe = ""
-titel = ""
+kurs-iframe = "<pre><code>&lt;iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"<a href=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses&amp;id=5041&amp;ia=show\" title=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=courses&amp;id=5041&amp;ia=show\" target=\"_blank\">https://armin-lausterer.kurs.software/iframe/?&amp;module=courses&amp;id=5041&amp;ia=show</a>\" frameborder=\"0\"&gt;&lt;/iframe&gt;\n&lt;script src=\"<a href=\"https://assets.kurs.software/iframe.min.js\" title=\"https://assets.kurs.software/iframe.min.js\" target=\"_blank\">https://assets.kurs.software/iframe.min.js</a>\"&gt;&lt;/script&gt;</code></pre>"
+titel = "kurse"
 [menu.main]
 name = "Demo"
 weight = 8
