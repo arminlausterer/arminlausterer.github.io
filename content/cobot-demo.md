@@ -24,10 +24,10 @@ name = "Armin Lausterer"
 position = "Geschäftsführer"
 teambild = "/uploads/2020/05/04/lausterer.png"
 [[team.team_einzeln]]
-farbe = ""
-kachelruckseite = ""
-name = ""
-position = ""
-teambild = ""
+farbe = "blau"
+kachelruckseite = "\"Entweder wir finden einen Weg oder wir machen einen.\" Hannibal"
+name = "Melanie Düber"
+position = "Lean Trainer"
+teambild = "/uploads/2020/05/04/deuber.png"
 
 +++
