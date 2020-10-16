@@ -6,6 +6,9 @@ video_home = ""
 [kurse]
 kurs-iframe = ""
 titel = ""
+[menu.main]
+name = "Demo"
+weight = 8
 [team]
 buttonbeschriftung = ""
 buttonlink = ""
