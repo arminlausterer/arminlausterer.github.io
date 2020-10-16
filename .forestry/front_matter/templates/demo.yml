@@ -8,50 +8,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: type
-  label: type
-- type: text
-  name: video_home
-  label: video_home
-- type: field_group
-  name: leistungen
-  label: leistungen
-  fields:
-  - type: text
-    name: backgroundpicture
-    label: backgroundpicture
-  - type: text
-    name: buttonbeschriftung
-    label: buttonbeschriftung
-  - type: text
-    name: buttonlink
-    label: buttonlink
-  - type: text
-    name: titelzeile
-    label: titelzeile
-  - type: field_group_list
-    name: kacheln
-    label: kacheln
-    fields:
-    - type: text
-      name: farbe
-      label: farbe
-    - type: text
-      name: icon
-      label: icon
-    - type: textarea
-      name: text_ruckseite
-      label: text_ruckseite
-    - type: text
-      name: text_vorderseite
-      label: text_vorderseite
-    - type: text
-      name: buttonbeschriftung
-      label: buttonbeschriftung
-    - type: text
-      name: buttonlink
-      label: buttonlink
 - type: field_group
   name: team
   label: team
@@ -96,3 +52,25 @@ fields:
     - type: file
       name: teambild
       label: teambild
+- type: text
+  name: video_home
+  label: video_home
+- name: kurse
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: kurs-iframe
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: kurs-iframe
+  label: Kurse
