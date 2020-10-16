@@ -12,27 +12,15 @@ fields:
   name: team
   label: team
   fields:
-  - type: text
-    name: buttonbeschriftung
-    label: buttonbeschriftung
-  - type: text
-    name: buttonlink
-    label: buttonlink
-  - type: text
-    name: headline
-    label: headline
-  - type: text
-    name: kachel-ruckseite
-    label: kachel-ruckseite
-  - type: text
-    name: name
-    label: name
-  - type: text
-    name: position
-    label: position
-  - type: text
-    name: teambild
-    label: teambild
+  - name: blockquote
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: blockquote
   - type: field_group_list
     name: team_einzeln
     label: team_einzeln
