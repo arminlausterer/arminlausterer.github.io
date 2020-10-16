@@ -115,4 +115,5 @@ fields:
   template: seo
   label: seo
 pages:
+- content/Demo.md
 - content/Online-Trainings.md
