@@ -15,31 +15,6 @@ fields:
   name: video_home
   label: video_home
 - type: field_group
-  name: lean_labor
-  label: lean_labor
-  fields:
-  - type: text
-    name: backgroundpicture
-    label: backgroundpicture
-  - type: text
-    name: buttonbeschriftung
-    label: buttonbeschriftung
-  - type: text
-    name: buttonlink
-    label: buttonlink
-  - type: text
-    name: headline
-    label: headline
-  - type: textarea
-    name: text
-    label: text
-  - type: text
-    name: vordergrund-bild
-    label: vordergrund-bild
-  - type: text
-    name: vordergrund_bild
-    label: vordergrund_bild
-- type: field_group
   name: leistungen
   label: leistungen
   fields:
@@ -77,25 +52,6 @@ fields:
     - type: text
       name: buttonlink
       label: buttonlink
-- type: field_group
-  name: online_semin
-  label: online_semin
-  fields:
-  - type: text
-    name: bild
-    label: bild
-  - type: text
-    name: buttonbeschriftung
-    label: buttonbeschriftung
-  - type: text
-    name: buttonlink
-    label: buttonlink
-  - type: text
-    name: headline
-    label: headline
-  - type: textarea
-    name: text
-    label: text
 - type: field_group
   name: team
   label: team
@@ -140,32 +96,3 @@ fields:
     - type: file
       name: teambild
       label: teambild
-- type: field_group
-  name: testimonials
-  label: testimonials
-  fields:
-  - type: text
-    name: backgroundpicture
-    label: backgroundpicture
-  - type: text
-    name: buttonlink
-    label: buttonlink
-  - type: text
-    name: grosser_button
-    label: grosser_button
-  - type: text
-    name: titel_links
-    label: titel_links
-  - type: field_group_list
-    name: kunden
-    label: kunden
-    fields:
-    - type: text
-      name: farbe
-      label: farbe
-    - type: textarea
-      name: textkunden
-      label: textkunden
-    - type: text
-      name: titel_
-      label: titel_
