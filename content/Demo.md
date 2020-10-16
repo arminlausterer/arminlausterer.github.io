@@ -1,6 +1,5 @@
 +++
 content = []
-draft = true
 einfuhrungstext = ""
 headerpic = ""
 headertitel = ""
