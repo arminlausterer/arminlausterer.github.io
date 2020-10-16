@@ -1,0 +1,171 @@
+---
+label: demo
+hide_body: true
+fields:
+- type: textarea
+  name: seo_description
+  label: seo_description
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: video_home
+  label: video_home
+- type: field_group
+  name: lean_labor
+  label: lean_labor
+  fields:
+  - type: text
+    name: backgroundpicture
+    label: backgroundpicture
+  - type: text
+    name: buttonbeschriftung
+    label: buttonbeschriftung
+  - type: text
+    name: buttonlink
+    label: buttonlink
+  - type: text
+    name: headline
+    label: headline
+  - type: textarea
+    name: text
+    label: text
+  - type: text
+    name: vordergrund-bild
+    label: vordergrund-bild
+  - type: text
+    name: vordergrund_bild
+    label: vordergrund_bild
+- type: field_group
+  name: leistungen
+  label: leistungen
+  fields:
+  - type: text
+    name: backgroundpicture
+    label: backgroundpicture
+  - type: text
+    name: buttonbeschriftung
+    label: buttonbeschriftung
+  - type: text
+    name: buttonlink
+    label: buttonlink
+  - type: text
+    name: titelzeile
+    label: titelzeile
+  - type: field_group_list
+    name: kacheln
+    label: kacheln
+    fields:
+    - type: text
+      name: farbe
+      label: farbe
+    - type: text
+      name: icon
+      label: icon
+    - type: textarea
+      name: text_ruckseite
+      label: text_ruckseite
+    - type: text
+      name: text_vorderseite
+      label: text_vorderseite
+    - type: text
+      name: buttonbeschriftung
+      label: buttonbeschriftung
+    - type: text
+      name: buttonlink
+      label: buttonlink
+- type: field_group
+  name: online_semin
+  label: online_semin
+  fields:
+  - type: text
+    name: bild
+    label: bild
+  - type: text
+    name: buttonbeschriftung
+    label: buttonbeschriftung
+  - type: text
+    name: buttonlink
+    label: buttonlink
+  - type: text
+    name: headline
+    label: headline
+  - type: textarea
+    name: text
+    label: text
+- type: field_group
+  name: team
+  label: team
+  fields:
+  - type: text
+    name: buttonbeschriftung
+    label: buttonbeschriftung
+  - type: text
+    name: buttonlink
+    label: buttonlink
+  - type: text
+    name: headline
+    label: headline
+  - type: text
+    name: kachel-ruckseite
+    label: kachel-ruckseite
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: position
+    label: position
+  - type: text
+    name: teambild
+    label: teambild
+  - type: field_group_list
+    name: team_einzeln
+    label: team_einzeln
+    fields:
+    - type: text
+      name: farbe
+      label: farbe
+    - type: text
+      name: kachelruckseite
+      label: kachelruckseite
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: position
+      label: position
+    - type: file
+      name: teambild
+      label: teambild
+- type: field_group
+  name: testimonials
+  label: testimonials
+  fields:
+  - type: text
+    name: backgroundpicture
+    label: backgroundpicture
+  - type: text
+    name: buttonlink
+    label: buttonlink
+  - type: text
+    name: grosser_button
+    label: grosser_button
+  - type: text
+    name: titel_links
+    label: titel_links
+  - type: field_group_list
+    name: kunden
+    label: kunden
+    fields:
+    - type: text
+      name: farbe
+      label: farbe
+    - type: textarea
+      name: textkunden
+      label: textkunden
+    - type: text
+      name: titel_
+      label: titel_
