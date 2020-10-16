@@ -1,5 +1,4 @@
 +++
-draft = true
 seo_description = ""
 title = "Cobot Demo"
 video_home = ""
@@ -10,6 +9,7 @@ titel = ""
 name = "Demo"
 weight = 8
 [team]
+blockquote = ""
 buttonbeschriftung = ""
 buttonlink = ""
 headline = ""
