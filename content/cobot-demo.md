@@ -18,7 +18,7 @@ name = ""
 position = ""
 teambild = ""
 [[team.team_einzeln]]
-farbe = "grau"
+farbe = "grey"
 kachelruckseite = "Aus der Praxis für die Praxis"
 name = "Armin Lausterer"
 position = "Geschäftsführer"
