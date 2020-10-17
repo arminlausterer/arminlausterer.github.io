@@ -1,33 +1,61 @@
 {{ define "main" }}
 <div class="subpage cobotdemo">
-    <div class="titlewrap">
-        <div class="ui container">
-          <h1>{{.Params.title}}</h1>
-        </div>
-      </div>
-
-
-<div class="ui container">
-    <div class="ui embed" data-source="youtube" autoplay data-id="{{ .Params.video_home}}" data-icon="video"></div>
-
-
-      <div class="content">
-        <section class="ct ks" style="margin-bottom:2rem">
-          <h2>{{ .Params.kurse.titel}}</h2>
-          {{ .Params.kurse.kurs_iframe|safeHTML}}
-        </section>
-      </div>
-      </div>
-
-    
-
-
-
-
-
-
-
-
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.title}}</h1>
+    </div>
   </div>
 
-  {{ end }} 
+  {{with .Params.team}}
+  <div id="team" class="grey">
+    <div class="ui container">
+      <div class="ui grid two column">
+        <div class="column">{{.blockquote|safeHTML}}</div>
+        <div class="column">
+          <div class="teamgrid">
+            {{range .team_einzeln}}
+            <div class="tcol">
+              <div class="visible content">
+                <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_300" )}} "/>
+                <div class="tm {{.farbe}}">
+                  <h3>{{.name}}</h3>
+                  <h4>{{.position}}&nbsp;</h4>
+                </div>
+              </div>
+                <div class="hidden content {{.farbe}}">
+                    {{.kachelruckseite|markdownify}}
+                  </div>
+            </div>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+
+  <div class="ui container">
+    <div
+      class="ui embed"
+      data-source="youtube"
+      autoplay
+      data-id="{{ .Params.video_home}}"
+      data-icon="video"
+    ></div>
+
+    <div class="ui container standard tim">
+      <div class="pfeil">
+        <img class="timg" src="{{partial "imgUrl" (dict "img" .Params.pfeil "params" "c_scale,f_auto,w_1100" )}} "/>
+      </div>
+    </div>
+
+    <div class="content">
+      <section class="ct ks" style="margin-bottom: 2rem">
+        <h2>{{ .Params.kurse.titel}}</h2>
+        {{ .Params.kurse.kurs_iframe|safeHTML}}
+      </section>
+    </div>
+  </div>
+</div>
+
+{{ end }}

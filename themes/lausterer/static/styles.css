@@ -60,6 +60,8 @@ blockquote:before {
   z-index: 99;
 }
 blockquote {
+  position: relative;
+  padding: 0 0 0 30px;
   font-size: 1.2rem;
   font-style: italic;
   font-weight: normal;
@@ -149,7 +151,7 @@ header #hcontent #callwrapper1 {
 }
 header #hcontent #callwrapper1 .callbutton > div {
   background: #f8a407;
-  color:white;
+  color: white;
   display: flex;
   align-items: center;
   padding: 2px 5px;
@@ -547,7 +549,7 @@ footer .footermenu a:last-child {
   display: block;
 }
 #home #team .teamgrid .tcol .tm {
-  padding: 1rem;
+  padding: 10rem;
   width: 100%;
 }
 #home #team .teamgrid .tcol .tm h3,
@@ -559,10 +561,10 @@ footer .footermenu a:last-child {
 #home #team .teamgrid .tcol .tm h4 {
   margin: 0;
 }
-#home #team .teamgrid .tcol .tm.grey {
+#home #team .teamgrid .tcol .tm.grau {
   background: #5f6165;
 }
-#home #team .teamgrid .tcol .tm.blue {
+#home #team .teamgrid .tcol .tm.blau {
   background: #009dee;
 }
 #home #team .teamgrid .tcol .tm.blue_dark {
@@ -578,10 +580,10 @@ footer .footermenu a:last-child {
   color: white;
   font-size: 1.2rem;
 }
-#home #team .teamgrid .tcol:hover .hidden.grey {
+#home #team .teamgrid .tcol:hover .hidden.grau {
   background: #5f6165;
 }
-#home #team .teamgrid .tcol:hover .hidden.blue {
+#home #team .teamgrid .tcol:hover .hidden.blau {
   background: #009dee;
 }
 #home #team .teamgrid .tcol:hover .hidden.blue_dark {
@@ -1093,9 +1095,157 @@ footer .footermenu a:last-child {
   margin-left: 0.2em;
   margin-top: 0.2em;
 }
-.subpage.cobotdemo {
+.subpage.cobotdemo .pfeil {
+  margin: 2rem 0;
+}
+.subpage.cobotdemo .pfeil img {
+  max-width: 100%;
+}
+.subpage .teamgrid {
+  width: calc(100% + 2rem);
+  position: relative;
+  margin: 0 -1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subpage .teamgrid .tcol {
+  width: 48%;
+  position: relative;
+  cursor: pointer;
+}
+.subpage .teamgrid .tcol .hidden {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+}
+.subpage .teamgrid .tcol .visible {
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+}
+.subpage .teamgrid .tcol img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.subpage .teamgrid .tcol .tm {
+  padding: 1rem;
+  width: 100%;
+}
+.subpage .teamgrid .tcol .tm h3,
+.subpage .teamgrid .tcol .tm h4 {
   color: white;
-  font-size: 1.5rem;
-  margin-left: 0.2em;
-  margin-top: 0.2em;
-} 
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.subpage .teamgrid .tcol .tm h4 {
+  margin: 0;
+}
+.subpage .teamgrid .tcol .tm.grey {
+  background: #5f6165;
+}
+.subpage .teamgrid .tcol .tm.blue {
+  background: #009dee;
+}
+.subpage .teamgrid .tcol .tm.blue_dark {
+  background: #027bba;
+}
+.subpage .teamgrid .tcol:hover .hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.subpage .teamgrid .tcol:hover .hidden.grey {
+  background: #5f6165;
+}
+.subpage .teamgrid .tcol:hover .hidden.blue {
+  background: #009dee;
+}
+.subpage .teamgrid .tcol:hover .hidden.blue_dark {
+  background: #027bba;
+}
+.subpage .teamgrid .tcol:hover .visible {
+  display: none;
+}
+@media (max-width: 720px) {
+  .subpage .teamgrid {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .subpage .teamgrid .tcol {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+  .subpage .teamgrid .tcol .hidden {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+  }
+  .subpage .teamgrid .tcol .visible {
+    z-index: 2;
+  }
+  .subpage .teamgrid .tcol img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  .subpage .teamgrid .tcol .tm {
+    padding: 1rem;
+    width: 100%;
+  }
+  .subpage .teamgrid .tcol .tm h3,
+  .subpage .teamgrid .tcol .tm h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .subpage .teamgrid .tcol .tm h4 {
+    margin: 0;
+  }
+  .subpage .teamgrid .tcol .tm.grey {
+    background: #5f6165;
+  }
+  .subpage .teamgrid .tcol .tm.blue {
+    background: #009dee;
+  }
+  .subpage .teamgrid .tcol .tm.blue_dark {
+    background: #027bba;
+  }
+  .subpage .teamgrid .tcol:hover .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .subpage .teamgrid .tcol:hover .hidden.grey {
+    background: #5f6165;
+  }
+  .subpage .teamgrid .tcol:hover .hidden.blue {
+    background: #009dee;
+  }
+  .subpage .teamgrid .tcol:hover .hidden.blue_dark {
+    background: #027bba;
+  }
+  .subpage .teamgrid .tcol:hover .visible {
+    display: none;
+  }
+}

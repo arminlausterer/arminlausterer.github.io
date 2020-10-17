@@ -61,6 +61,8 @@ blockquote:before {
 }
 
 blockquote {
+  position:relative;
+  padding:0 0 0 30px;
 	font-size: 1.2rem;
 	font-style: italic;
 	font-weight: normal;
@@ -540,7 +542,7 @@ footer{
           display:block;
         }
         .tm{
-          padding:1rem;
+          padding:10rem;
           h3,h4{
             color:white;
             text-align:center;
@@ -549,10 +551,10 @@ footer{
           h4{
             margin:0;
           }
-          &.grey{
+          &.grau{
             background:@grey;
           }
-          &.blue{
+          &.blau{
             background:@blue;
           }
           &.blue_dark{
@@ -570,10 +572,10 @@ footer{
             padding:2rem;
             color:white;
             font-size:1.2rem;
-            &.grey{
+            &.grau{
               background:@grey;
             }
-            &.blue{
+            &.blau{
               background:@blue;
             }
             &.blue_dark{
@@ -1052,6 +1054,164 @@ footer{
         }
         
       }
+    }
+  }
+}
+.subpage{
+  &.cobotdemo{
+  .pfeil{
+      margin:2rem 0;
+      img{
+        max-width:100%;
+      }
+    }
+  }
+  .teamgrid{
+    width:calc(100% + 2rem);
+    position:relative;
+    margin: 0 -1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .tcol{
+      width:48%;
+      position:relative;
+      cursor:pointer;
+      .hidden{
+        position:absolute;
+        top:0;
+        z-index:-1;
+        height:100%;
+      }
+      .visible{
+        z-index:2;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        background:white;
+      }
+      img{
+        width:100%;
+        margin:0;
+        padding:0;
+        display:block;
+      }
+      .tm{
+        padding:1rem;
+        h3,h4{
+          color:white;
+          text-align:center;
+          margin-bottom:0.5rem;
+        }
+        h4{
+          margin:0;
+        }
+        &.grey{
+          background:@grey;
+        }
+        &.blue{
+          background:@blue;
+        }
+        &.blue_dark{
+          background:@blue_dark;
+        }
+        width:100%;
+      }
+      &:hover{
+        .hidden{
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+          padding:2rem;
+          color:white;
+          font-size:1.2rem;
+          &.grey{
+            background:@grey;
+          }
+          &.blue{
+            background:@blue;
+          }
+          &.blue_dark{
+            background:@blue_dark;
+          }
+        }
+        .visible{
+          display:none;
+        }
+      }
+    }
+    @media (max-width: 720px){
+      flex-direction: column;
+      padding: 0 1rem;
+      .tcol{
+        margin: 0 0 1rem 0;
+        width:100%;
+        position:relative;
+        cursor:pointer;
+        .hidden{
+          position:absolute;
+          top:0;
+          z-index:-1;
+          height:100%;
+        }
+        .visible{
+          z-index:2;
+        }
+        img{
+          width:100%;
+          margin:0;
+          padding:0;
+          display:block;
+        }
+        .tm{
+          padding:1rem;
+          h3,h4{
+            color:white;
+            text-align:center;
+            margin-bottom:0.5rem;
+          }
+          h4{
+            margin:0;
+          }
+          &.grey{
+            background:@grey;
+          }
+          &.blue{
+            background:@blue;
+          }
+          &.blue_dark{
+            background:@blue_dark;
+          }
+          width:100%;
+        }
+        &:hover{
+          .hidden{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            padding:2rem;
+            color:white;
+            font-size:1.2rem;
+            &.grey{
+              background:@grey;
+            }
+            &.blue{
+              background:@blue;
+            }
+            &.blue_dark{
+              background:@blue_dark;
+            }
+          }
+          .visible{
+            display:none;
+          }
+        }
+      }  
     }
   }
 }

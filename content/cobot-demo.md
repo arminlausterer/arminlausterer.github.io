@@ -6,10 +6,10 @@ title = "Cobot Demo"
 video_home = "-bFgAvCDFqI"
 [kurse]
 kurs-iframe = ""
-kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=5041&ia=show\" frameborder=\"0\"></iframe>"
+kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
 titel = "kurse"
 [team]
-blockquote = "<blockquote><p><em>Es ist keine andere<br>Technologie in Sicht, die die<br>Produktion unserer mittel-<br>ständischen Unternehmen, in<br>den nächsten Jahren so stark<br>verändern wird, wie COBOTS.“</em></p></blockquote>"
+blockquote = "<blockquote>Es ist keine andere<br>Technologie in Sicht, die die<br>Produktion unserer mittel-<br>ständischen Unternehmen, in<br>den nächsten Jahren so stark<br>verändern wird, wie COBOTS.</blockquote>"
 buttonbeschriftung = ""
 buttonlink = ""
 headline = ""
