@@ -62,5 +62,10 @@ fields:
         format: html-blocks
     label: kurs-iframe
   label: Kurse
+- name: pfeil
+  type: file
+  config:
+    maxSize: 64
+  label: pfeil
 pages:
 - content/cobot-demo.md
