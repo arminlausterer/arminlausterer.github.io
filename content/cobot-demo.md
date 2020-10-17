@@ -7,7 +7,7 @@ video_home = "-bFgAvCDFqI"
 [kurse]
 kurs-iframe = ""
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
-titel = "kurse"
+titel = "Online Live DEMO"
 [team]
 blockquote = "<blockquote>Es ist keine andere<br>Technologie in Sicht, die die<br>Produktion unserer mittel-<br>ständischen Unternehmen, in<br>den nächsten Jahren so stark<br>verändern wird, wie COBOTS.</blockquote>"
 buttonbeschriftung = ""
