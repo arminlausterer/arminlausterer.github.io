@@ -26,12 +26,6 @@ fields:
     label: team_einzeln
     fields:
     - type: text
-      name: farbe
-      label: farbe
-    - type: text
-      name: kachelruckseite
-      label: kachelruckseite
-    - type: text
       name: name
       label: name
     - type: text
@@ -40,6 +34,14 @@ fields:
     - type: file
       name: teambild
       label: teambild
+    - type: text
+      name: kachelruckseite
+      label: kachelruckseite
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
 - type: text
   name: video_home
   label: video_home
