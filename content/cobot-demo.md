@@ -2,7 +2,7 @@
 layout = "cobotdemo"
 pfeil = "/uploads/2020/10/17/demo-button.png"
 seo_description = ""
-title = "Collaborative Roboter (COBOTS) Demo"
+title = "Collaborative Roboter (COBOTS) Live Demo"
 video_home = "-bFgAvCDFqI"
 [kurse]
 kurs-iframe = ""
