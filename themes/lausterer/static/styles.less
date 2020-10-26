@@ -513,13 +513,12 @@ footer{
     .teamgrid{
       width:calc(100% + 2rem);
       position:relative;
-      margin: 0 0 4rem 0!important;
-      
+      margin: 0 -1rem;
       display:flex;
       flex-direction: row;
       justify-content: space-between;
       .tcol{
-        width:30%;
+        width:48%;
         position:relative;
         cursor:pointer;
         .hidden{
@@ -543,7 +542,7 @@ footer{
           display:block;
         }
         .tm{
-          padding:10rem;
+          padding:1rem;
           h3,h4{
             color:white;
             text-align:center;
@@ -552,10 +551,10 @@ footer{
           h4{
             margin:0;
           }
-          &.grau{
+          &.grey{
             background:@grey;
           }
-          &.blau{
+          &.blue{
             background:@blue;
           }
           &.blue_dark{
@@ -573,10 +572,10 @@ footer{
             padding:2rem;
             color:white;
             font-size:1.2rem;
-            &.grau{
+            &.grey{
               background:@grey;
             }
-            &.blau{
+            &.blue{
               background:@blue;
             }
             &.blue_dark{
@@ -754,7 +753,71 @@ footer{
       }
     }
   }
-  
+  #cobot{
+    margin-top:4rem;
+    padding:2rem 0 4rem 0;
+    position: relative;
+    background-color:@grey_light2!important;
+    @media (max-width: 600px){
+      background-position:bottom left!important;
+      background-size: 50% auto;
+      img{
+        display:none!important;
+      }
+    }
+    .morebutton_icon{
+      padding:1rem 2rem;
+      background-color:@blue;
+      color:white;
+      position:absolute;
+      bottom:0;
+      margin-bottom:-1rem;
+      left:50%;
+      width:200px!important;
+      margin-left:-100px!important;
+      display:flex;
+      justify-content:center;
+      font-size:1.2rem;
+
+      img{
+        margin-right:1rem;
+        
+      }
+    }
+    #imgvordergrund{
+      z-index:2;
+      position:absolute;
+      right:-50px;
+    }
+    .cobot_c{
+      padding:3rem 3rem 8rem 3rem;
+      width:100%;
+      background:@blue_dark;
+      position:relative;
+      right:0;
+      color:white;
+      @media (max-width: 720px){
+        padding: 0 0 4rem 0;
+        width:100%;
+        background:transparent;
+        color:@blue_dark;
+        h2{
+          color:@blue_dark!important;
+        }
+      }
+      h2{
+        color:white;
+        font-size:3rem;
+      }
+      h4{
+        color:white;
+        font-size:2rem;
+      }
+      
+
+    }
+  }
+
 }
 #leistungen{
   padding-bottom:6rem;

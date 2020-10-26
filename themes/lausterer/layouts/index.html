@@ -51,6 +51,42 @@
     <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
   </div>
   {{end}}
+  {{with .Params.cobot}}
+  <div id="cobot" class="grey" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) left top no-repeat; background-size:50% auto">
+    <div class="ui container">
+      <div class="ui grid two column stackable">
+        <div class="column">
+          <img id="imgvordergrund"src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_400" )}} "/>
+        </div>
+        <div class="column">
+          <div class="cobot_c">
+            <div>
+             <h2>{{.headline}}</h2>
+                <div class="content">
+                  {{.text|safeHTML}}
+                </div>
+            </div>
+            <div>
+              <h4>{{.headline2}}</h4>
+                 <div class="content">
+                   {{.text|safeHTML}}
+                 </div>
+             </div>
+          </div>
+          <a class="morebutton_icon" href="{{.button.link}}" target="_blank">
+            <div>{{.button.content|safeHTML}}</div>
+          </a>
+        </div>
+
+
+
+
+      </div>
+        
+      </div>
+    
+  </div>
+  {{end}}
   {{with .Params.online_semin}}
   <div id="online_semin" >
     <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_auto" )}}) left top no-repeat; background-size:cover">

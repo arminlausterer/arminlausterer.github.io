@@ -518,13 +518,13 @@ footer .footermenu a:last-child {
 #home #team .teamgrid {
   width: calc(100% + 2rem);
   position: relative;
-  margin: 0 0 4rem 0!important;
+  margin: 0 -1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 #home #team .teamgrid .tcol {
-  width: 30%;
+  width: 48%;
   position: relative;
   cursor: pointer;
 }
@@ -549,7 +549,7 @@ footer .footermenu a:last-child {
   display: block;
 }
 #home #team .teamgrid .tcol .tm {
-  padding: 10rem;
+  padding: 1rem;
   width: 100%;
 }
 #home #team .teamgrid .tcol .tm h3,
@@ -561,10 +561,10 @@ footer .footermenu a:last-child {
 #home #team .teamgrid .tcol .tm h4 {
   margin: 0;
 }
-#home #team .teamgrid .tcol .tm.grau {
+#home #team .teamgrid .tcol .tm.grey {
   background: #5f6165;
 }
-#home #team .teamgrid .tcol .tm.blau {
+#home #team .teamgrid .tcol .tm.blue {
   background: #009dee;
 }
 #home #team .teamgrid .tcol .tm.blue_dark {
@@ -580,10 +580,10 @@ footer .footermenu a:last-child {
   color: white;
   font-size: 1.2rem;
 }
-#home #team .teamgrid .tcol:hover .hidden.grau {
+#home #team .teamgrid .tcol:hover .hidden.grey {
   background: #5f6165;
 }
-#home #team .teamgrid .tcol:hover .hidden.blau {
+#home #team .teamgrid .tcol:hover .hidden.blue {
   background: #009dee;
 }
 #home #team .teamgrid .tcol:hover .hidden.blue_dark {
@@ -764,6 +764,70 @@ footer .footermenu a:last-child {
   width: 200px;
   margin-left: -100px !important;
   text-align: center;
+}
+#home #cobot {
+  margin-top: 4rem;
+  padding: 2rem 0 4rem 0;
+  position: relative;
+  background-color: rgba(114, 114, 114, 0.1) !important;
+}
+@media (max-width: 600px) {
+  #home #cobot {
+    background-position: bottom left!important;
+    background-size: 50% auto;
+  }
+  #home #cobot img {
+    display: none!important;
+  }
+}
+#home #cobot .morebutton_icon {
+  padding: 1rem 2rem;
+  background-color: #009dee;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1rem;
+  left: 50%;
+  width: 200px!important;
+  margin-left: -100px !important;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+#home #cobot .morebutton_icon img {
+  margin-right: 1rem;
+}
+#home #cobot #imgvordergrund {
+  z-index: 2;
+  position: absolute;
+  right: -50px;
+}
+#home #cobot .cobot_c {
+  padding: 3rem 3rem 8rem 3rem;
+  width: 100%;
+  background: #027bba;
+  position: relative;
+  right: 0;
+  color: white;
+}
+@media (max-width: 720px) {
+  #home #cobot .cobot_c {
+    padding: 0 0 4rem 0;
+    width: 100%;
+    background: transparent;
+    color: #027bba;
+  }
+  #home #cobot .cobot_c h2 {
+    color: #027bba !important;
+  }
+}
+#home #cobot .cobot_c h2 {
+  color: white;
+  font-size: 3rem;
+}
+#home #cobot .cobot_c h4 {
+  color: white;
+  font-size: 2rem;
 }
 #leistungen {
   padding-bottom: 6rem;
