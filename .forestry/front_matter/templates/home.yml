@@ -312,5 +312,63 @@ fields:
         path: 
     label: buttonlink
   label: Testimonials
+- name: cobot
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  - name: headline2
+    type: text
+    config:
+      required: false
+    label: headline2
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Text
+  - name: backgroundpicture
+    type: file
+    config:
+      maxSize: 64
+    label: Backgroundpicture
+  - name: vordergrund_bild
+    type: file
+    config:
+      maxSize: 64
+    label: Vordergrund_bild
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    label: button
+  label: Was ist ein Cobot
 pages:
 - content/_index.md
