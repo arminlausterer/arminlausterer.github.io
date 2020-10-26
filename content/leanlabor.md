@@ -9,7 +9,7 @@ seo_description = "Lean Labor: wertvolle Werkzeuge, Methoden und Tipps rund um d
 subheadline = "Willkommen im Lean – Labor:"
 [menu.main]
 name = "LeanLabor"
-weight = 5
+weight = 6
 [[lean_labor]]
 bild_ = ""
 buttonbeschriftung = "Download"

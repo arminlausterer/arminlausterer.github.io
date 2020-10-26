@@ -2,3 +2,7 @@ baseURL = "https://arminlausterer.github.io"
 languageCode = "de-de"
 theme = "lausterer"
 title = "Armin Lausterer"
+[[menu.main]]
+name = "Cobot"
+url = "https://cobot.armin-lausterer.de/"
+weight = 3
