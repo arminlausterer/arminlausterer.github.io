@@ -3,6 +3,16 @@ seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coach
 title = "Ingenieurbüro für Prozessoptimierung"
 type = "page"
 video_home = "/uploads/2020/05/04/lausterer_v5.mp4"
+[cobot]
+backgroundpicture = "/uploads/2020/10/26/cobot_background.png"
+headline = "Cobot"
+headline2 = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
+text = ""
+vordergrund_bild = "/uploads/2020/10/26/cobot.png"
+[cobot.button]
+content = "<p>Entdecken</p>"
+farbe = "blue"
+link = "https://cobot.armin-lausterer.de/"
 [lean_labor]
 backgroundpicture = "/uploads/2020/05/04/leanlabor_background"
 buttonbeschriftung = "Entdecken"
