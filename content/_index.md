@@ -5,8 +5,8 @@ type = "page"
 video_home = "/uploads/2020/05/04/lausterer_v5.mp4"
 [cobot]
 backgroundpicture = "/uploads/2020/10/26/cobot_background.png"
-headline = "Cobot"
-headline2 = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
+headline = "LeanBOTs"
+headline2 = "LeanBOTs - Prozessoptimierung mit Cobots nach Lean-Prinzipien"
 text = ""
 vordergrund_bild = "/uploads/2020/10/26/cobot.png"
 [cobot.button]
