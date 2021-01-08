@@ -7,6 +7,12 @@ seo_description = "Testimonials zu: Ausbau der bestehenden Lean/KVP Verbesserung
 name = "Testimonials"
 weight = 7
 [[kundenstimmen]]
+bild_links = "/uploads/2021/01/08/mtp_referenz_201113.pdf"
+buttonbeschriftung = "weiterlesen"
+buttonlinkfile = "/uploads/2021/01/08/mtp_referenz_201113.pdf"
+content = "<p>…Frau Düber führte zahlreiche Projekte, Workshops und Trainings im Bereich 5S, Rüstzeitoptimierung, Wertstromdesign, Lean Logistic und Shopfloormanagement durch. Ferner betreute Sie firmenübergreifende Teams und Projekte zur Steigerung des First Pass Yields...</p><p>…Aufgrund der hohen fachlichen und sozialen Kompetenz agierten sowohl Frau Düber, als auch Herr Lausterer in schwierigen Situationen, als Team und auch einzeln, sehr erfolgreich...</p><p>Wir empfehlen Ihnen das Ingenieurbüro Armin Lausterer sehr gerne ohne Einschränkung weiter.</p>"
+header = "MTP Messtechnik Produktions GmbH, Nürnberg"
+[[kundenstimmen]]
 bild-links = ""
 bild_links = "/uploads/2020/04/30/Bischof_klein.jpeg"
 button = "BK_Referenz_171124-2.pdf"
