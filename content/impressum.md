@@ -7,7 +7,7 @@ type = "page"
 weight = 2
 
 +++
-Armin Lausterer GmbH  
+Armin Lausterer Ingenieurbüro für Prozessoptimierung GmbH  
 In der Au 34 B  
 93179 Brennberg  
 Tel. +49 94 84 – 95 15 94  
