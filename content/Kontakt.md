@@ -9,7 +9,7 @@ titel_bild = ""
 name = "Kontakt"
 weight = 8
 [[content]]
-content = "<p>Armin Lausterer GmbH<br>In der Au 34 B <br>93179 Brennberg</p>"
+content = "<p>Armin Lausterer Ingenieurbüro für Prozessoptimierung GmbH<br>In der Au 34 B <br>93179 Brennberg</p>"
 icon = "map marker alternate"
 [[content]]
 content = "<p>+49 171 - 1 64 44 22 <br>+49 94 84 - 95 15 94</p>"
