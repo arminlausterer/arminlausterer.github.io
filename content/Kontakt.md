@@ -2,14 +2,14 @@
 headertitel = "Kontakt"
 karte = ""
 layout = "kontakt"
-seo_description = "Kontakt: Armin Lausterer | In der Au 34 B | 93179 Brennberg | +49 171 - 1 64 44 22 | +49 94 84 - 95 15 94 | info@armin-lausterer.de"
+seo_description = "Kontakt: Armin Lausterer GmbH | In der Au 34 B | 93179 Brennberg | +49 171 - 1 64 44 22 | +49 94 84 - 95 15 94 | info@armin-lausterer.de"
 titel = "Kontakt"
 titel_bild = ""
 [menu.main]
 name = "Kontakt"
 weight = 8
 [[content]]
-content = "<p>Armin Lausterer <br>In der Au 34 B <br>93179 Brennberg</p>"
+content = "<p>Armin Lausterer GmbH<br>In der Au 34 B <br>93179 Brennberg</p>"
 icon = "map marker alternate"
 [[content]]
 content = "<p>+49 171 - 1 64 44 22 <br>+49 94 84 - 95 15 94</p>"
