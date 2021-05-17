@@ -16,7 +16,10 @@ Fax. +49 32 22 – 41 68 24 3
 [info@armin-lausterer.de  
 ](mailto:info@armin-lausterer.de)[www.armin-lausterer.de](http://www.armin-lausterer.de/)
 
-Umsatzsteuer ID: DE221560912  
+Umsatzsteuer ID: DE342247214
+
+Steuernummer: 244/121/82215
+
 HRB 18426
 
 Geschäftsführer: Armin Lausterer  
