@@ -127,5 +127,60 @@ fields:
   config: {}
   template: seo
   label: seo
+- name: top100
+  type: field_group
+  config: {}
+  fields:
+  - name: subtitel
+    type: text
+    config:
+      required: false
+    label: subtitel
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: content
+  - name: bildergalerie
+    type: image_gallery
+    config: {}
+    label: bildergalerie
+  - name: button
+    type: field_group_list
+    fields:
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: button
+  label: top100
 pages:
 - content/Unternehmen.md
