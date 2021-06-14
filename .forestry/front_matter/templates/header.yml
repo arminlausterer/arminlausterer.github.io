@@ -71,5 +71,10 @@ fields:
       labelField: 
     label: demo
   label: demo
+- name: top100
+  type: file
+  config:
+    maxSize: 64
+  label: top100
 pages:
 - content/global/header.md
