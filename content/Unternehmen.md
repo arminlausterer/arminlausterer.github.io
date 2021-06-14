@@ -28,6 +28,10 @@ content = "<p>Interview mit Sabine Olschner</p><p class=\"MsoNormal\"><strong>Di
 subtitel = "TOP100 "
 titel = "Wir zählen zu besten Mittelstandsberatern Deutschlands"
 [[top100.button]]
+content = "<p>TOP-100 Webseite</p>"
+farbe = "blue"
+link = "https://www.beste-mittelstandsberater.de/beste-berater-2021.html"
+[[top100.button]]
 content = "<p>Pressemitteilung</p>"
 farbe = "blue"
 link = ""
