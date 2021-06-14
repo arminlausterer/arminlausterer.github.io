@@ -96,5 +96,14 @@ titel_ = " Mittelständisches  Unternehmen"
 farbe = "grey_light"
 textkunden = "<p>Ca. 270 Mitarbeiter – 2 Standorte</p><p class=\"p1\">Hochpräzise Kunststoffspritzgussteile für Automotive, Medizintechnik, Halbleiter, Optohalbleiter (LED)</p><p class=\"p2\"><br><strong>Projektziel:<br></strong>Produktivitätssteigerung durch die Einführung einer KVP / Lean Kultur</p>"
 titel_ = "Mittelständisches Unternehmen"
+[top100]
+bild = "/uploads/2021/06/14/top100_trophaeejpg"
+content = "<p>Zum 12. Mal untersuchte der bundesweite Wettbewerb <strong>TOP CONSULTANT</strong> auf wissenschaftlicher Basis, wie gut die Teilnehmer ihre mittelständischen Kunden beraten haben. Wir haben den Sprung in die Berater-Elite geschafft und sind mit dem TOP CONSULTANT-Siegel 2021 ausgezeichnet worden. <strong>Damit zählen wir zu den besten Mittelstandsberatern in Deutschland.</strong></p><p class=\"MsoNormal\">Was uns antreibt und wie wir unsere Kunden noch erfolgreicher machen, lesen Sie im Interview mit Sabine Olschner.</p>"
+subtitel = "Auszeichnung"
+titel = "Wir zählen zu besten Mittelstandsberatern Deutschlands"
+[top100.button]
+content = "<p>Entdecken</p>"
+farbe = "blue"
+link = "https://armin-lausterer.de/unternehmen/"
 
 +++
