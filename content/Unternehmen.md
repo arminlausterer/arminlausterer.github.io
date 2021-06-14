@@ -34,7 +34,7 @@ link = "https://www.beste-mittelstandsberater.de/beste-berater-2021.html"
 [[top100.button]]
 content = "<p>Pressemitteilung</p>"
 farbe = "blue"
-link = ""
+link = "https://armin-lausterer.de/uploads/2021/06/14/top100_trophaeejpg"
 [werte]
 aufklapp-headline = []
 werte = "Unsere Werte: Werte sind die Grundlage unseres Handelns und durch die folgenden Prinzipien beschrieben."
