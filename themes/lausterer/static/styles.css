@@ -986,6 +986,9 @@ footer .footermenu a:last-child {
 .subpage.unternehmen #top100u {
   margin-top: 2rem;
 }
+.subpage.unternehmen #top100u .morebutton {
+  margin-right: 1rem;
+}
 .subpage.unternehmen #top100u #bg {
   display: flex;
   height: 100%;
