@@ -3,6 +3,7 @@
   <div class="titlewrap">
     <div class="ui container">
       <h1>{{.Params.unternehmen}}</h1>
+      {{ partial "top100header.html" . }}
     </div>
   </div>
   <div class="ui container standard">
@@ -12,6 +13,34 @@
       <div id="intro" class="ct ks">
       {{.Params.einfuhrungstext|markdownify}}
       </div>
+      {{with .Params.top100}}
+      <div class="ui container standard" id="top100u">
+        <div class="content">
+          <h3 class="hd">{{.subtitel}}</h3>
+          <h3 class="hd">{{.titel}}</h3>
+          <section class="ct ks tm">
+          <div class="ui stackable mobile-reverse grid">
+            <div class="ui eight wide column">
+              {{.content|safeHTML}}
+              <div class="buttons">
+                {{range .button}}
+                <a class="albutton morebutton" target="_blank" href="{{.link}}">{{.content|safeHTML}}</a>
+                {{end}}
+              </div>
+            </div>
+            <div class="ui eight wide column">
+              <div id="bg">
+                {{range $x,$img := .bildergalerie}}
+                    <div style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_450,w_800,g_auto,f_auto" )}}) center top no-repeat;background-size:cover">
+                    </div>
+                  {{end}}
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+      </div>
+      {{end}}
       {{with .Params.team}}
       <div class="ui container standard" id="team">
         <div class="content">

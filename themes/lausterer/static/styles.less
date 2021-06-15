@@ -322,6 +322,15 @@ header{
     }
   }
 }
+#top100h{
+  position:absolute;
+  right:0;
+  top:0;
+  z-index:2;
+}
+.titlewrap .container{
+  position:relative;
+}
 footer{
   margin-top:1rem;
   .eblink{
@@ -659,6 +668,14 @@ footer{
       }
     }
   }
+  #top100{
+    .container{
+      padding:0 220px 0 0;
+    }
+    h2{
+      margin-top:0;
+    }
+  }
   #online_semin{
     padding:2rem 0 4rem 0;
     margin-bottom:2rem;
@@ -951,6 +968,18 @@ footer{
     }
     .ks{
       height:100%;
+    }
+    #top100u{
+      margin-top:2rem;
+      #bg{
+        display:flex;
+        height:100%;
+        flex-direction:column;
+        > div{
+          flex: 1 1 auto;
+          min-height:150px;
+        }
+      }
     }
     #werte{
       margin-top:1rem;

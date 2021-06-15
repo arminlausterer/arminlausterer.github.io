@@ -3,6 +3,7 @@
   <div class="titlewrap">
     <div class="ui container">
       <h1>{{.Params.title}}</h1>
+      {{ partial "top100header.html" . }}
     </div>
   </div>
   <div class="white">
@@ -49,6 +50,18 @@
       </div>
     </div>
     <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+  </div>
+  {{end}}
+  {{with .Params.top100}}
+  <div id="top100" >
+    <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_200,q_auto" )}}) right top no-repeat; background-size:contain">
+      <h3>{{.subtitel}}</h3>
+          <h2>{{.titel}}</h2>
+          <div class="content">
+            {{.content|safeHTML}}
+          </div>
+          <a class="albutton morebutton" href="{{.button.link}}">{{.button.content|safeHTML}}</a>
+    </div>
   </div>
   {{end}}
   {{with .Params.cobot}}

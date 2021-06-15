@@ -323,6 +323,15 @@ header #headermenu li {
   height: auto;
   padding: 0.5rem 1rem;
 }
+#top100h {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.titlewrap .container {
+  position: relative;
+}
 footer {
   margin-top: 1rem;
 }
@@ -663,6 +672,12 @@ footer .footermenu a:last-child {
     display: none;
   }
 }
+#home #top100 .container {
+  padding: 0 220px 0 0;
+}
+#home #top100 h2 {
+  margin-top: 0;
+}
 #home #online_semin {
   padding: 2rem 0 4rem 0;
   margin-bottom: 2rem;
@@ -967,6 +982,18 @@ footer .footermenu a:last-child {
 }
 .subpage.unternehmen .ks {
   height: 100%;
+}
+.subpage.unternehmen #top100u {
+  margin-top: 2rem;
+}
+.subpage.unternehmen #top100u #bg {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.subpage.unternehmen #top100u #bg > div {
+  flex: 1 1 auto;
+  min-height: 150px;
 }
 .subpage.unternehmen #werte {
   margin-top: 1rem;

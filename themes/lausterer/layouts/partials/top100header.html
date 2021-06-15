@@ -1,0 +1,4 @@
+{{ $t := .Site.GetPage "header.md" }}
+<div id="top100h">
+    <img src="{{partial "imgUrl" (dict "img" $t.Params.top100 "params" "c_scale,w_100,f_auto" )}}" />
+</div>
