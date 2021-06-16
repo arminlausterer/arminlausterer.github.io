@@ -422,6 +422,11 @@ footer .footermenu a:last-child {
 .ks img {
   width: 100%;
 }
+#videobutton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
 .white {
   background: white!important;
 }
@@ -671,6 +676,9 @@ footer .footermenu a:last-child {
   #home #team .teamgrid .tcol:hover .visible {
     display: none;
   }
+}
+#home #top100 {
+  padding: 4rem 0 2rem 0;
 }
 #home #top100 .container {
   padding: 0 220px 0 0;

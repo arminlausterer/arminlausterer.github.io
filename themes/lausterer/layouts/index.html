@@ -18,6 +18,11 @@
         ></video>
       </div>
     </div>
+    <div class="ui container">
+      <div id="videobutton">
+        <a class="albutton morebutton" href="{{relref $p .Params.leistungen.buttonlink}}">{{.Params.leistungen.buttonbeschriftung}}</a>
+      </div>
+    </div>
   </div>
   {{with .Params.top100}}
   <div id="top100" >
@@ -61,7 +66,6 @@
         {{end}}
       </div>
     </div>
-    <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
   </div>
   {{end}}
   {{with .Params.cobot}}
