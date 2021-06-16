@@ -1,6 +1,6 @@
 +++
 einfuhrungstext = "Seit 2013 unterstützen wir sehr erfolgreich mittelständische Unternehmen bei der Gestaltung von schnellen, robusten, kostengünstigen Abläufen und technischen Prozessen. \n\nUnser Fokus liegt auf „Lösungen aus der Praxis für die Praxis“, die unmittelbar umsetzbar und nachhaltig wirksam sind. Unser Team steht für langjährige Erfahrung in komplexen Produktionsstätten unterschiedlichster Branchen."
-globalesheaderbild = "/uploads/2021/06/15/top100-header.jpg"
+globalesheaderbild = "/uploads/2021/06/16/top100_header.jpg"
 headerbild = "/uploads/2020/05/11/NEU_Unternehmen.jpg"
 layout = "unternehmen"
 seo_description = "Armin Lausterer - Ingenieurbüro für Prozessoptimierung | Seit 2013 unterstützen wir sehr erfolgreich mittelständische Unternehmen bei der Gestaltung von schnellen, robusten, kostengünstigen Abläufen und technischen Prozessen - Aus der Praxis für die Praxis"
