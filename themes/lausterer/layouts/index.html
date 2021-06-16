@@ -19,6 +19,18 @@
       </div>
     </div>
   </div>
+  {{with .Params.top100}}
+  <div id="top100" >
+    <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_200,q_auto" )}}) right top no-repeat; background-size:contain">
+      <h3>{{.subtitel}}</h3>
+          <h2>{{.titel}}</h2>
+          <div class="content">
+            {{.content|safeHTML}}
+          </div>
+          <a class="albutton morebutton" href="{{.button.link}}">{{.button.content|safeHTML}}</a>
+    </div>
+  </div>
+  {{end}}
   {{with .Params.leistungen}}
   <div id="leistungen" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
     <div class="ui container">
@@ -50,18 +62,6 @@
       </div>
     </div>
     <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
-  </div>
-  {{end}}
-  {{with .Params.top100}}
-  <div id="top100" >
-    <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_200,q_auto" )}}) right top no-repeat; background-size:contain">
-      <h3>{{.subtitel}}</h3>
-          <h2>{{.titel}}</h2>
-          <div class="content">
-            {{.content|safeHTML}}
-          </div>
-          <a class="albutton morebutton" href="{{.button.link}}">{{.button.content|safeHTML}}</a>
-    </div>
   </div>
   {{end}}
   {{with .Params.cobot}}
