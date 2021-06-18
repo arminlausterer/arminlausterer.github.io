@@ -703,6 +703,20 @@ footer .footermenu a:last-child {
 #home #top100 #t100content #t100lcontent h2 {
   font-weight: bold;
 }
+@media (max-width: 720px) {
+  #home #top100 #t100content {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #home #top100 #t100content #t100rcontent {
+    margin: 1rem 0;
+    height: 45vh;
+    width: 100vw;
+    flex: 1 0 auto;
+    background-position: center top!important;
+  }
+}
 #home #top100 h2 {
   margin-top: 0;
 }
