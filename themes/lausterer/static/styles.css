@@ -680,8 +680,28 @@ footer .footermenu a:last-child {
 #home #top100 {
   padding: 4rem 0 2rem 0;
 }
-#home #top100 .container {
+#home #top100 #t100content {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#home #top100 #t100content #t100rcontent {
+  margin-bottom: -3rem;
+  height: 45vh;
+  width: 33vw;
+  flex: 1 0 auto;
+}
+#home #top100 #t100content #t100lcontent {
+  background: #027bba;
+  padding: 2rem 2rem 4rem 2rem;
+  color: white;
+}
+#home #top100 #t100content #t100lcontent h2,
+#home #top100 #t100content #t100lcontent h3 {
+  color: white;
+}
+#home #top100 #t100content #t100lcontent h2 {
+  font-weight: bold;
 }
 #home #top100 h2 {
   margin-top: 0;
