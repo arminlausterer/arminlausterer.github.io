@@ -26,13 +26,22 @@
   </div>
   {{with .Params.top100}}
   <div id="top100" >
-    <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_300,q_auto" )}}) right top no-repeat; background-size:contain">
-      <h3>{{.subtitel}}</h3>
+    <div class="ui container" >
+      <div id="t100content">
+        <div id="t100lcontent">
+          <h3>{{.subtitel}}</h3>
           <h2>{{.titel}}</h2>
           <div class="content">
             {{.content|safeHTML}}
           </div>
-          <a class="albutton morebutton" href="{{.button.link}}">{{.button.content|safeHTML}}</a>
+        </div>
+        <div id="t100rcontent" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_800,q_auto" )}}) right top no-repeat; background-size:contain">
+          
+        </div>
+      </div>
+      <div class="centered">
+        <a class="albutton morebutton" href="{{.button.link}}">{{.button.content|safeHTML}}</a>
+      </div>
     </div>
   </div>
   {{end}}

@@ -681,10 +681,17 @@ footer .footermenu a:last-child {
   padding: 4rem 0 2rem 0;
 }
 #home #top100 .container {
-  padding: 0 220px 0 0;
+  display: flex;
 }
 #home #top100 h2 {
   margin-top: 0;
+}
+#home #top100 .centered {
+  display: flex;
+  justify-content: center;
+}
+#home #top100 .centered .morebutton {
+  margin-top: -2rem;
 }
 #home #online_semin {
   padding: 2rem 0 4rem 0;
