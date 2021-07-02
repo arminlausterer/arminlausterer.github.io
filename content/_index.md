@@ -75,7 +75,7 @@ position = "Geschäftsführer"
 teambild = "/uploads/2020/05/04/lausterer.png"
 [[team.team_einzeln]]
 farbe = "blue_dark"
-kachelruckseite = "**Motto:  \n**“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)\n\n**Wofür ich stehe:**  \nZuverlässigkeit- Gerechtigkeit - Loyalität"
+kachelruckseite = "“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)"
 name = "Claudia Irrgang"
 position = "Kundenservice"
 teambild = "/uploads/2021/07/02/claudia.png"
