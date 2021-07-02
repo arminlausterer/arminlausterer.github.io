@@ -23,7 +23,7 @@ beschreibung = "<ul><li><strong>Motto</strong>:<ul><li>„Entweder wir finden ei
 name = "Melanier Düber - Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[team.teammitglied]]
-beschreibung = "<ul><li><p><strong>Motto:</strong></p><ul><li><p>“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)</p></li></ul><p></p></li><li><p><strong>Wofür ich stehe:</strong></p><ul><li><p>Zuverlässigkeit- Gerechtigkeit - Loyalität</p></li></ul><p></p></li><li><p><strong>Persönlich:</strong></p><ul><li><p>Geboren in Landshut, lebe ich nun, mit meinem Mann und drei Kindern, in der herrlichen Oberpfalz</p></li></ul><p></p></li><li><p><strong>Persönliche Kompetenzen:</strong></p><ul><li><p>Kundenbetreuung</p></li></ul><ul><li><p>Projektbetreuung</p></li></ul><ul><li><p>Prozessoptimierung</p></li></ul></li></ul>"
+beschreibung = "<ul><li><p><strong>Motto:</strong></p><ul><li><p>“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)</p></li></ul></li><li><p><strong>Wofür ich stehe:</strong></p><ul><li><p>Zuverlässigkeit- Gerechtigkeit - Loyalität</p></li></ul></li><li><p><strong>Persönlich:</strong></p><ul><li><p>Geboren in Landshut, lebe ich nun, mit meinem Mann und drei Kindern, in der herrlichen Oberpfalz</p></li></ul></li><li><p><strong>Persönliche Kompetenzen:</strong></p><ul><li><p>Kundenbetreuung</p></li></ul><ul><li><p>Projektbetreuung</p></li></ul><ul><li><p>Prozessoptimierung</p></li></ul></li></ul>"
 name = "Claudia Irrgang - Kundenservice"
 teambild = "/uploads/2021/07/02/claudia.png"
 [top100]
