@@ -78,7 +78,7 @@ farbe = "blue_dark"
 kachelruckseite = "“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)"
 name = "Claudia Irrgang"
 position = "Kundenservice"
-teambild = "/uploads/2021/07/02/claudia.png"
+teambild = "/uploads/2021/07/02/claudia_home.jpg"
 [testimonials]
 backgroundpicture = "/uploads/2020/05/04/background-picture"
 buttonlink = "testimonials.md"
