@@ -2,6 +2,7 @@
 einfuhrungstext = "Seit 2013 unterstützen wir sehr erfolgreich mittelständische Unternehmen bei der Gestaltung von schnellen, robusten, kostengünstigen Abläufen und technischen Prozessen. \n\nUnser Fokus liegt auf „Lösungen aus der Praxis für die Praxis“, die unmittelbar umsetzbar und nachhaltig wirksam sind. Unser Team steht für langjährige Erfahrung in komplexen Produktionsstätten unterschiedlichster Branchen."
 globalesheaderbild = "/uploads/2021/06/15/top100-header.jpg"
 headerbild = "/uploads/2020/05/11/NEU_Unternehmen.jpg"
+headline-partner = "Unsere Partner"
 layout = "unternehmen"
 seo_description = "Armin Lausterer - Ingenieurbüro für Prozessoptimierung | Seit 2013 unterstützen wir sehr erfolgreich mittelständische Unternehmen bei der Gestaltung von schnellen, robusten, kostengünstigen Abläufen und technischen Prozessen - Aus der Praxis für die Praxis"
 text_rechts = "**Unser Reden und Tun haben Hand und Fuß:**\n\n* Wir sagen nur zu, was wir einhalten können und halten ein, was wir zusagen.\n* Wir sind ehrlich, beweisen Rückgrat und beziehen klar Position.\n* Wir übernehmen die persönliche Verantwortung für unser eigenes Reden und Handeln.\n* Unsere Aussagen sind gereift, fundiert, nachvollziehbar und wenn immer möglich mit Fakten belegt.\n\n**Wir geben uns erst zufrieden, wenn wir die Ursache genau kennen:**\n\n* Unsere Entscheidungen und Empfehlungen basieren auf einer umfassenden Analyse der besonderen Situation.  \n    Dies beinhaltet die Einschätzung aller Beteiligten, Kennzahlen, eigene Beobachtungen und den Stand der Wissenschaft und Technik.\n* Wir hören zu, um zu verstehen, besonders bei Aussagen, die nicht mit unserer Sicht der Dinge übereinstimmen."
@@ -60,5 +61,9 @@ inhalt = "* Unglückliche Menschen und fehlendes Methodenwissen sind die zentral
 [[content]]
 headertitel = "Unsere Mission: Unsere Kunden sind der Mittelpunkt"
 inhalt = "* Wettbewerbsfähigkeit unserer Kunden heißt, dass sie jetzt und in Zukunft profitabel wachsen.\n* Im Zentrum steht die kontinuierliche, methodische Weiterentwicklung des Kunden besonders seine Organisation, seine Mitarbeiter und seine technischen und nicht technischen Prozesse.\n* Wir streben nach Exzellenz und Perfektion."
+[[partner]]
+description = "Die OCQ-soft GmbH & Co. KG bietet professionelle Softwareentwicklung und Beratung im Bereich Industrie 4.0, Maschinenvernetzung und generell Digitalisierung von Geschäftsprozessen. OCQ’s Kernkompetenzen sind die effiziente und ergebnisorientierte Softwareentwicklung im Bereich Betriebsdatenerfassung und Produktionsleitsysteme.\n\nDiverse vom Produktionsumfeld losgelöste Software-Produkte runden das Angebot an digitalen Unternehmenslösungen ab."
+link = "https://ocq-soft.de/partner/"
+logopartner = "/uploads/2021/10/06/ocq-logo-frei-grun.png"
 
 +++
