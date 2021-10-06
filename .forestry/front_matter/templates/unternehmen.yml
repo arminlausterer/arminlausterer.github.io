@@ -182,6 +182,11 @@ fields:
       labelField: 
     label: button
   label: top100
+- name: headline-partner
+  type: text
+  config:
+    required: false
+  label: headline-partner
 - name: partner
   type: field_group_list
   fields:
