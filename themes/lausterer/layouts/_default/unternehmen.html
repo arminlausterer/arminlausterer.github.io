@@ -90,6 +90,26 @@
         </div>
       </section>
       {{end}}
+      
+      <div class="ui container standard" id="partner">
+        <div class="content">
+          <h3 class="hd">Partner</h3>
+          {{range .Params.partner}}
+          <section class="ct ks tm">
+            <div class="ui stackable mobile-reverse grid">
+              <div class="ui four wide column">
+                <img src="{{partial "imgUrl" (dict "img" .logopartner "params" "c_scale,f_auto,w_600" )}} "/> 
+              </div>
+              <div class="ui twelve wide column">
+                <h3>OCQ-soft GmbH & Co. KG</h3>
+                {{.description|markdownify}}
+              </div>
+            </div>
+          </section>
+          {{end}}
+        </div>
+      </div>
+      
     </div>
   </div>
 </div>
