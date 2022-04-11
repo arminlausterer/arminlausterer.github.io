@@ -21,5 +21,3 @@ fields:
     schema:
       format: html-blocks
   label: Beschreibung
-pages:
-- onlinekurse/vdiwebinar-produktionssteuerung-planung.md

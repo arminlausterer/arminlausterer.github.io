@@ -109,20 +109,37 @@ fields:
         format: html-blocks
     label: Kalender
   label: Kurse
-- name: onlinekurse
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: pages
-      section: onlinekurse
-  label: Onlinekurse
 - name: seo
   type: include
   config: {}
   template: seo
   label: seo
+- name: onlinekurse
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: Bild
+  - name: beschreibung
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Beschreibung
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Onlinekurse
 pages:
 - content/Online-Trainings.md
