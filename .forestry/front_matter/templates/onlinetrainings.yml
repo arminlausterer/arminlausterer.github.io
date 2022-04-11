@@ -68,47 +68,6 @@ fields:
         format: html-blocks
     label: Content_ganzeBreite
   label: Kriterien
-- name: kurse
-  type: field_group
-  config: {}
-  fields:
-  - name: kurse
-    type: field_group_list
-    fields:
-    - name: titelzeile
-      type: text
-      config:
-        required: false
-      label: Titelzeile
-    - name: einzelkurse
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: html-blocks
-      label: einzelkurse
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Kurse
-  - name: titelzeile
-    type: text
-    config:
-      required: false
-    label: Titelzeile
-  - name: kalender
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Kalender
-  label: Kurse
 - name: titel_onlinekurse
   type: text
   config:
