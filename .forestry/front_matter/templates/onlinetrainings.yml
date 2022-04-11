@@ -109,11 +109,6 @@ fields:
         format: html-blocks
     label: Kalender
   label: Kurse
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: seo
 - name: onlinekurse
   type: field_group_list
   fields:
@@ -141,5 +136,10 @@ fields:
     max: 
     labelField: 
   label: Onlinekurse
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
 pages:
 - content/Online-Trainings.md
