@@ -74,7 +74,7 @@ bild = "/uploads/2022/04/11/small_file_1623826043_4272435.png"
 titel = "Produktionsabläufe & Prozesse optimieren (Lean Management)"
 [[onlinekurse]]
 beschreibung = "<p>Der Arbeitskreis Produktionssysteme ist ein geschlossenes Netzwerk mittelständischer Unternehmen aus dem Raum Ostbayern. Wir treffen uns regelmäßig bei einem gastgebenden Unternehmen mit dem Schwerpunkt Lean-Management.</p>"
-bild = "/uploads/2022/04/11/small_file_1617805410_5929165.jpg"
+bild = "/uploads/2020/05/13/1_Kunden.jpg"
 titel = "Arbeitskreis Produktionssysteme"
 [[onlinekurse]]
 beschreibung = "<p>Kann ich führen lernen?<br><br>Was unterscheidet führen und coachen?<br><br>Wie führe ich in schwierigen Situationen?<br><br>Wie führe ich mich selbst?</p>"
