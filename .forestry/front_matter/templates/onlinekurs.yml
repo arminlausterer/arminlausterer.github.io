@@ -17,9 +17,9 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Beschreibung
 pages:
 - onlinekurse/vdiwebinar-produktionssteuerung-planung.md
