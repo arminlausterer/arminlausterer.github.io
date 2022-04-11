@@ -35,5 +35,17 @@ farbe = "blue_dark"
 headline = ""
 icon = "/uploads/2020/05/14/1_lausterer_icon-03.jpg"
 subheadline = "Schritt 3 - Einzelcoaching"
+[[onlinekurse]]
+beschreibung = "<p>Wie wird die Produktion transparenter?<br><br>Wie minimiere ich menschliche Fehler?<br><br>Wie vermeide ich Such- und Wegezeiten?<br><br>Wie verhindere ich fehlendes Material?</p>"
+bild = "/uploads/2022/04/11/small_file_1589549982_7992713.png"
+titel = "Visuelles Management in der Produktion"
+[[onlinekurse]]
+beschreibung = "<p>Was und wem nützt ein QM - System?<br><br>Was beschreibt die Norm ISO 9001:2015 ?<br><br>Welcher Aufwand bringt ein QM-System<br><br>Aus welchen Elementen besteht ein QM-System?</p><p><br></p>"
+bild = "/uploads/2022/04/11/small_file_1589550746_7270306.jpg"
+titel = "Einführung in die das QM-System nach ISO 9001:2015"
+[[onlinekurse]]
+beschreibung = "<p>1. Teil: Grundlagen der Produktionssteuerung<br>2. Teil: Grundlagen Wertstromdesign<br><br>Der Kurs findet an zwei Tagen statt</p>"
+bild = "/uploads/2022/04/11/small_file_1636539504_4412850.png"
+titel = "VDI Webinar: Produktionssteuerung und -planung"
 
 +++
