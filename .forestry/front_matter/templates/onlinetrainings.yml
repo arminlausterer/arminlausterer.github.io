@@ -97,6 +97,7 @@ fields:
         max: 
         source:
           type: pages
+          section: onlinekurse
       label: Onlinekurse
     config:
       min: 
