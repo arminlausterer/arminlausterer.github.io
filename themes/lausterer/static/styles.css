@@ -981,6 +981,25 @@ footer .footermenu a:last-child {
 #leistungen .column .content.blue_dark {
   background: #027bba;
 }
+.subpage #sok h2 {
+  padding: 0!important;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.subpage #sok .ok {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(114, 114, 114, 0.1);
+}
+.subpage #sok .ok .tx {
+  flex: 1 1 auto;
+}
+.subpage #sok .ok > * {
+  padding: 1rem 1rem 1rem 0;
+}
+.subpage #sok .ok img {
+  width: 250px!important;
+}
 .subpage.solutions .timg,
 .subpage.online .timg,
 .subpage.unternehmen .timg,
