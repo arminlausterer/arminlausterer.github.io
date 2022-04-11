@@ -109,6 +109,11 @@ fields:
         format: html-blocks
     label: Kalender
   label: Kurse
+- name: titel_onlinekurse
+  type: text
+  config:
+    required: false
+  label: Titel Onlinekurse
 - name: onlinekurse
   type: field_group_list
   fields:
