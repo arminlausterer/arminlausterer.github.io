@@ -1,4 +1,23 @@
 ---
 label: onlinekurs
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: bild
+  type: file
+  config:
+    maxSize: 64
+  label: Bild
+- name: beschreibung
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Beschreibung
