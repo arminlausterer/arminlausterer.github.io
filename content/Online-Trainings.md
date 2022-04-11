@@ -4,7 +4,6 @@ headerpic = "/uploads/2020/05/11/training-neu"
 headertitel = "Online Qualitätstrainings"
 konzept_headline = "Unser Konzept"
 layout = "onlinetraining"
-onlinekurse = ["onlinekurse/vdiwebinar-produktionssteuerung-planung.md"]
 seo_description = "Onlinetraining zur Prozessoptimierung: Videokonferenzen professionell moderieren | Impulstraining Produktionsplanung und Steuerung | Lösung technischer Probleme in der Produktion | Visuelles Management in der Produktion | Einführung in die ISO 9001:2015 | Basistraining für Qualitätsfachkräfte"
 [kriterien]
 content_ganzebreite = "<ul><li><p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p></li><li><p>Inhalte sind praxisbezogen und schnell umsetzbar</p></li><li><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p></li><li><p>Virtuelle Planspiele</p></li><li><p>Vertiefendes Einzelcoaching</p></li><li><p>Umfangreiche Trainingsunterlagen</p></li><li><p>Detaillierter Schulungsnachweis</p></li><li><p>Softwareplattform, die stabil und ganz einfach zu bedienen ist</p></li><li><p>Bereitstellung von Headsets und Webcams</p></li></ul><blockquote><p><strong>Zufriedenheitsgarantie: Sie bezahlen nur, wenn Sie wirklich 100% zufrieden waren, ansonsten ist das gesamte Training für Sie kostenlos, garantiert !!</strong></p></blockquote>"
