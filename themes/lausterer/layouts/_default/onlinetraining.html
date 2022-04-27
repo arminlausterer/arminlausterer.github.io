@@ -52,6 +52,9 @@
         <div class="tx">
           <h3>{{.titel}}</h3>
           {{.beschreibung|safeHTML}}
+          {{if .link}}
+            <a class="albutton" target="_blank" href="{{.link}}">{{if .linkbeschriftung}}{{.linkbeschriftung}}{{else}}Weiter zum Training{{end}}</a>
+          {{end}}
         </div>
       </div>
       {{end}}
