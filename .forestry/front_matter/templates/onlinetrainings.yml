@@ -95,6 +95,16 @@ fields:
       schema:
         format: html-blocks
     label: Beschreibung
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: linkbeschriftung
+    type: text
+    config:
+      required: false
+    label: Linkbeschriftung
   config:
     min: 
     max: 
