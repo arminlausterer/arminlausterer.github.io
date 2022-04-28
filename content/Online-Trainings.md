@@ -37,6 +37,12 @@ headline = ""
 icon = "/uploads/2020/05/14/1_lausterer_icon-03.jpg"
 subheadline = "Schritt 3 - Einzelcoaching"
 [[onlinekurse]]
+beschreibung = "<p>test</p>"
+bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
+link = "https://www.xing.com/discover/updates"
+linkbeschriftung = "zum seminar"
+titel = "test"
+[[onlinekurse]]
 beschreibung = "<p>1. Teil: Grundlagen der Produktionssteuerung<br>2. Teil: Grundlagen Wertstromdesign<br><br>Der Kurs findet an zwei Tagen statt</p>"
 bild = "/uploads/2022/04/11/small_file_1636539504_4412850.png"
 link = ""
