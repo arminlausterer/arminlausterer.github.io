@@ -76,7 +76,7 @@ titel = "Change Management gestalten von Veränderungen"
 beschreibung = "<p>Automatisieren Sie schon nach Lean - Prinzipien?<br>Lean BOTs lassen sich ideal mit den Prinzipien des Lean Management verbinden.<br>Sie sind einfach, effizient, flexibel und kostengünstig.</p>"
 bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
 link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768381"
-linkbeschriftung = "Zum Training"
+linkbeschriftung = "Weiter zum Training"
 titel = "LeanBOTS - Prozessoptimierung mit Cobots nach Leanprinzipien"
 [[onlinekurse]]
 beschreibung = "<p>Ist es möglich die Entwicklungszeit zu halbieren?<br><br>Wie erkenne ich Risiken rechtzeitig?<br><br>Welche Strategien funktionieren wirklich?<br><br>Wie vermeide ich Zeitverluste, Nacharbeiten, Mehrkosten und Überlastung?</p>"
