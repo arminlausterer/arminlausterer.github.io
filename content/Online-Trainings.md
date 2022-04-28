@@ -70,7 +70,7 @@ titel = "Lean Coffee - der Koffeinbooster für effektivere Meetings"
 beschreibung = "<p>Wie führe ich mein Team schnell und sicher durch Veränderungen?<br><br>Was geschieht, wenn Menschen einer Veränderung ausgesetzt sind?<br><br>Wie gehe ich mit den typischen Verhaltensweisen um?</p>"
 bild = "/uploads/2022/04/11/small_file_1596205874_7331029.jpg"
 link = "https://www.xing.com/events/change-management-gestalten-veranderungen-3936721"
-linkbeschriftung = ""
+linkbeschriftung = "Zum Training"
 titel = "Change Management gestalten von Veränderungen"
 [[onlinekurse]]
 beschreibung = "<p>Automatisieren Sie schon nach Lean - Prinzipien?<br>Lean BOTs lassen sich ideal mit den Prinzipien des Lean Management verbinden.<br>Sie sind einfach, effizient, flexibel und kostengünstig.</p>"
