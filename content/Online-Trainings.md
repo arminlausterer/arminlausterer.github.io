@@ -69,7 +69,7 @@ titel = "Lean Coffee - der Koffeinbooster für effektivere Meetings"
 [[onlinekurse]]
 beschreibung = "<p>Wie führe ich mein Team schnell und sicher durch Veränderungen?<br><br>Was geschieht, wenn Menschen einer Veränderung ausgesetzt sind?<br><br>Wie gehe ich mit den typischen Verhaltensweisen um?</p>"
 bild = "/uploads/2022/04/11/small_file_1596205874_7331029.jpg"
-link = ""
+link = "https://www.xing.com/events/change-management-gestalten-veranderungen-3936721"
 linkbeschriftung = ""
 titel = "Change Management gestalten von Veränderungen"
 [[onlinekurse]]
