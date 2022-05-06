@@ -39,7 +39,7 @@ subheadline = "Schritt 3 - Einzelcoaching"
 [[onlinekurse]]
 beschreibung = "<p>Automatisieren Sie schon nach Lean - Prinzipien?<br>Lean BOTs lassen sich ideal mit den Prinzipien des Lean Management verbinden.<br>Sie sind einfach, effizient, flexibel und kostengünstig.</p>"
 bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
-link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768381"
+link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
 linkbeschriftung = "Weiter zum Training"
 titel = "LeanBOTS - Prozessoptimierung mit Cobots nach Leanprinzipien"
 [[onlinekurse]]
