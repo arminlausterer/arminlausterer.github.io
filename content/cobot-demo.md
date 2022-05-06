@@ -7,7 +7,7 @@ video_home = "-bFgAvCDFqI"
 [kurse]
 kurs-iframe = "<p><a href=\"https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377\" title=\"https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377\">https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377</a></p>"
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
-titel = "Online Live DEMOhttps://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
+titel = "Online Live DEMO https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
 [team]
 blockquote = "<blockquote>Es ist keine andere<br>Technologie in Sicht, die die<br>Produktion unserer mittel-<br>ständischen Unternehmen, in<br>den nächsten Jahren so stark<br>verändern wird, wie COBOTS.</blockquote>"
 buttonbeschriftung = ""
