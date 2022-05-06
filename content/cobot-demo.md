@@ -1,7 +1,7 @@
 +++
 layout = "cobotdemo"
 pfeil = "/uploads/2020/10/17/demo-button.png"
-seo_description = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
+seo_description = ""
 title = "Collaborative Roboter (COBOTS) Live Demo"
 video_home = "-bFgAvCDFqI"
 [kurse]
