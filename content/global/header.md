@@ -13,7 +13,8 @@ demo:
   demo:
   - bild: "/uploads/2020/10/16/1cobot.png"
     buttonbeschriftung: DEMO
-    buttonlink: https://armin-lausterer.de/cobot-demo/
+    buttonlink: <p><a href="https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
+      title="https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377">https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377</a></p>
 top100: "/uploads/2021/06/14/top100.jpg"
 
 ---
