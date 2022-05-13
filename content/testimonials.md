@@ -8,10 +8,10 @@ name = "Testimonials"
 weight = 7
 [[kundenstimmen]]
 bild_links = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
-buttonbeschriftung = ""
+buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
 content = ""
-header = ""
+header = "STREICHER Maschienenbau GmbH & Co.KG"
 [[kundenstimmen]]
 bild_links = "/uploads/2021/01/08/mtp_referenz_201113.pdf"
 buttonbeschriftung = "weiterlesen"
