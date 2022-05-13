@@ -10,14 +10,8 @@ weight = 7
 bild_links = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
-content = "<p>...Das Projekt war geprägt von hoher  fachlicher und sozialer Kompetenz mit viel Klarheit und Struktur. DasTeam des Ingenieurbüros Armin Lausterer agierte in schwierigen Situationen souverän...<br>...Zu jeder Zeit konnten wir die Leidenschaft für das Projekt und für uns als Kunden spüren...</p><p>...Die Kompetenz von Herrn Lausterer und Frau Düber waren entscheidend für den erfolgreichen Projektabschluss...</p>"
+content = "<blockquote><p>...Das Projekt war geprägt von hoher fachlicher und sozialer Kompetenz mit viel Klarheit und Struktur. DasTeam des Ingenieurbüros Armin Lausterer agierte in schwierigen Situationen souverän...<br>...Zu jeder Zeit konnten wir die Leidenschaft für das Projekt und für uns als Kunden spüren...</p><p>Die Kompetenz von Herrn Lausterer und Frau Düber waren entscheidend für den erfolgreichen Projektabschluss...</p></blockquote>"
 header = "STREICHER Maschinenbau GmbH & Co.KG"
-[[kundenstimmen]]
-bild_links = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
-buttonbeschriftung = "weiterlesen"
-buttonlinkfile = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
-content = "<blockquote><p><em>... Das Projekt war geprägt von hoher fachlicher und sozialer Kompetenz mit viel Klarheit und Struktur. DasTeam des Ingenieurbüros Armin Lausterer agierte in schwierigen Situationen souverän.....</em></p></blockquote><blockquote><p><em>...Zu jeder Zeit konnten wir die Leidenschaft für das Projekt und für uns als Kunden spüren...</em></p></blockquote><blockquote><p><em>...Die Kompetenz von Herrn Lausterer und Frau Düber waren entscheidend für den erfolgreichen Projektabschluss....</em></p></blockquote><p></p><p></p>"
-header = "STREICHER Maschienenbau GmbH & Co.KG"
 [[kundenstimmen]]
 bild_links = "/uploads/2021/01/08/mtp_referenz_201113.pdf"
 buttonbeschriftung = "weiterlesen"
