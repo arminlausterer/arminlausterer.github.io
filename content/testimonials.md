@@ -10,7 +10,7 @@ weight = 7
 bild_links = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
 buttonbeschriftung = "weiterlesen"
 buttonlinkfile = "/uploads/2022/05/13/streicher_maschinenbau_referenz_220510.pdf"
-content = "<p><em>\" ... Das Projekt war geprägt von hoher fachlicher und sozialer Kompetenz mit viel Klarheit und Struktur. DasTeam des Ingenieurbüros Armin Lausterer agierte in schwierigen Situationen souverän.<br>Herr Lausterer verstand von Beginn an die Belange des Unternehmens, unserer Kunden und der beteiligten Personen zu erfassen und dafür passgenaue Lösungen zu entwickeln...</em></p><p><em>...Zu jeder Zeit konnten wir die Leidenschaft für das Projekt und für uns als Kunden spüren...</em></p><p><em>...Die Kompetenz von Herrn Lausterer und Frau Düber waren entscheidend für den erfolgreichen Projektabschluss....</em></p><p></p><p></p>"
+content = "<p><em>... Das Projekt war geprägt von hoher fachlicher und sozialer Kompetenz mit viel Klarheit und Struktur. DasTeam des Ingenieurbüros Armin Lausterer agierte in schwierigen Situationen souverän.<br>Herr Lausterer verstand von Beginn an die Belange des Unternehmens, unserer Kunden und der beteiligten Personen zu erfassen und dafür passgenaue Lösungen zu entwickeln...</em></p><p><em>...Zu jeder Zeit konnten wir die Leidenschaft für das Projekt und für uns als Kunden spüren...</em></p><p><em>...Die Kompetenz von Herrn Lausterer und Frau Düber waren entscheidend für den erfolgreichen Projektabschluss....</em></p><p></p><p></p>"
 header = "STREICHER Maschienenbau GmbH & Co.KG"
 [[kundenstimmen]]
 bild_links = "/uploads/2021/01/08/mtp_referenz_201113.pdf"
