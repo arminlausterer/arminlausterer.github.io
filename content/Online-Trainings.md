@@ -58,7 +58,7 @@ titel = "Lean Coffee - der Koffeinbooster für effektivere Meetings"
 beschreibung = "<p>Was ist Lean Management?<br><br>Funktioniert Lean Management in meinem Unternehmen?<br><br>Welcher Aufwand ist nötig?<br><br>Wo steht mein Unternehmen?<br><br>Welcher Nutzen ergibt sich?</p>"
 bild = "/uploads/2022/04/11/small_file_1623826043_4272435.png"
 link = "https://www.xing.com/events/produktionsablaufe-prozesse-optimieren-lean-management-4005361"
-linkbeschriftung = ""
+linkbeschriftung = "Weiter zum Training"
 titel = "Produktionsabläufe & Prozesse optimieren (Lean Management)"
 [[onlinekurse]]
 beschreibung = "<p>1. Teil: Grundlagen der Produktionssteuerung<br>2. Teil: Grundlagen Wertstromdesign<br><br>Der Kurs findet an zwei Tagen statt</p>"
