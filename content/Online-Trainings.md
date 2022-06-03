@@ -47,7 +47,7 @@ beschreibung = "<p>Wie führe ich mein Team schnell und sicher durch Veränderun
 bild = "/uploads/2022/04/11/small_file_1596205874_7331029.jpg"
 link = "https://www.xing.com/events/lean-change-management-agiles-management-4005449"
 linkbeschriftung = "Weiter zum Training"
-titel = "Change Management gestalten von Veränderungen"
+titel = "Change Management - ein agiles Management"
 [[onlinekurse]]
 beschreibung = "<p>Lean Coffee ist heiß, stark, einfach, pragmatisch und effektiv geradeso wie ein guter Espresso</p>"
 bild = "/uploads/2022/04/11/small_file_1623310899_4747046.jpg"
