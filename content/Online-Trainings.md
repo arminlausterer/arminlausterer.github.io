@@ -45,7 +45,7 @@ titel = "LeanBOTS - Prozessoptimierung mit Cobots nach Leanprinzipien"
 [[onlinekurse]]
 beschreibung = "<p>Wie führe ich mein Team schnell und sicher durch Veränderungen?<br><br>Was geschieht, wenn Menschen einer Veränderung ausgesetzt sind?<br><br>Wie gehe ich mit den typischen Verhaltensweisen um?</p>"
 bild = "/uploads/2022/04/11/small_file_1596205874_7331029.jpg"
-link = "https://www.xing.com/events/change-management-gestalten-veranderungen-3936721"
+link = "https://www.xing.com/events/lean-change-management-agiles-management-4005449"
 linkbeschriftung = "Weiter zum Training"
 titel = "Change Management gestalten von Veränderungen"
 [[onlinekurse]]
