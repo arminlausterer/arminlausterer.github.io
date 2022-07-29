@@ -41,7 +41,7 @@ beschreibung = "<p><strong>Erleben Sie die Produktion der Zukunft und steigern d
 bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
 link = "https://www.xing.com/events/personalmangel-fehlende-manpower-fachkraftemangel-gefahrden-umsatze-schaffen-abhilfe-4151905"
 linkbeschriftung = "Weiter zum Training"
-titel = "Personalmangel und fehlende Manpower?  Fachkräftemangel gefährden Umsätze?   Wir schaffen Abhilfe! "
+titel = "Personalmangel und fehlende Manpower?  Fachkräftemangel gefährden Umsätze?   Wir schaffen Abhilfe in der Produktion! "
 [[onlinekurse]]
 beschreibung = "<p>Wie führe ich mein Team schnell und sicher durch Veränderungen?<br><br>Was geschieht, wenn Menschen einer Veränderung ausgesetzt sind?<br><br>Wie gehe ich mit den typischen Verhaltensweisen um?</p>"
 bild = "/uploads/2022/06/03/xing-newmal.png"
