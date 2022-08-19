@@ -39,9 +39,9 @@ subheadline = "Schritt 3 - Einzelcoaching"
 [[onlinekurse]]
 beschreibung = "<p><strong>Erleben Sie die Produktion der Zukunft und steigern die Produktivität Ihres Unternehmens mit Hilfe von Cobot:</strong></p><ul><li><p>24 Stunden mobil einsetzbar</p></li><li><p>kinderleicht zu programmieren, kein anlernen</p></li><li><p>Automatisierung von manuellen Zuführungsaufgaben (z.B. Anlagen bestücken)</p></li><li><p>hohen Grad an Konsistenz und Präzision</p></li><li><p>Mehr Anlagen bedienen Mithilfe des Cobot´s</p></li><li><p>Ausdauernder als ein Mensch,</p></li><li><p>Schnelle EinrichtungsphasenSie sind einfach, effizient, flexibel und kostengünstig.</p></li></ul>"
 bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
-link = "https://www.xing.com/events/personalmangel-fehlende-manpower-fachkraftemangel-gefahrden-umsatze-schaffen-abhilfe-4151905"
+link = "https://www.linkedin.com/events/leanbots-personalmangelundfehle6966305877964292096/comments/"
 linkbeschriftung = "Weiter zum Training"
-titel = "Personalmangel und fehlende Manpower?  Fachkräftemangel gefährden Umsätze?   Wir schaffen Abhilfe in der Produktion! "
+titel = "LeanBOTS - Personalmangel und fehlende Manpower?  Fachkräftemangel gefährden Umsätze?   Wir schaffen Abhilfe in der Produktion! "
 [[onlinekurse]]
 beschreibung = "<p>Wie führe ich mein Team schnell und sicher durch Veränderungen?<br><br>Was geschieht, wenn Menschen einer Veränderung ausgesetzt sind?<br><br>Wie gehe ich mit den typischen Verhaltensweisen um?</p>"
 bild = "/uploads/2022/06/03/xing-newmal.png"
