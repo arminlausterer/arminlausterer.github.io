@@ -24,59 +24,6 @@
       </div>
     </div>
   </div>
-  {{with .Params.top100}}
-  <div id="top100" >
-    <div class="ui container" >
-      <div id="t100content">
-        <div id="t100lcontent">
-          <h3>{{.subtitel}}</h3>
-          <h2>{{.titel}}</h2>
-          <div class="content">
-            {{.content|safeHTML}}
-          </div>
-        </div>
-        <div id="t100rcontent" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "c_scale,w_800,q_auto" )}}) left bottom no-repeat; background-size:contain">
-          
-        </div>
-      </div>
-      <div class="centered">
-        <a class="albutton morebutton" href="{{.button.link}}">{{.button.content|safeHTML}}</a>
-      </div>
-    </div>
-  </div>
-  {{end}}
-  {{with .Params.leistungen}}
-  <div id="leistungen" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
-    <div class="ui container">
-      <h2>{{.titelzeile}}</h2>
-      <div class="ui three column stackable grid">
-        {{range .kacheln}}
-          <div class="ui column computer only">
-            <a href="{{relref $p .buttonlink}}">
-            <div class="ui fade reveal">
-              <div class="visible content {{.farbe}}">
-                <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
-                {{.text_vorderseite|markdownify}}
-              </div>
-              <div class="hidden content {{.farbe}}">
-                {{.text_ruckseite|markdownify}}
-              </div>
-            </div>
-            </a>
-            <a class="albutton colbutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
-          </div>
-          <div class="ui column mobile only">
-            <div class=" content {{.farbe}}">
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
-              <h3>{{.text_vorderseite|markdownify}}</h3>
-              {{.text_ruckseite|markdownify}}
-            </div>
-          </div>
-        {{end}}
-      </div>
-    </div>
-  </div>
-  {{end}}
   {{with .Params.cobot}}
   <div id="cobot" class="grey" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) left top no-repeat; background-size:50% auto">
     <div class="ui container">
@@ -113,6 +60,39 @@
     
   </div>
   {{end}}
+  {{with .Params.leistungen}}
+  <div id="leistungen" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+    <div class="ui container">
+      <h2>{{.titelzeile}}</h2>
+      <div class="ui three column stackable grid">
+        {{range .kacheln}}
+          <div class="ui column computer only">
+            <a href="{{relref $p .buttonlink}}">
+            <div class="ui fade reveal">
+              <div class="visible content {{.farbe}}">
+                <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
+                {{.text_vorderseite|markdownify}}
+              </div>
+              <div class="hidden content {{.farbe}}">
+                {{.text_ruckseite|markdownify}}
+              </div>
+            </div>
+            </a>
+            <a class="albutton colbutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+          </div>
+          <div class="ui column mobile only">
+            <div class=" content {{.farbe}}">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
+              <h3>{{.text_vorderseite|markdownify}}</h3>
+              {{.text_ruckseite|markdownify}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+  
   {{with .Params.online_semin}}
   <div id="online_semin" >
     <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_auto" )}}) left top no-repeat; background-size:cover">
