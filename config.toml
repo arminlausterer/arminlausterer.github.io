@@ -4,5 +4,5 @@ theme = "lausterer"
 title = "Armin Lausterer"
 [[menu.main]]
 name = "Cobot"
-url = "https://cobot.armin-lausterer.de/"
+url = "http://cobots.armin-lausterer.de"
 weight = 3
