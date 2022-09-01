@@ -5,14 +5,14 @@ type = "page"
 video_home = "/uploads/2020/05/04/lausterer_v5.mp4"
 [cobot]
 backgroundpicture = "/uploads/2020/10/26/cobot_background.png"
-headline = "LeanBOTs"
-headline2 = "LeanBOTs - Prozessoptimierung mit Cobots nach Lean-Prinzipien"
+headline = "Die Lösung für fehlende Mitarbeiter:"
+headline2 = "Cobots für Mehranlagenbedienung und Vollautomatisierung"
 text = ""
 vordergrund_bild = "/uploads/2020/10/26/cobot.png"
 [cobot.button]
 content = "<p>Entdecken</p>"
 farbe = "blue"
-link = "https://cobot.armin-lausterer.de/"
+link = "https://cobots.armin-lausterer.de/"
 [lean_labor]
 backgroundpicture = "/uploads/2020/05/04/leanlabor_background"
 buttonbeschriftung = "Entdecken"
