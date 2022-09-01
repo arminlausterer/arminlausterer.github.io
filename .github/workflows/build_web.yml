@@ -23,3 +23,12 @@ jobs:
         build_dir: public
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy Strato
+      uses: Creepios/sftp-action@v1.0.3
+      with:
+        host: 'ssh.strato.de'
+        port: 22
+        username: 'sftp_github@armin-lausterer.de'
+        password: ${{ secrets.ftp_password }}
+        localPath: './public'
+        remotePath: './armin-lausterer.de'
