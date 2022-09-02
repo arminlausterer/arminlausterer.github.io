@@ -10,7 +10,7 @@ headline2 = "Cobots für Mehranlagenbedienung und Vollautomatisierung"
 text = ""
 vordergrund_bild = "/uploads/2020/10/26/cobot.png"
 [cobot.button]
-content = "<p>Entdecken</p>"
+content = "<p><a href=\"https://cobot.armin-lausterer.de\" title=\"\">Entdecken</a></p>"
 farbe = "blue"
 link = "https://cobots.armin-lausterer.de/"
 [lean_labor]
