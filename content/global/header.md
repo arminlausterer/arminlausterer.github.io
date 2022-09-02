@@ -13,7 +13,7 @@ demo:
   demo:
   - bild: "/uploads/2020/10/16/1cobot.png"
     buttonbeschriftung: DEMO
-    buttonlink: <p><a href="https://cobot.armin-lausterer.de" title="">DEMO</a></p>
+    buttonlink: <p><a href="https://cobot.armin-lausterer.de/" title="https://cobot.armin-lausterer.de/">https://cobot.armin-lausterer.de/</a></p>
 top100: "/uploads/2021/06/14/top100.jpg"
 
 ---
