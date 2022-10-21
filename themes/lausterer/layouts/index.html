@@ -6,8 +6,8 @@
       {{ partial "top100header.html" . }}
     </div>
   </div>
-  <div class="white">
-    <div id="videocontainer" >
+  <div class="white" style="height:2rem">
+    <!-- <div id="videocontainer" >
       <div style="max-width: px">
         <video
           id="home_player"
@@ -23,6 +23,7 @@
         <a class="albutton morebutton" href="{{relref $p .Params.leistungen.buttonlink}}">{{.Params.leistungen.buttonbeschriftung}}</a>
       </div>
     </div>
+    -->
   </div>
   {{with .Params.cobot}}
   <div id="cobot" class="grey" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) left top no-repeat; background-size:50% auto">
