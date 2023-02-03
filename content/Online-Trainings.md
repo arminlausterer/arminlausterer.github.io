@@ -39,7 +39,7 @@ subheadline = "Schritt 3 - Einzelcoaching"
 [[onlinekurse]]
 beschreibung = "<p><strong>Erleben Sie die Produktion der Zukunft und steigern die Produktivität Ihres Unternehmens mit Hilfe von Cobot:</strong></p><ul><li><p>24 Stunden mobil einsetzbar</p></li><li><p>kinderleicht zu programmieren, kein anlernen</p></li><li><p>Automatisierung von manuellen Zuführungsaufgaben (z.B. Anlagen bestücken)</p></li><li><p>hohen Grad an Konsistenz und Präzision</p></li><li><p>Mehr Anlagen bedienen Mithilfe des Cobot´s</p></li><li><p>Ausdauernder als ein Mensch,</p></li><li><p>Schnelle EinrichtungsphasenSie sind einfach, effizient, flexibel und kostengünstig.</p></li></ul>"
 bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
-link = "https://www.linkedin.com/events/leanbots-personalmangelundfehle6966305877964292096/comments/"
+link = "https://www.linkedin.com/feed/update/urn:li:activity:7025772117476397056/"
 linkbeschriftung = "Weiter zum Training"
 titel = "LeanBOTS - Personalmangel und fehlende Manpower?  Fachkräftemangel gefährden Umsätze?   Wir schaffen Abhilfe in der Produktion! "
 [[onlinekurse]]
